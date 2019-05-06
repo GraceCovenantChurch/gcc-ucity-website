@@ -1,0 +1,23 @@
+language: node_js
+node_js:
+  - "stable"
+
+cache:
+  directories:
+  - node_modules
+
+script:
+  - npm test
+  - npm run build
+
+deploy:
+  provider: s3
+  access_key_id: $TRAVIS_AWS_ACCESS_KEY
+  secret_access_key: $TRAVIS_AWS_SECRET_KEY
+  bucket: gcc-ucity-website
+  region: us-east-1
+  on:
+    branch: master
+    repo: GraceCovenantChurch/gcc-ucity-website
+  skip_cleanup: true
+  local_dir: build
