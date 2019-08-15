@@ -9,7 +9,7 @@ class Home extends Component {
       <div className={ styles.home } style={{backgroundImage: `url(${imageUrl})` }}>
         <section className={ styles.homeContent }>
           <div className={styles.leftContent}>
-          
+
           </div>
           <div className={styles.rightContent}>
 
