@@ -1,9 +1,23 @@
-import React from "react";
+import React, { Component } from "react";
 
 import styles from "./Home.module.scss";
+import imageUrl from "static/worship.jpg";
 
-const Home = () => (
-  <div className={styles.home}>Welcome to the Home Page</div>
-);
+class Home extends Component {
+  render() {
+    return (
+      <div className={ styles.home } style={{backgroundImage: `url(${imageUrl})` }}>
+        <section className={ styles.homeContent }>
+          <div className={styles.leftContent}>
+          
+          </div>
+          <div className={styles.rightContent}>
+
+          </div>
+        </section>
+      </div>
+    );
+  }
+}
 
 export default Home;
