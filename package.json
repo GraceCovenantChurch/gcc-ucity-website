@@ -16,7 +16,6 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
     "react-test-renderer": "^16.13.1",
-    "scrollreveal": "^4.0.6",
     "source-map-explorer": "^2.4.2"
   },
   "scripts": {
