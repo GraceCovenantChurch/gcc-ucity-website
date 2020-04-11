@@ -16,7 +16,6 @@ import Sermons from "./sermons/Sermons";
 
 const BaseRouter = () => (
   <Router>
-    <header></header>
     <Route exact path="/" component={Home} />
     <Route path="/beliefs" component={Beliefs} />
     <Route path="/page" component={Page} />
