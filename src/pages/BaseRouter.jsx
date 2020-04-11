@@ -5,8 +5,7 @@ import Home from "./home/Home";
 
 const BaseRouter = () => (
   <Router>
-    <header>
-    </header>
+    <header></header>
     <Route exact path="/" component={Home} />
   </Router>
 );
