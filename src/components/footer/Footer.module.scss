@@ -1,0 +1,34 @@
+.footer {
+  border-top: 0.5px solid #808080;
+  height: 100%;
+  color: black;
+  margin: 1em 15vw;
+
+  .content {
+    margin: 0px 1vw;
+    text-align: center;
+    align-items: center;
+
+    .copyright {
+      color: #212529;
+      font-weight: lighter;
+      font-size: responsive 10px 14px;
+
+      .footerLinks,
+      .footerLinks:link,
+      .footerLinks:visited,
+      .footerLinks:hover,
+      .footerLinks:active {
+        text-decoration: none;
+        color: #007bff;
+      }
+    }
+  }
+  .social {
+    .socialLinks {
+      margin: 0px 5px;
+      padding: 5px;
+      color: #212529;
+    }
+  }
+}
