@@ -10,7 +10,7 @@ function App() {
     <div className={styles.App}>
       <div className={styles.AppContent}>
         <BaseRouter />
-          <Footer />
+        <Footer />
       </div>
     </div>
   );
