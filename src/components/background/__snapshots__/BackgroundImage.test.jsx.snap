@@ -5,7 +5,7 @@ exports[`renders correctly 1`] = `
   className="background"
   style={
     Object {
-      "backgroundImage": "url(undefined)",
+      "backgroundImage": "url(/something/someFilePath)",
     }
   }
 >
