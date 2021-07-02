@@ -1,6 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
+import Navigation from "components/navigation/Navigation";
+import Footer from "components/footer/Footer";
+
 import Home from "./home/Home";
 // import Beliefs from "./beliefs/Beliefs";
 // import Page from "./page/Page";
@@ -14,8 +17,9 @@ import Home from "./home/Home";
 // import Giving from "./giving/Giving";
 // import Sermons from "./sermons/Sermons";
 
-const BaseRouter = () => (
+const BaseRouter = (props) => (
   <Router>
+    <Navigation />
     <Route exact path="/" component={Home} />
     {/* <Route path="/beliefs" component={Beliefs} />
     <Route path="/page" component={Page} />
@@ -28,6 +32,7 @@ const BaseRouter = () => (
     <Route path="/multimedia" component={Multimedia} />
     <Route path="/giving" component={Giving} />
     <Route path="/sermons" component={Sermons} /> */}
+    <Footer />
   </Router>
 );
 
