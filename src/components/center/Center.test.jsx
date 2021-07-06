@@ -6,8 +6,7 @@ it("renders correctly", () => {
   const tree = renderer
     .create(
       <Center>
-        {" "}
-        <div />{" "}
+        <div />
       </Center>
     )
     .toJSON();
