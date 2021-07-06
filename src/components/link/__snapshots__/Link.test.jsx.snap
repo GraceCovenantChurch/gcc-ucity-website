@@ -17,12 +17,3 @@ exports[`Link renders correctly with internal 1`] = `
   <div />
 </a>
 `;
-
-exports[`Link renders correctly with internal 2`] = `
-<a
-  href="https://www.google.com"
-  to="https://www.google.com"
->
-  <div />
-</a>
-`;
