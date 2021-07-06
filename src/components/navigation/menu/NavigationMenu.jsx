@@ -20,7 +20,7 @@ NavigationMenu.propTypes = {
     PropTypes.shape({
       title: PropTypes.string.isRequired,
       type: PropTypes.string.isRequired,
-      children: PropTypes.node,
+      children: PropTypes.any,
     })
   ),
 };

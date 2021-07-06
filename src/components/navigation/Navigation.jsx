@@ -8,22 +8,32 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Box from "@material-ui/core/Box";
 
+import HamburgerMenu from "./menu/HamburgerMenu";
 import NavigationMenu from "./menu/NavigationMenu";
 
 import imageURLDesktop from "static/gcclogo.png";
 import imageURLMobile from "static/gcclogo-black.png";
 
 const useStyles = makeStyles((theme) => ({
-  root: {
+  navRoot: {
     flexGrow: 1,
     // margin: theme.spacing(3),
     position: "absolute",
     width: "100vw",
     fontFamily: "IBM Plex Sans",
   },
-  menuButton: {
+  menuDesktopButton: {
     marginRight: theme.spacing(5),
     height: 85,
+  },
+  menuMobileButton: {
+    marginRight: theme.spacing(2),
+    marginTop: ".75vh",
+    height: 70,
+  },
+  mobileToolBar: {
+    margin: 0,
+    padding: 0,
   },
   titleGrow: {
     flexGrow: 1,
@@ -42,11 +52,21 @@ const Navigation = () => {
   const isMobile = useMediaQuery({ query: `(max-width: 1010px)` });
 
   const menuOptions = [
-    // {
-    //   title: "About",
-    //   type: "dropdown",
-    //   children: [{ title: "About", link: "/about" }],
-    // },
+    {
+      title: "About",
+      type: "dropdown",
+      children: [
+        { title: "Welcome", type: "link", children: "/welcome" },
+        { title: "Beliefs", type: "link", children: "/beliefs" },
+        { title: "Staff", type: "link", children: "/staff" },
+        {
+          title: "Main Line Site",
+          type: "link",
+          children: "https://ml.gracecovenant.net",
+        },
+        { title: "AMI", type: "link", children: "https://amichurches.com/" },
+      ],
+    },
     { title: "Family Groups", type: "link", children: "/familygroup" },
     { title: "Ministries", type: "link", children: "/ministries" },
     { title: "Giving", type: "link", children: "/giving" },
@@ -55,23 +75,31 @@ const Navigation = () => {
   ];
 
   return (
-    <div className={classes.root}>
-      <Box my="1.5em" mx="2.5em">
+    <div className={classes.navRoot}>
+      <Box my={isMobile ? ".75em" : "1.5em"} mx={isMobile ? ".75em" : "1.5em"}>
         <AppBar
           className={isMobile ? classes.appBarMobile : classes.appBarDesktop}
           position="static"
         >
-          <Toolbar>
+          <Toolbar className={isMobile ? classes.mobileToolBar : ""}>
             <div className={classes.titleGrow}>
               <Link to="/">
                 <img
                   alt="nav-logo"
-                  className={classes.menuButton}
+                  className={
+                    isMobile
+                      ? classes.menuMobileButton
+                      : classes.menuDesktopButton
+                  }
                   src={isMobile ? imageURLMobile : imageURLDesktop}
                 />
               </Link>
             </div>
-            {isMobile ? <div /> : <NavigationMenu menu={menuOptions} />}
+            {isMobile ? (
+              <HamburgerMenu menu={menuOptions} />
+            ) : (
+              <NavigationMenu menu={menuOptions} />
+            )}
           </Toolbar>
         </AppBar>
       </Box>

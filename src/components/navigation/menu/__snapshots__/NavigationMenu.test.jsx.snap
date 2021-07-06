@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavigationMenu matches the snapshot 1`] = `
+<div>
+  <button
+    aria-haspopup="true"
+    class="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-dropdownButton-3 MuiButton-colorInherit"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      <p
+        class="MuiTypography-root MuiTypography-body1"
+      >
+        About
+      </p>
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+  <a
+    aria-disabled="false"
+    class="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-menuButton-6"
+    href="/familygroup"
+    role="button"
+    tabindex="0"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      <p
+        class="MuiTypography-root makeStyles-menuText-7 MuiTypography-body1"
+      >
+        Family Groups
+      </p>
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </a>
+</div>
+`;
+
+exports[`NavigationMenu matches the snapshot 2`] = `
+<div>
+  <button
+    aria-haspopup="true"
+    class="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-dropdownButton-3 MuiButton-colorInherit"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      <p
+        class="MuiTypography-root MuiTypography-body1"
+      >
+        About
+      </p>
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+  <a
+    aria-disabled="false"
+    class="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-menuButton-6"
+    href="/familygroup"
+    role="button"
+    tabindex="0"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      <p
+        class="MuiTypography-root makeStyles-menuText-7 MuiTypography-body1"
+      >
+        Family Groups
+      </p>
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </a>
+</div>
+`;

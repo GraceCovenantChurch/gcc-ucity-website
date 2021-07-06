@@ -1,3 +1,12 @@
+import React from "react";
+import { configure } from "enzyme";
+import Adapter from "@wojtekmaj/enzyme-adapter-react-17";
+React.useLayoutEffect = React.useEffect;
+
+// import ReactDOM from "react-dom";
+
+configure({ adapter: new Adapter() });
+
 const localStorageMock = {
   getItem: jest.fn(),
   setItem: jest.fn(),
@@ -6,3 +15,7 @@ const localStorageMock = {
 };
 
 global.localStorage = localStorageMock;
+
+// ReactDOM.createPortal = jest.fn((element, node) => {
+//   return element;
+// });
