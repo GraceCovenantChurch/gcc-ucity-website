@@ -18,7 +18,7 @@ describe("Link", () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it("renders correctly with internal", () => {
+  it("renders correctly with external", () => {
     const tree = renderer
       .create(
         <Router>
