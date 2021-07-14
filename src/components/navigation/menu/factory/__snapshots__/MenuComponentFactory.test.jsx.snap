@@ -12,7 +12,7 @@ exports[`MenuComponentFactory Dropdown matches the snapshot 1`] = `
       class="MuiButton-label"
     >
       <p
-        class="MuiTypography-root MuiTypography-body1"
+        class="MuiTypography-root makeStyles-menuText-7 MuiTypography-body1"
       >
         About
       </p>
@@ -36,7 +36,7 @@ exports[`MenuComponentFactory Dropdown matches the snapshot 2`] = `
       class="MuiButton-label"
     >
       <p
-        class="MuiTypography-root MuiTypography-body1"
+        class="MuiTypography-root makeStyles-menuText-7 MuiTypography-body1"
       >
         About
       </p>

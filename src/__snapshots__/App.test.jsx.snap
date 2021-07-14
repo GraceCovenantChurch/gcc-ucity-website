@@ -65,16 +65,33 @@ exports[`App matches the snapshot 1`] = `
         class="background"
         style="background-image: url(test-file-stub);"
       >
-        <section
-          class="content"
+        <div
+          class="contentMobile"
         >
           <div
-            class="leftContent"
-          />
-          <div
-            class="rightContent"
-          />
-        </section>
+            class="MuiBox-root MuiBox-root-24"
+          >
+            <p
+              class="MuiTypography-root makeStyles-visionStatement-20 makeStyles-mobileVisionStatement-21 MuiTypography-body1"
+            >
+              Raising up kingdom workers
+              <br />
+              who are transformed by Christ
+              <br />
+              to influence the world.
+            </p>
+            <div
+              class="makeStyles-linkContainer-18"
+            >
+              <a
+                class="makeStyles-learnMore-22 makeStyles-link-19 makeStyles-mobileLearnMore-23"
+                href="/welcome"
+              >
+                Learn more &gt;
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
       <footer
         class="footer"
@@ -202,7 +219,7 @@ exports[`App matches the snapshot 2`] = `
         class="makeStyles-navRoot-1"
       >
         <div
-          class="MuiBox-root MuiBox-root-17"
+          class="MuiBox-root MuiBox-root-25"
         >
           <header
             class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary makeStyles-appBarMobile-7 MuiPaper-elevation4"
@@ -255,16 +272,33 @@ exports[`App matches the snapshot 2`] = `
         class="background"
         style="background-image: url(test-file-stub);"
       >
-        <section
-          class="content"
+        <div
+          class="contentMobile"
         >
           <div
-            class="leftContent"
-          />
-          <div
-            class="rightContent"
-          />
-        </section>
+            class="MuiBox-root MuiBox-root-26"
+          >
+            <p
+              class="MuiTypography-root makeStyles-visionStatement-20 makeStyles-mobileVisionStatement-21 MuiTypography-body1"
+            >
+              Raising up kingdom workers
+              <br />
+              who are transformed by Christ
+              <br />
+              to influence the world.
+            </p>
+            <div
+              class="makeStyles-linkContainer-18"
+            >
+              <a
+                class="makeStyles-learnMore-22 makeStyles-link-19 makeStyles-mobileLearnMore-23"
+                href="/welcome"
+              >
+                Learn more &gt;
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
       <footer
         class="footer"
