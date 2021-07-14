@@ -9,12 +9,10 @@ exports[`renders correctly 1`] = `
     }
   }
 >
-  <section
-    className="content"
+  <div
+    className="contentDesktop"
   >
-     
     <div />
-     
-  </section>
+  </div>
 </div>
 `;

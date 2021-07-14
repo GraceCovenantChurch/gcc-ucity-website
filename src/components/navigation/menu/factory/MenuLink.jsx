@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
   },
   menuText: {
     fontWeight: 500,
-    fontSize: "1.15em",
+    fontSize: "1.25em",
   },
 }));
 

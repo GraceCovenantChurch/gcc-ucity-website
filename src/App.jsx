@@ -1,16 +1,24 @@
 import React from "react";
+import "@fontsource/ibm-plex-sans";
+import "@fontsource/lora";
+import "@fontsource/roboto";
 
-import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
+import {
+  MuiThemeProvider,
+  createTheme,
+  responsiveFontSizes,
+} from "@material-ui/core/styles";
 
 import BaseRouter from "./pages/BaseRouter";
 
 import styles from "./App.module.scss";
 
-const theme = createMuiTheme({
+let theme = createTheme({
   typography: {
     // Use the system font instead of the default Roboto font.
     fontFamily: [
       "IBM Plex Sans",
+      "Lora",
       "-apple-system",
       "BlinkMacSystemFont",
       '"Segoe UI"',
@@ -25,13 +33,13 @@ const theme = createMuiTheme({
   },
 });
 
+theme = responsiveFontSizes(theme);
+
 const App = () => {
   return (
     <MuiThemeProvider theme={theme}>
-      <div className={styles.App}>
-        <div className={styles.AppContent}>
-          <BaseRouter />
-        </div>
+      <div className={styles.AppContent}>
+        <BaseRouter />
       </div>
     </MuiThemeProvider>
   );

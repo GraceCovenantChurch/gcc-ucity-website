@@ -11,6 +11,8 @@ import Box from "@material-ui/core/Box";
 import HamburgerMenu from "./menu/HamburgerMenu";
 import NavigationMenu from "./menu/NavigationMenu";
 
+import { MOBILE_QUERY } from "constants/mobile";
+
 import imageURLDesktop from "static/gcclogo.png";
 import imageURLMobile from "static/gcclogo-black.png";
 
@@ -49,7 +51,7 @@ const useStyles = makeStyles((theme) => ({
 
 const Navigation = () => {
   const classes = useStyles();
-  const isMobile = useMediaQuery({ query: `(max-width: 1010px)` });
+  const isMobile = useMediaQuery({ query: MOBILE_QUERY });
 
   const menuOptions = [
     {

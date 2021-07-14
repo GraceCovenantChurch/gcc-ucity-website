@@ -6,8 +6,7 @@ it("renders correctly", () => {
   const tree = renderer
     .create(
       <BackgroundImage imageURL={"/something/someFilePath"}>
-        {" "}
-        <div />{" "}
+        <div />
       </BackgroundImage>
     )
     .toJSON();

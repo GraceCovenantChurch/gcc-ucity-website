@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
   },
   menuText: {
     fontWeight: 500,
-    fontSize: "1.15em",
+    fontSize: "1.25em",
     color: "white",
   },
 }));
@@ -99,7 +99,7 @@ const Dropdown = (props) => {
         onMouseLeave={isTouchScreen ? undefined : leaveButton}
         color="inherit"
       >
-        <Typography>{menuData.title}</Typography>
+        <Typography className={classes.menuText}>{menuData.title}</Typography>
       </Button>
       <Menu
         className={classes.menu}
