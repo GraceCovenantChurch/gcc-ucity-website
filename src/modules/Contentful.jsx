@@ -62,7 +62,6 @@ export const getCollegeFridayServices = () => {
       "fields.type": "collegefnl",
     })
     .then((entries) => {
-      console.log(entries.items);
       return entries.items;
     });
 };
