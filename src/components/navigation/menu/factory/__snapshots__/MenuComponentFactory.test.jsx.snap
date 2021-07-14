@@ -4,7 +4,7 @@ exports[`MenuComponentFactory Dropdown matches the snapshot 1`] = `
 <div>
   <button
     aria-haspopup="true"
-    class="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-dropdownButton-5 MuiButton-colorInherit"
+    class="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-dropdownButton-6 MuiButton-colorInherit"
     tabindex="0"
     type="button"
   >
@@ -12,7 +12,7 @@ exports[`MenuComponentFactory Dropdown matches the snapshot 1`] = `
       class="MuiButton-label"
     >
       <p
-        class="MuiTypography-root makeStyles-menuText-7 MuiTypography-body1"
+        class="MuiTypography-root makeStyles-menuText-8 MuiTypography-body1"
       >
         About
       </p>
@@ -28,7 +28,7 @@ exports[`MenuComponentFactory Dropdown matches the snapshot 2`] = `
 <div>
   <button
     aria-haspopup="true"
-    class="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-dropdownButton-5 MuiButton-colorInherit"
+    class="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-dropdownButton-6 MuiButton-colorInherit"
     tabindex="0"
     type="button"
   >
@@ -36,7 +36,7 @@ exports[`MenuComponentFactory Dropdown matches the snapshot 2`] = `
       class="MuiButton-label"
     >
       <p
-        class="MuiTypography-root makeStyles-menuText-7 MuiTypography-body1"
+        class="MuiTypography-root makeStyles-menuText-8 MuiTypography-body1"
       >
         About
       </p>

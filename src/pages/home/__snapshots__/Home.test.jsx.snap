@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home matches the snapshot 1`] = `
+<div>
+  <div
+    class="background"
+    style="background-image: url(test-file-stub);"
+  >
+    <div
+      class="contentMobile"
+    >
+      <div
+        class="MuiContainer-root makeStyles-contentContainer-1 makeStyles-mobileContentContainer-2 MuiContainer-maxWidthLg"
+      >
+        <p
+          class="MuiTypography-root makeStyles-visionStatement-5 makeStyles-mobileVisionStatement-6 MuiTypography-body1"
+        >
+          Raising up kingdom workers
+          <br />
+          who are transformed by Christ
+          <br />
+          to influence the world.
+        </p>
+        <div
+          class="makeStyles-linkContainer-3"
+        >
+          <a
+            class="makeStyles-learnMore-7 makeStyles-link-4 makeStyles-mobileLearnMore-8"
+            href="/welcome"
+          >
+            Learn more &gt;
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiContainer-root makeStyles-container-10 MuiContainer-maxWidthLg"
+  >
+    <h5
+      class="MuiTypography-root makeStyles-subtitle-11 MuiTypography-h5"
+    >
+      Service Location and Times
+    </h5>
+    <h5
+      class="MuiTypography-root makeStyles-linkContainer-12 MuiTypography-h5"
+    >
+      <a
+        class="makeStyles-learnMore-13"
+        href="/welcome"
+      >
+        Learn more &gt;
+      </a>
+    </h5>
+  </div>
+  <div
+    class="background"
+    style="background-image: url(test-file-stub);"
+  >
+    <div
+      class="contentMobile"
+    >
+      <div
+        class="MuiContainer-root makeStyles-contentContainer-14 makeStyles-mobileContentContainer-15 MuiContainer-maxWidthLg"
+      >
+        <p
+          class="MuiTypography-root makeStyles-signuphere-22 makeStyles-mobileSignuphere-23 MuiTypography-body1"
+        >
+          Community
+        </p>
+        <p
+          class="MuiTypography-root makeStyles-familyGroup-20 makeStyles-mobileFamilyGroup-21 MuiTypography-body1"
+        >
+          Family Group
+        </p>
+        <p
+          class="MuiTypography-root makeStyles-pitch-18 makeStyles-mobilePitch-19 MuiTypography-body1"
+        >
+          You haven't checked out GCC unless
+           
+          <br />
+          you've checked out our family groups.
+        </p>
+        <div
+          class="makeStyles-linkContainer-16"
+        >
+          <a
+            class="makeStyles-signuphere-22 makeStyles-link-17 makeStyles-mobileSignuphere-23"
+            href="/familygroup"
+          >
+            Sign up here &gt;
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Home matches the snapshot 2`] = `
+<div>
+  <div
+    class="background"
+    style="background-image: url(test-file-stub);"
+  >
+    <div
+      class="contentMobile"
+    >
+      <div
+        class="MuiContainer-root makeStyles-contentContainer-1 makeStyles-mobileContentContainer-2 MuiContainer-maxWidthLg"
+      >
+        <p
+          class="MuiTypography-root makeStyles-visionStatement-5 makeStyles-mobileVisionStatement-6 MuiTypography-body1"
+        >
+          Raising up kingdom workers
+          <br />
+          who are transformed by Christ
+          <br />
+          to influence the world.
+        </p>
+        <div
+          class="makeStyles-linkContainer-3"
+        >
+          <a
+            class="makeStyles-learnMore-7 makeStyles-link-4 makeStyles-mobileLearnMore-8"
+            href="/welcome"
+          >
+            Learn more &gt;
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiContainer-root makeStyles-container-10 MuiContainer-maxWidthLg"
+  >
+    <h5
+      class="MuiTypography-root makeStyles-subtitle-11 MuiTypography-h5"
+    >
+      Service Location and Times
+    </h5>
+    <h5
+      class="MuiTypography-root makeStyles-linkContainer-12 MuiTypography-h5"
+    >
+      <a
+        class="makeStyles-learnMore-13"
+        href="/welcome"
+      >
+        Learn more &gt;
+      </a>
+    </h5>
+  </div>
+  <div
+    class="background"
+    style="background-image: url(test-file-stub);"
+  >
+    <div
+      class="contentMobile"
+    >
+      <div
+        class="MuiContainer-root makeStyles-contentContainer-14 makeStyles-mobileContentContainer-15 MuiContainer-maxWidthLg"
+      >
+        <p
+          class="MuiTypography-root makeStyles-signuphere-22 makeStyles-mobileSignuphere-23 MuiTypography-body1"
+        >
+          Community
+        </p>
+        <p
+          class="MuiTypography-root makeStyles-familyGroup-20 makeStyles-mobileFamilyGroup-21 MuiTypography-body1"
+        >
+          Family Group
+        </p>
+        <p
+          class="MuiTypography-root makeStyles-pitch-18 makeStyles-mobilePitch-19 MuiTypography-body1"
+        >
+          You haven't checked out GCC unless
+           
+          <br />
+          you've checked out our family groups.
+        </p>
+        <div
+          class="makeStyles-linkContainer-16"
+        >
+          <a
+            class="makeStyles-signuphere-22 makeStyles-link-17 makeStyles-mobileSignuphere-23"
+            href="/familygroup"
+          >
+            Sign up here &gt;
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

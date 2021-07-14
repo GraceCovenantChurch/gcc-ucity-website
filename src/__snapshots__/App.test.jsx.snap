@@ -3,206 +3,262 @@
 exports[`App matches the snapshot 1`] = `
 <div>
   <div
-    class="App"
+    class="AppContent"
   >
     <div
-      class="AppContent"
+      class="makeStyles-navRoot-1"
     >
       <div
-        class="makeStyles-navRoot-1"
+        class="MuiBox-root MuiBox-root-8"
       >
-        <div
-          class="MuiBox-root MuiBox-root-8"
-        >
-          <header
-            class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary makeStyles-appBarMobile-7 MuiPaper-elevation4"
-          >
-            <div
-              class="MuiToolbar-root MuiToolbar-regular makeStyles-mobileToolBar-4 MuiToolbar-gutters"
-            >
-              <div
-                class="makeStyles-titleGrow-5"
-              >
-                <a
-                  href="/"
-                >
-                  <img
-                    alt="nav-logo"
-                    class="makeStyles-menuMobileButton-3"
-                    src="test-file-stub"
-                  />
-                </a>
-              </div>
-              <button
-                aria-label="menu"
-                class="MuiButtonBase-root MuiIconButton-root makeStyles-menuButton-10 MuiIconButton-colorInherit MuiIconButton-edgeStart"
-                tabindex="0"
-                type="button"
-              >
-                <span
-                  class="MuiIconButton-label"
-                >
-                  <svg
-                    aria-hidden="true"
-                    class="MuiSvgIcon-root"
-                    focusable="false"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-                    />
-                  </svg>
-                </span>
-                <span
-                  class="MuiTouchRipple-root"
-                />
-              </button>
-            </div>
-          </header>
-        </div>
-      </div>
-      <div
-        class="background"
-        style="background-image: url(test-file-stub);"
-      >
-        <div
-          class="contentMobile"
+        <header
+          class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary makeStyles-appBarMobile-7 MuiPaper-elevation4"
         >
           <div
-            class="MuiBox-root MuiBox-root-24"
+            class="MuiToolbar-root MuiToolbar-regular makeStyles-mobileToolBar-4 MuiToolbar-gutters"
           >
-            <p
-              class="MuiTypography-root makeStyles-visionStatement-20 makeStyles-mobileVisionStatement-21 MuiTypography-body1"
-            >
-              Raising up kingdom workers
-              <br />
-              who are transformed by Christ
-              <br />
-              to influence the world.
-            </p>
             <div
-              class="makeStyles-linkContainer-18"
+              class="makeStyles-titleGrow-5"
             >
               <a
-                class="makeStyles-learnMore-22 makeStyles-link-19 makeStyles-mobileLearnMore-23"
-                href="/welcome"
+                href="/"
               >
-                Learn more &gt;
+                <img
+                  alt="nav-logo"
+                  class="makeStyles-menuMobileButton-3"
+                  src="test-file-stub"
+                />
               </a>
             </div>
+            <button
+              aria-label="menu"
+              class="MuiButtonBase-root MuiIconButton-root makeStyles-menuButton-10 MuiIconButton-colorInherit MuiIconButton-edgeStart"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </header>
+      </div>
+    </div>
+    <div
+      class="background"
+      style="background-image: url(test-file-stub);"
+    >
+      <div
+        class="contentMobile"
+      >
+        <div
+          class="MuiContainer-root makeStyles-contentContainer-17 makeStyles-mobileContentContainer-18 MuiContainer-maxWidthLg"
+        >
+          <p
+            class="MuiTypography-root makeStyles-visionStatement-21 makeStyles-mobileVisionStatement-22 MuiTypography-body1"
+          >
+            Raising up kingdom workers
+            <br />
+            who are transformed by Christ
+            <br />
+            to influence the world.
+          </p>
+          <div
+            class="makeStyles-linkContainer-19"
+          >
+            <a
+              class="makeStyles-learnMore-23 makeStyles-link-20 makeStyles-mobileLearnMore-24"
+              href="/welcome"
+            >
+              Learn more &gt;
+            </a>
           </div>
         </div>
       </div>
-      <footer
-        class="footer"
+    </div>
+    <div
+      class="MuiContainer-root makeStyles-container-26 MuiContainer-maxWidthLg"
+    >
+      <h5
+        class="MuiTypography-root makeStyles-subtitle-27 MuiTypography-h5"
+      >
+        Service Location and Times
+      </h5>
+      <h5
+        class="MuiTypography-root makeStyles-linkContainer-28 MuiTypography-h5"
+      >
+        <a
+          class="makeStyles-learnMore-29"
+          href="/welcome"
+        >
+          Learn more &gt;
+        </a>
+      </h5>
+    </div>
+    <div
+      class="background"
+      style="background-image: url(test-file-stub);"
+    >
+      <div
+        class="contentMobile"
       >
         <div
-          class="content"
+          class="MuiContainer-root makeStyles-contentContainer-30 makeStyles-mobileContentContainer-31 MuiContainer-maxWidthLg"
         >
           <p
-            class="copyright"
+            class="MuiTypography-root makeStyles-signuphere-38 makeStyles-mobileSignuphere-39 MuiTypography-body1"
           >
-            Copyright © 1996-
-            2021
-            . Official website of
-             
-            <a
-              class="footerLinks"
-              href="/"
-            >
-              Grace Covenant Church
-            </a>
-             
-            in Philadelphia, PA. All rights reserved.
+            Community
           </p>
-        </div>
-        <div
-          class="social"
-        >
+          <p
+            class="MuiTypography-root makeStyles-familyGroup-36 makeStyles-mobileFamilyGroup-37 MuiTypography-body1"
+          >
+            Family Group
+          </p>
+          <p
+            class="MuiTypography-root makeStyles-pitch-34 makeStyles-mobilePitch-35 MuiTypography-body1"
+          >
+            You haven't checked out GCC unless
+             
+            <br />
+            you've checked out our family groups.
+          </p>
           <div
-            class="center"
+            class="makeStyles-linkContainer-32"
           >
             <a
-              class="MuiTypography-root MuiLink-root MuiLink-underlineHover socialLinks MuiTypography-colorPrimary"
-              href="https://www.instagram.com/gccphiladelphia/"
+              class="makeStyles-signuphere-38 makeStyles-link-33 makeStyles-mobileSignuphere-39"
+              href="/familygroup"
             >
-              <svg
-                fill="none"
-                height="24"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                width="24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <rect
-                  height="20"
-                  rx="5"
-                  ry="5"
-                  width="20"
-                  x="2"
-                  y="2"
-                />
-                <path
-                  d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
-                />
-                <line
-                  x1="17.5"
-                  x2="17.51"
-                  y1="6.5"
-                  y2="6.5"
-                />
-              </svg>
-            </a>
-            <a
-              class="MuiTypography-root MuiLink-root MuiLink-underlineHover socialLinks MuiTypography-colorPrimary"
-              href="https://www.facebook.com/gccphiladelphia/"
-            >
-              <svg
-                fill="none"
-                height="24"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                width="24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
-                />
-              </svg>
-            </a>
-            <a
-              class="MuiTypography-root MuiLink-root MuiLink-underlineHover socialLinks MuiTypography-colorPrimary"
-              href="https://www.youtube.com/user/GraceCovenantChurch"
-            >
-              <svg
-                fill="none"
-                height="24"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                width="24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"
-                />
-                <polygon
-                  points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"
-                />
-              </svg>
+              Sign up here &gt;
             </a>
           </div>
         </div>
-      </footer>
+      </div>
     </div>
+    <footer
+      class="footer"
+    >
+      <div
+        class="content"
+      >
+        <p
+          class="copyright"
+        >
+          Copyright © 1996-
+          2021
+          . Official website of
+           
+          <a
+            class="footerLinks"
+            href="/"
+          >
+            Grace Covenant Church
+          </a>
+           
+          in Philadelphia, PA. All rights reserved.
+        </p>
+      </div>
+      <div
+        class="social"
+      >
+        <div
+          class="center"
+        >
+          <a
+            class="MuiTypography-root MuiLink-root MuiLink-underlineHover socialLinks MuiTypography-colorPrimary"
+            href="https://www.instagram.com/gccphiladelphia/"
+          >
+            <svg
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                height="20"
+                rx="5"
+                ry="5"
+                width="20"
+                x="2"
+                y="2"
+              />
+              <path
+                d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+              />
+              <line
+                x1="17.5"
+                x2="17.51"
+                y1="6.5"
+                y2="6.5"
+              />
+            </svg>
+          </a>
+          <a
+            class="MuiTypography-root MuiLink-root MuiLink-underlineHover socialLinks MuiTypography-colorPrimary"
+            href="https://www.facebook.com/gccphiladelphia/"
+          >
+            <svg
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+              />
+            </svg>
+          </a>
+          <a
+            class="MuiTypography-root MuiLink-root MuiLink-underlineHover socialLinks MuiTypography-colorPrimary"
+            href="https://www.youtube.com/user/GraceCovenantChurch"
+          >
+            <svg
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"
+              />
+              <polygon
+                points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
   </div>
 </div>
 `;
@@ -210,206 +266,262 @@ exports[`App matches the snapshot 1`] = `
 exports[`App matches the snapshot 2`] = `
 <div>
   <div
-    class="App"
+    class="AppContent"
   >
     <div
-      class="AppContent"
+      class="makeStyles-navRoot-1"
     >
       <div
-        class="makeStyles-navRoot-1"
+        class="MuiBox-root MuiBox-root-40"
       >
-        <div
-          class="MuiBox-root MuiBox-root-25"
-        >
-          <header
-            class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary makeStyles-appBarMobile-7 MuiPaper-elevation4"
-          >
-            <div
-              class="MuiToolbar-root MuiToolbar-regular makeStyles-mobileToolBar-4 MuiToolbar-gutters"
-            >
-              <div
-                class="makeStyles-titleGrow-5"
-              >
-                <a
-                  href="/"
-                >
-                  <img
-                    alt="nav-logo"
-                    class="makeStyles-menuMobileButton-3"
-                    src="test-file-stub"
-                  />
-                </a>
-              </div>
-              <button
-                aria-label="menu"
-                class="MuiButtonBase-root MuiIconButton-root makeStyles-menuButton-10 MuiIconButton-colorInherit MuiIconButton-edgeStart"
-                tabindex="0"
-                type="button"
-              >
-                <span
-                  class="MuiIconButton-label"
-                >
-                  <svg
-                    aria-hidden="true"
-                    class="MuiSvgIcon-root"
-                    focusable="false"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-                    />
-                  </svg>
-                </span>
-                <span
-                  class="MuiTouchRipple-root"
-                />
-              </button>
-            </div>
-          </header>
-        </div>
-      </div>
-      <div
-        class="background"
-        style="background-image: url(test-file-stub);"
-      >
-        <div
-          class="contentMobile"
+        <header
+          class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary makeStyles-appBarMobile-7 MuiPaper-elevation4"
         >
           <div
-            class="MuiBox-root MuiBox-root-26"
+            class="MuiToolbar-root MuiToolbar-regular makeStyles-mobileToolBar-4 MuiToolbar-gutters"
           >
-            <p
-              class="MuiTypography-root makeStyles-visionStatement-20 makeStyles-mobileVisionStatement-21 MuiTypography-body1"
-            >
-              Raising up kingdom workers
-              <br />
-              who are transformed by Christ
-              <br />
-              to influence the world.
-            </p>
             <div
-              class="makeStyles-linkContainer-18"
+              class="makeStyles-titleGrow-5"
             >
               <a
-                class="makeStyles-learnMore-22 makeStyles-link-19 makeStyles-mobileLearnMore-23"
-                href="/welcome"
+                href="/"
               >
-                Learn more &gt;
+                <img
+                  alt="nav-logo"
+                  class="makeStyles-menuMobileButton-3"
+                  src="test-file-stub"
+                />
               </a>
             </div>
+            <button
+              aria-label="menu"
+              class="MuiButtonBase-root MuiIconButton-root makeStyles-menuButton-10 MuiIconButton-colorInherit MuiIconButton-edgeStart"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </header>
+      </div>
+    </div>
+    <div
+      class="background"
+      style="background-image: url(test-file-stub);"
+    >
+      <div
+        class="contentMobile"
+      >
+        <div
+          class="MuiContainer-root makeStyles-contentContainer-17 makeStyles-mobileContentContainer-18 MuiContainer-maxWidthLg"
+        >
+          <p
+            class="MuiTypography-root makeStyles-visionStatement-21 makeStyles-mobileVisionStatement-22 MuiTypography-body1"
+          >
+            Raising up kingdom workers
+            <br />
+            who are transformed by Christ
+            <br />
+            to influence the world.
+          </p>
+          <div
+            class="makeStyles-linkContainer-19"
+          >
+            <a
+              class="makeStyles-learnMore-23 makeStyles-link-20 makeStyles-mobileLearnMore-24"
+              href="/welcome"
+            >
+              Learn more &gt;
+            </a>
           </div>
         </div>
       </div>
-      <footer
-        class="footer"
+    </div>
+    <div
+      class="MuiContainer-root makeStyles-container-26 MuiContainer-maxWidthLg"
+    >
+      <h5
+        class="MuiTypography-root makeStyles-subtitle-27 MuiTypography-h5"
+      >
+        Service Location and Times
+      </h5>
+      <h5
+        class="MuiTypography-root makeStyles-linkContainer-28 MuiTypography-h5"
+      >
+        <a
+          class="makeStyles-learnMore-29"
+          href="/welcome"
+        >
+          Learn more &gt;
+        </a>
+      </h5>
+    </div>
+    <div
+      class="background"
+      style="background-image: url(test-file-stub);"
+    >
+      <div
+        class="contentMobile"
       >
         <div
-          class="content"
+          class="MuiContainer-root makeStyles-contentContainer-30 makeStyles-mobileContentContainer-31 MuiContainer-maxWidthLg"
         >
           <p
-            class="copyright"
+            class="MuiTypography-root makeStyles-signuphere-38 makeStyles-mobileSignuphere-39 MuiTypography-body1"
           >
-            Copyright © 1996-
-            2021
-            . Official website of
-             
-            <a
-              class="footerLinks"
-              href="/"
-            >
-              Grace Covenant Church
-            </a>
-             
-            in Philadelphia, PA. All rights reserved.
+            Community
           </p>
-        </div>
-        <div
-          class="social"
-        >
+          <p
+            class="MuiTypography-root makeStyles-familyGroup-36 makeStyles-mobileFamilyGroup-37 MuiTypography-body1"
+          >
+            Family Group
+          </p>
+          <p
+            class="MuiTypography-root makeStyles-pitch-34 makeStyles-mobilePitch-35 MuiTypography-body1"
+          >
+            You haven't checked out GCC unless
+             
+            <br />
+            you've checked out our family groups.
+          </p>
           <div
-            class="center"
+            class="makeStyles-linkContainer-32"
           >
             <a
-              class="MuiTypography-root MuiLink-root MuiLink-underlineHover socialLinks MuiTypography-colorPrimary"
-              href="https://www.instagram.com/gccphiladelphia/"
+              class="makeStyles-signuphere-38 makeStyles-link-33 makeStyles-mobileSignuphere-39"
+              href="/familygroup"
             >
-              <svg
-                fill="none"
-                height="24"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                width="24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <rect
-                  height="20"
-                  rx="5"
-                  ry="5"
-                  width="20"
-                  x="2"
-                  y="2"
-                />
-                <path
-                  d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
-                />
-                <line
-                  x1="17.5"
-                  x2="17.51"
-                  y1="6.5"
-                  y2="6.5"
-                />
-              </svg>
-            </a>
-            <a
-              class="MuiTypography-root MuiLink-root MuiLink-underlineHover socialLinks MuiTypography-colorPrimary"
-              href="https://www.facebook.com/gccphiladelphia/"
-            >
-              <svg
-                fill="none"
-                height="24"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                width="24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
-                />
-              </svg>
-            </a>
-            <a
-              class="MuiTypography-root MuiLink-root MuiLink-underlineHover socialLinks MuiTypography-colorPrimary"
-              href="https://www.youtube.com/user/GraceCovenantChurch"
-            >
-              <svg
-                fill="none"
-                height="24"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                width="24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"
-                />
-                <polygon
-                  points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"
-                />
-              </svg>
+              Sign up here &gt;
             </a>
           </div>
         </div>
-      </footer>
+      </div>
     </div>
+    <footer
+      class="footer"
+    >
+      <div
+        class="content"
+      >
+        <p
+          class="copyright"
+        >
+          Copyright © 1996-
+          2021
+          . Official website of
+           
+          <a
+            class="footerLinks"
+            href="/"
+          >
+            Grace Covenant Church
+          </a>
+           
+          in Philadelphia, PA. All rights reserved.
+        </p>
+      </div>
+      <div
+        class="social"
+      >
+        <div
+          class="center"
+        >
+          <a
+            class="MuiTypography-root MuiLink-root MuiLink-underlineHover socialLinks MuiTypography-colorPrimary"
+            href="https://www.instagram.com/gccphiladelphia/"
+          >
+            <svg
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                height="20"
+                rx="5"
+                ry="5"
+                width="20"
+                x="2"
+                y="2"
+              />
+              <path
+                d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+              />
+              <line
+                x1="17.5"
+                x2="17.51"
+                y1="6.5"
+                y2="6.5"
+              />
+            </svg>
+          </a>
+          <a
+            class="MuiTypography-root MuiLink-root MuiLink-underlineHover socialLinks MuiTypography-colorPrimary"
+            href="https://www.facebook.com/gccphiladelphia/"
+          >
+            <svg
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+              />
+            </svg>
+          </a>
+          <a
+            class="MuiTypography-root MuiLink-root MuiLink-underlineHover socialLinks MuiTypography-colorPrimary"
+            href="https://www.youtube.com/user/GraceCovenantChurch"
+          >
+            <svg
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"
+              />
+              <polygon
+                points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
   </div>
 </div>
 `;

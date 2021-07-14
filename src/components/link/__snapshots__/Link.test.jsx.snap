@@ -2,6 +2,7 @@
 
 exports[`Link renders correctly with external 1`] = `
 <a
+  className="makeStyles-link-1"
   href="https://www.google.com"
   to="https://www.google.com"
 >
@@ -11,6 +12,7 @@ exports[`Link renders correctly with external 1`] = `
 
 exports[`Link renders correctly with internal 1`] = `
 <a
+  className="makeStyles-link-1"
   href="/home"
   onClick={[Function]}
 >
