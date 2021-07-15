@@ -66,7 +66,7 @@ exports[`App matches the snapshot 1`] = `
         class="contentMobile"
       >
         <div
-          class="MuiContainer-root makeStyles-contentContainer-17 makeStyles-mobileContentContainer-18 MuiContainer-maxWidthLg"
+          class="MuiContainer-root makeStyles-mobileContentContainer-18 MuiContainer-maxWidthLg"
         >
           <p
             class="MuiTypography-root makeStyles-visionStatement-21 makeStyles-mobileVisionStatement-22 MuiTypography-body1"
@@ -329,7 +329,7 @@ exports[`App matches the snapshot 2`] = `
         class="contentMobile"
       >
         <div
-          class="MuiContainer-root makeStyles-contentContainer-17 makeStyles-mobileContentContainer-18 MuiContainer-maxWidthLg"
+          class="MuiContainer-root makeStyles-mobileContentContainer-18 MuiContainer-maxWidthLg"
         >
           <p
             class="MuiTypography-root makeStyles-visionStatement-21 makeStyles-mobileVisionStatement-22 MuiTypography-body1"

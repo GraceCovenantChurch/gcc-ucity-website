@@ -10,7 +10,7 @@ exports[`Home matches the snapshot 1`] = `
       class="contentMobile"
     >
       <div
-        class="MuiContainer-root makeStyles-contentContainer-1 makeStyles-mobileContentContainer-2 MuiContainer-maxWidthLg"
+        class="MuiContainer-root makeStyles-mobileContentContainer-2 MuiContainer-maxWidthLg"
       >
         <p
           class="MuiTypography-root makeStyles-visionStatement-5 makeStyles-mobileVisionStatement-6 MuiTypography-body1"
@@ -107,7 +107,7 @@ exports[`Home matches the snapshot 2`] = `
       class="contentMobile"
     >
       <div
-        class="MuiContainer-root makeStyles-contentContainer-1 makeStyles-mobileContentContainer-2 MuiContainer-maxWidthLg"
+        class="MuiContainer-root makeStyles-mobileContentContainer-2 MuiContainer-maxWidthLg"
       >
         <p
           class="MuiTypography-root makeStyles-visionStatement-5 makeStyles-mobileVisionStatement-6 MuiTypography-body1"
