@@ -9,7 +9,7 @@ const GridItem = (props) => {
   const isMobile = useMediaQuery({ query: MOBILE_QUERY });
 
   return (
-    <Grid item sm={isMobile ? 12 : 4} {...props}>
+    <Grid item xs={isMobile ? 12 : 4} sm={isMobile ? 12 : 4} {...props}>
       {props.children}
     </Grid>
   );

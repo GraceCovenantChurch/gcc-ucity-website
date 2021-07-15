@@ -20,7 +20,8 @@ const useStyles = makeStyles((theme) => ({
   mobileContentContainer: {
     display: "block",
     margin: "0 auto",
-    bottom: "20vh",
+    bottom: "-50vh",
+    position: "relative",
     left: 0,
   },
   linkContainer: {
@@ -41,7 +42,7 @@ const useStyles = makeStyles((theme) => ({
     paddingBottom: ".25em",
   },
   mobileVisionStatement: {
-    fontSize: "calc(2.5vw + 2vh + .5vmin)",
+    fontSize: "calc(2.25vw + 2vh + .10vmin)",
     textAlign: "center",
   },
   learnMore: {
@@ -64,7 +65,7 @@ const TopHomeContent = () => {
   return (
     <Container
       className={clsx({
-        [classes.contentContainer]: true,
+        [classes.contentContainer]: !isMobile,
         [classes.mobileContentContainer]: isMobile,
       })}
       maxWidth="lg"
