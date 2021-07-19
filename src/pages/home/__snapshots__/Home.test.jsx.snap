@@ -94,6 +94,63 @@ exports[`Home matches the snapshot 1`] = `
       </div>
     </div>
   </div>
+  <div
+    class="MuiContainer-root makeStyles-container-24 MuiContainer-maxWidthLg"
+  >
+    <h5
+      class="MuiTypography-root makeStyles-subtitle-25 MuiTypography-h5"
+    >
+      Upcoming Events
+    </h5>
+    <h5
+      class="MuiTypography-root makeStyles-linkContainer-26 MuiTypography-h5"
+    >
+      <a
+        class="makeStyles-learnMore-27"
+        href="/events"
+      >
+        See all events &gt;
+      </a>
+    </h5>
+  </div>
+  <div
+    class="background"
+    style="background-image: url(test-file-stub);"
+  >
+    <div
+      class="contentMobile"
+    >
+      <div
+        class="MuiContainer-root makeStyles-contentContainer-28 makeStyles-mobileContentContainer-29 MuiContainer-maxWidthLg"
+      >
+        <p
+          class="MuiTypography-root makeStyles-familyGroup-34 makeStyles-mobileFamilyGroup-35 MuiTypography-body1"
+        >
+          AMI Quiet Times
+        </p>
+        <div
+          class="makeStyles-linkContainer-30"
+        >
+          <a
+            class="makeStyles-signuphere-36 makeStyles-link-31 makeStyles-mobileSignuphere-37"
+            href="https://amiquiettimes.com/"
+            to="https://amiquiettimes.com/"
+          >
+            AMI Quiet Time Blog &gt;
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiContainer-root makeStyles-container-38 MuiContainer-maxWidthLg"
+  >
+    <h5
+      class="MuiTypography-root makeStyles-subtitle-39 MuiTypography-h5"
+    >
+      Monthly Memory Verse
+    </h5>
+  </div>
 </div>
 `;
 
@@ -190,6 +247,63 @@ exports[`Home matches the snapshot 2`] = `
         </div>
       </div>
     </div>
+  </div>
+  <div
+    class="MuiContainer-root makeStyles-container-24 MuiContainer-maxWidthLg"
+  >
+    <h5
+      class="MuiTypography-root makeStyles-subtitle-25 MuiTypography-h5"
+    >
+      Upcoming Events
+    </h5>
+    <h5
+      class="MuiTypography-root makeStyles-linkContainer-26 MuiTypography-h5"
+    >
+      <a
+        class="makeStyles-learnMore-27"
+        href="/events"
+      >
+        See all events &gt;
+      </a>
+    </h5>
+  </div>
+  <div
+    class="background"
+    style="background-image: url(test-file-stub);"
+  >
+    <div
+      class="contentMobile"
+    >
+      <div
+        class="MuiContainer-root makeStyles-contentContainer-28 makeStyles-mobileContentContainer-29 MuiContainer-maxWidthLg"
+      >
+        <p
+          class="MuiTypography-root makeStyles-familyGroup-34 makeStyles-mobileFamilyGroup-35 MuiTypography-body1"
+        >
+          AMI Quiet Times
+        </p>
+        <div
+          class="makeStyles-linkContainer-30"
+        >
+          <a
+            class="makeStyles-signuphere-36 makeStyles-link-31 makeStyles-mobileSignuphere-37"
+            href="https://amiquiettimes.com/"
+            to="https://amiquiettimes.com/"
+          >
+            AMI Quiet Time Blog &gt;
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiContainer-root makeStyles-container-38 MuiContainer-maxWidthLg"
+  >
+    <h5
+      class="MuiTypography-root makeStyles-subtitle-39 MuiTypography-h5"
+    >
+      Monthly Memory Verse
+    </h5>
   </div>
 </div>
 `;

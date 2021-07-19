@@ -2,7 +2,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 export const servicesStyles = makeStyles((theme) => ({
   container: {
-    padding: "5rem 2vw",
+    padding: "4rem 2vw",
   },
   subtitle: {
     fontFamily: "Lora,sans-serif",

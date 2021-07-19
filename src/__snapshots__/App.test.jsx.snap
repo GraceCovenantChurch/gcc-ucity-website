@@ -5,59 +5,51 @@ exports[`App matches the snapshot 1`] = `
   <div
     class="AppContent"
   >
-    <div
-      class="makeStyles-navRoot-1"
+    <header
+      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionSticky MuiAppBar-colorPrimary makeStyles-appBarMobile-7 MuiPaper-elevation4"
     >
       <div
-        class="MuiBox-root MuiBox-root-8"
+        class="MuiToolbar-root MuiToolbar-regular makeStyles-mobileToolBar-4 MuiToolbar-gutters"
       >
-        <header
-          class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary makeStyles-appBarMobile-7 MuiPaper-elevation4"
+        <div
+          class="makeStyles-titleGrow-5"
         >
-          <div
-            class="MuiToolbar-root MuiToolbar-regular makeStyles-mobileToolBar-4 MuiToolbar-gutters"
+          <a
+            href="/"
           >
-            <div
-              class="makeStyles-titleGrow-5"
+            <img
+              alt="nav-logo"
+              class="makeStyles-menuMobileButton-3"
+              src="test-file-stub"
+            />
+          </a>
+        </div>
+        <button
+          aria-label="menu"
+          class="MuiButtonBase-root MuiIconButton-root makeStyles-menuButton-9 MuiIconButton-colorInherit MuiIconButton-edgeStart"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
             >
-              <a
-                href="/"
-              >
-                <img
-                  alt="nav-logo"
-                  class="makeStyles-menuMobileButton-3"
-                  src="test-file-stub"
-                />
-              </a>
-            </div>
-            <button
-              aria-label="menu"
-              class="MuiButtonBase-root MuiIconButton-root makeStyles-menuButton-10 MuiIconButton-colorInherit MuiIconButton-edgeStart"
-              tabindex="0"
-              type="button"
-            >
-              <span
-                class="MuiIconButton-label"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="MuiSvgIcon-root"
-                  focusable="false"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-                  />
-                </svg>
-              </span>
-              <span
-                class="MuiTouchRipple-root"
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
               />
-            </button>
-          </div>
-        </header>
+            </svg>
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
       </div>
-    </div>
+    </header>
     <div
       class="background"
       style="background-image: url(test-file-stub);"
@@ -66,10 +58,10 @@ exports[`App matches the snapshot 1`] = `
         class="contentMobile"
       >
         <div
-          class="MuiContainer-root makeStyles-mobileContentContainer-18 MuiContainer-maxWidthLg"
+          class="MuiContainer-root makeStyles-mobileContentContainer-17 MuiContainer-maxWidthLg"
         >
           <p
-            class="MuiTypography-root makeStyles-visionStatement-21 makeStyles-mobileVisionStatement-22 MuiTypography-body1"
+            class="MuiTypography-root makeStyles-visionStatement-20 makeStyles-mobileVisionStatement-21 MuiTypography-body1"
           >
             Raising up kingdom workers
             <br />
@@ -78,10 +70,10 @@ exports[`App matches the snapshot 1`] = `
             to influence the world.
           </p>
           <div
-            class="makeStyles-linkContainer-19"
+            class="makeStyles-linkContainer-18"
           >
             <a
-              class="makeStyles-learnMore-23 makeStyles-link-20 makeStyles-mobileLearnMore-24"
+              class="makeStyles-learnMore-22 makeStyles-link-19 makeStyles-mobileLearnMore-23"
               href="/welcome"
             >
               Learn more &gt;
@@ -91,18 +83,18 @@ exports[`App matches the snapshot 1`] = `
       </div>
     </div>
     <div
-      class="MuiContainer-root makeStyles-container-26 MuiContainer-maxWidthLg"
+      class="MuiContainer-root makeStyles-container-25 MuiContainer-maxWidthLg"
     >
       <h5
-        class="MuiTypography-root makeStyles-subtitle-27 MuiTypography-h5"
+        class="MuiTypography-root makeStyles-subtitle-26 MuiTypography-h5"
       >
         Service Location and Times
       </h5>
       <h5
-        class="MuiTypography-root makeStyles-linkContainer-28 MuiTypography-h5"
+        class="MuiTypography-root makeStyles-linkContainer-27 MuiTypography-h5"
       >
         <a
-          class="makeStyles-learnMore-29"
+          class="makeStyles-learnMore-28"
           href="/welcome"
         >
           Learn more &gt;
@@ -117,20 +109,20 @@ exports[`App matches the snapshot 1`] = `
         class="contentMobile"
       >
         <div
-          class="MuiContainer-root makeStyles-contentContainer-30 makeStyles-mobileContentContainer-31 MuiContainer-maxWidthLg"
+          class="MuiContainer-root makeStyles-contentContainer-29 makeStyles-mobileContentContainer-30 MuiContainer-maxWidthLg"
         >
           <p
-            class="MuiTypography-root makeStyles-signuphere-38 makeStyles-mobileSignuphere-39 MuiTypography-body1"
+            class="MuiTypography-root makeStyles-signuphere-37 makeStyles-mobileSignuphere-38 MuiTypography-body1"
           >
             Community
           </p>
           <p
-            class="MuiTypography-root makeStyles-familyGroup-36 makeStyles-mobileFamilyGroup-37 MuiTypography-body1"
+            class="MuiTypography-root makeStyles-familyGroup-35 makeStyles-mobileFamilyGroup-36 MuiTypography-body1"
           >
             Family Group
           </p>
           <p
-            class="MuiTypography-root makeStyles-pitch-34 makeStyles-mobilePitch-35 MuiTypography-body1"
+            class="MuiTypography-root makeStyles-pitch-33 makeStyles-mobilePitch-34 MuiTypography-body1"
           >
             You haven't checked out GCC unless
              
@@ -138,10 +130,10 @@ exports[`App matches the snapshot 1`] = `
             you've checked out our family groups.
           </p>
           <div
-            class="makeStyles-linkContainer-32"
+            class="makeStyles-linkContainer-31"
           >
             <a
-              class="makeStyles-signuphere-38 makeStyles-link-33 makeStyles-mobileSignuphere-39"
+              class="makeStyles-signuphere-37 makeStyles-link-32 makeStyles-mobileSignuphere-38"
               href="/familygroup"
             >
               Sign up here &gt;
@@ -149,6 +141,63 @@ exports[`App matches the snapshot 1`] = `
           </div>
         </div>
       </div>
+    </div>
+    <div
+      class="MuiContainer-root makeStyles-container-39 MuiContainer-maxWidthLg"
+    >
+      <h5
+        class="MuiTypography-root makeStyles-subtitle-40 MuiTypography-h5"
+      >
+        Upcoming Events
+      </h5>
+      <h5
+        class="MuiTypography-root makeStyles-linkContainer-41 MuiTypography-h5"
+      >
+        <a
+          class="makeStyles-learnMore-42"
+          href="/events"
+        >
+          See all events &gt;
+        </a>
+      </h5>
+    </div>
+    <div
+      class="background"
+      style="background-image: url(test-file-stub);"
+    >
+      <div
+        class="contentMobile"
+      >
+        <div
+          class="MuiContainer-root makeStyles-contentContainer-43 makeStyles-mobileContentContainer-44 MuiContainer-maxWidthLg"
+        >
+          <p
+            class="MuiTypography-root makeStyles-familyGroup-49 makeStyles-mobileFamilyGroup-50 MuiTypography-body1"
+          >
+            AMI Quiet Times
+          </p>
+          <div
+            class="makeStyles-linkContainer-45"
+          >
+            <a
+              class="makeStyles-signuphere-51 makeStyles-link-46 makeStyles-mobileSignuphere-52"
+              href="https://amiquiettimes.com/"
+              to="https://amiquiettimes.com/"
+            >
+              AMI Quiet Time Blog &gt;
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiContainer-root makeStyles-container-53 MuiContainer-maxWidthLg"
+    >
+      <h5
+        class="MuiTypography-root makeStyles-subtitle-54 MuiTypography-h5"
+      >
+        Monthly Memory Verse
+      </h5>
     </div>
     <footer
       class="footer"
@@ -268,59 +317,51 @@ exports[`App matches the snapshot 2`] = `
   <div
     class="AppContent"
   >
-    <div
-      class="makeStyles-navRoot-1"
+    <header
+      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionSticky MuiAppBar-colorPrimary makeStyles-appBarMobile-7 MuiPaper-elevation4"
     >
       <div
-        class="MuiBox-root MuiBox-root-40"
+        class="MuiToolbar-root MuiToolbar-regular makeStyles-mobileToolBar-4 MuiToolbar-gutters"
       >
-        <header
-          class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary makeStyles-appBarMobile-7 MuiPaper-elevation4"
+        <div
+          class="makeStyles-titleGrow-5"
         >
-          <div
-            class="MuiToolbar-root MuiToolbar-regular makeStyles-mobileToolBar-4 MuiToolbar-gutters"
+          <a
+            href="/"
           >
-            <div
-              class="makeStyles-titleGrow-5"
+            <img
+              alt="nav-logo"
+              class="makeStyles-menuMobileButton-3"
+              src="test-file-stub"
+            />
+          </a>
+        </div>
+        <button
+          aria-label="menu"
+          class="MuiButtonBase-root MuiIconButton-root makeStyles-menuButton-9 MuiIconButton-colorInherit MuiIconButton-edgeStart"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
             >
-              <a
-                href="/"
-              >
-                <img
-                  alt="nav-logo"
-                  class="makeStyles-menuMobileButton-3"
-                  src="test-file-stub"
-                />
-              </a>
-            </div>
-            <button
-              aria-label="menu"
-              class="MuiButtonBase-root MuiIconButton-root makeStyles-menuButton-10 MuiIconButton-colorInherit MuiIconButton-edgeStart"
-              tabindex="0"
-              type="button"
-            >
-              <span
-                class="MuiIconButton-label"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="MuiSvgIcon-root"
-                  focusable="false"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-                  />
-                </svg>
-              </span>
-              <span
-                class="MuiTouchRipple-root"
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
               />
-            </button>
-          </div>
-        </header>
+            </svg>
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
       </div>
-    </div>
+    </header>
     <div
       class="background"
       style="background-image: url(test-file-stub);"
@@ -329,10 +370,10 @@ exports[`App matches the snapshot 2`] = `
         class="contentMobile"
       >
         <div
-          class="MuiContainer-root makeStyles-mobileContentContainer-18 MuiContainer-maxWidthLg"
+          class="MuiContainer-root makeStyles-mobileContentContainer-17 MuiContainer-maxWidthLg"
         >
           <p
-            class="MuiTypography-root makeStyles-visionStatement-21 makeStyles-mobileVisionStatement-22 MuiTypography-body1"
+            class="MuiTypography-root makeStyles-visionStatement-20 makeStyles-mobileVisionStatement-21 MuiTypography-body1"
           >
             Raising up kingdom workers
             <br />
@@ -341,10 +382,10 @@ exports[`App matches the snapshot 2`] = `
             to influence the world.
           </p>
           <div
-            class="makeStyles-linkContainer-19"
+            class="makeStyles-linkContainer-18"
           >
             <a
-              class="makeStyles-learnMore-23 makeStyles-link-20 makeStyles-mobileLearnMore-24"
+              class="makeStyles-learnMore-22 makeStyles-link-19 makeStyles-mobileLearnMore-23"
               href="/welcome"
             >
               Learn more &gt;
@@ -354,18 +395,18 @@ exports[`App matches the snapshot 2`] = `
       </div>
     </div>
     <div
-      class="MuiContainer-root makeStyles-container-26 MuiContainer-maxWidthLg"
+      class="MuiContainer-root makeStyles-container-25 MuiContainer-maxWidthLg"
     >
       <h5
-        class="MuiTypography-root makeStyles-subtitle-27 MuiTypography-h5"
+        class="MuiTypography-root makeStyles-subtitle-26 MuiTypography-h5"
       >
         Service Location and Times
       </h5>
       <h5
-        class="MuiTypography-root makeStyles-linkContainer-28 MuiTypography-h5"
+        class="MuiTypography-root makeStyles-linkContainer-27 MuiTypography-h5"
       >
         <a
-          class="makeStyles-learnMore-29"
+          class="makeStyles-learnMore-28"
           href="/welcome"
         >
           Learn more &gt;
@@ -380,20 +421,20 @@ exports[`App matches the snapshot 2`] = `
         class="contentMobile"
       >
         <div
-          class="MuiContainer-root makeStyles-contentContainer-30 makeStyles-mobileContentContainer-31 MuiContainer-maxWidthLg"
+          class="MuiContainer-root makeStyles-contentContainer-29 makeStyles-mobileContentContainer-30 MuiContainer-maxWidthLg"
         >
           <p
-            class="MuiTypography-root makeStyles-signuphere-38 makeStyles-mobileSignuphere-39 MuiTypography-body1"
+            class="MuiTypography-root makeStyles-signuphere-37 makeStyles-mobileSignuphere-38 MuiTypography-body1"
           >
             Community
           </p>
           <p
-            class="MuiTypography-root makeStyles-familyGroup-36 makeStyles-mobileFamilyGroup-37 MuiTypography-body1"
+            class="MuiTypography-root makeStyles-familyGroup-35 makeStyles-mobileFamilyGroup-36 MuiTypography-body1"
           >
             Family Group
           </p>
           <p
-            class="MuiTypography-root makeStyles-pitch-34 makeStyles-mobilePitch-35 MuiTypography-body1"
+            class="MuiTypography-root makeStyles-pitch-33 makeStyles-mobilePitch-34 MuiTypography-body1"
           >
             You haven't checked out GCC unless
              
@@ -401,10 +442,10 @@ exports[`App matches the snapshot 2`] = `
             you've checked out our family groups.
           </p>
           <div
-            class="makeStyles-linkContainer-32"
+            class="makeStyles-linkContainer-31"
           >
             <a
-              class="makeStyles-signuphere-38 makeStyles-link-33 makeStyles-mobileSignuphere-39"
+              class="makeStyles-signuphere-37 makeStyles-link-32 makeStyles-mobileSignuphere-38"
               href="/familygroup"
             >
               Sign up here &gt;
@@ -412,6 +453,63 @@ exports[`App matches the snapshot 2`] = `
           </div>
         </div>
       </div>
+    </div>
+    <div
+      class="MuiContainer-root makeStyles-container-39 MuiContainer-maxWidthLg"
+    >
+      <h5
+        class="MuiTypography-root makeStyles-subtitle-40 MuiTypography-h5"
+      >
+        Upcoming Events
+      </h5>
+      <h5
+        class="MuiTypography-root makeStyles-linkContainer-41 MuiTypography-h5"
+      >
+        <a
+          class="makeStyles-learnMore-42"
+          href="/events"
+        >
+          See all events &gt;
+        </a>
+      </h5>
+    </div>
+    <div
+      class="background"
+      style="background-image: url(test-file-stub);"
+    >
+      <div
+        class="contentMobile"
+      >
+        <div
+          class="MuiContainer-root makeStyles-contentContainer-43 makeStyles-mobileContentContainer-44 MuiContainer-maxWidthLg"
+        >
+          <p
+            class="MuiTypography-root makeStyles-familyGroup-49 makeStyles-mobileFamilyGroup-50 MuiTypography-body1"
+          >
+            AMI Quiet Times
+          </p>
+          <div
+            class="makeStyles-linkContainer-45"
+          >
+            <a
+              class="makeStyles-signuphere-51 makeStyles-link-46 makeStyles-mobileSignuphere-52"
+              href="https://amiquiettimes.com/"
+              to="https://amiquiettimes.com/"
+            >
+              AMI Quiet Time Blog &gt;
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiContainer-root makeStyles-container-53 MuiContainer-maxWidthLg"
+    >
+      <h5
+        class="MuiTypography-root makeStyles-subtitle-54 MuiTypography-h5"
+      >
+        Monthly Memory Verse
+      </h5>
     </div>
     <footer
       class="footer"

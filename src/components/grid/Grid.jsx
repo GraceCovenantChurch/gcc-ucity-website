@@ -13,7 +13,13 @@ const Grid = (props) => {
   const classes = useStyles();
 
   return (
-    <MGrid container className={classes.grid} spacing={5} {...props}>
+    <MGrid
+      container
+      justifyContent="center"
+      className={classes.grid}
+      spacing={5}
+      {...props}
+    >
       {props.children}
     </MGrid>
   );
