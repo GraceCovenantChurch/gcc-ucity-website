@@ -6,18 +6,13 @@ import Container from "@material-ui/core/Container";
 
 import GridFactory from "components/grid/GridFactory";
 import Link from "components/link/Link";
-import ServicesCard from "components/card/ServicesCard";
+import EventsCard from "components/card/EventsCard";
 
-import {
-  getCollegeFridayServices,
-  getSundayServices,
-  getCrossroadFridayServices,
-  massageServices,
-} from "modules/Contentful";
+import { getHomeEvents, massageEvents } from "modules/Contentful";
 
 const useStyles = makeStyles((theme) => ({
   container: {
-    padding: "5rem 2vw",
+    padding: "4rem 2vw",
   },
   subtitle: {
     fontFamily: "Lora,sans-serif",
@@ -40,43 +35,39 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Services = () => {
+const EventsContent = () => {
   const classes = useStyles();
-  const [services, setServices] = useState(null);
+  const [events, setEventsContent] = useState(null);
 
   useEffect(() => {
-    const updateServices = async () => {
-      const collegeFridayResults = await getCollegeFridayServices();
-      const crossroadFridayResults = await getCrossroadFridayServices();
-      const sundayResults = await getSundayServices();
-      let results = [
-        ...collegeFridayResults,
-        ...sundayResults,
-        ...crossroadFridayResults,
-      ];
-      results = await massageServices(results);
-      setServices(results);
+    const updateEventsContent = async () => {
+      const eventResults = await getHomeEvents();
+
+      let results = [...eventResults];
+
+      results = await massageEvents(results);
+      setEventsContent(results);
     };
-    updateServices();
+    updateEventsContent();
   }, []);
 
   return (
     <Container className={classes.container} maxWidth="lg">
       <Typography className={classes.subtitle} variant="h5">
-        {"Service Location and Times"}
+        {"Upcoming Events"}
       </Typography>
-      {services ? (
+      {events ? (
         <Container>
-          <GridFactory data={services} component={ServicesCard} />
+          <GridFactory data={events} component={EventsCard} />
         </Container>
       ) : undefined}
       <Typography className={classes.linkContainer} variant="h5">
-        <Link to="/welcome" className={classes.learnMore}>
-          {"Learn more >"}
+        <Link to="/events" className={classes.learnMore}>
+          {"See all events >"}
         </Link>
       </Typography>
     </Container>
   );
 };
 
-export default Services;
+export default EventsContent;

@@ -11,11 +11,11 @@
     "@material-ui/icons": "^4.11.2",
     "@testing-library/react": "^12.0.0",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.6.2",
+    "axios": "^0.21.1",
     "clsx": "^1.1.1",
     "contentful": "^8.4.2",
     "date-and-time": "^1.0.1",
     "enzyme": "^3.11.0",
-    "is-url-external": "^1.0.3",
     "node-sass": "^6.0.1",
     "prettier": "^2.3.2",
     "query-string": "^7.0.1",
@@ -67,15 +67,11 @@
       }
     },
     "moduleNameMapper": {
-      "src/(.*)": "<rootDir>/src/$1",
-      "tests/(.*)": "<rootDir>/__tests__/$1"
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/src/__mocks__/fileMock.js",
+      "\\.(css|less)$": "<rootDir>/src/__mocks__/styleMock.js"
     },
     "coverageReporters": [
       "text"
-    ],
-    "moduleNameMapper": {
-      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/src/__mocks__/fileMock.js",
-      "\\.(css|less)$": "<rootDir>/src/__mocks__/styleMock.js"
-    }
+    ]
   }
 }

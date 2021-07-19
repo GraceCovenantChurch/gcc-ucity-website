@@ -6,7 +6,6 @@ import { useMediaQuery } from "react-responsive";
 import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
-import Box from "@material-ui/core/Box";
 
 import HamburgerMenu from "./menu/HamburgerMenu";
 import NavigationMenu from "./menu/NavigationMenu";
@@ -34,22 +33,24 @@ const useStyles = makeStyles((theme) => ({
     height: 70,
   },
   mobileToolBar: {
-    margin: 0,
+    margin: ".5em",
     padding: 0,
   },
   titleGrow: {
     flexGrow: 1,
   },
   appBarDesktop: {
+    padding: "1.5em",
     background: "transparent",
     boxShadow: "none",
   },
   appBarMobile: {
     background: "white",
+    // boxShadow: "none",
   },
 }));
 
-const Navigation = () => {
+const Navigation = (props) => {
   const classes = useStyles();
   const isMobile = useMediaQuery({ query: MOBILE_QUERY });
 
@@ -77,35 +78,34 @@ const Navigation = () => {
   ];
 
   return (
-    <div className={classes.navRoot}>
-      <Box my={isMobile ? ".75em" : "1.5em"} mx={isMobile ? ".75em" : "1.5em"}>
-        <AppBar
-          className={isMobile ? classes.appBarMobile : classes.appBarDesktop}
-          position="static"
-        >
-          <Toolbar className={isMobile ? classes.mobileToolBar : ""}>
-            <div className={classes.titleGrow}>
-              <Link to="/">
-                <img
-                  alt="nav-logo"
-                  className={
-                    isMobile
-                      ? classes.menuMobileButton
-                      : classes.menuDesktopButton
-                  }
-                  src={isMobile ? imageURLMobile : imageURLDesktop}
-                />
-              </Link>
-            </div>
-            {isMobile ? (
-              <HamburgerMenu menu={menuOptions} />
-            ) : (
-              <NavigationMenu menu={menuOptions} />
-            )}
-          </Toolbar>
-        </AppBar>
-      </Box>
-    </div>
+    <React.Fragment>
+      <AppBar
+        className={isMobile ? classes.appBarMobile : classes.appBarDesktop}
+        position={isMobile ? "sticky" : "absolute"}
+      >
+        <Toolbar className={isMobile ? classes.mobileToolBar : ""}>
+          <div className={classes.titleGrow}>
+            <Link to="/">
+              <img
+                alt="nav-logo"
+                className={
+                  isMobile
+                    ? classes.menuMobileButton
+                    : classes.menuDesktopButton
+                }
+                src={isMobile ? imageURLMobile : imageURLDesktop}
+              />
+            </Link>
+          </div>
+          {isMobile ? (
+            <HamburgerMenu menu={menuOptions} />
+          ) : (
+            <NavigationMenu menu={menuOptions} />
+          )}
+        </Toolbar>
+      </AppBar>
+      {props.children}
+    </React.Fragment>
   );
 };
 

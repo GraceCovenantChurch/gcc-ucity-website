@@ -19,9 +19,9 @@ import Home from "./home/Home";
 
 const BaseRouter = (props) => (
   <Router>
-    <Navigation />
-    <Route exact path="/" component={Home} />
-    {/* <Route path="/beliefs" component={Beliefs} />
+    <Navigation>
+      <Route exact path="/" component={Home} />
+      {/* <Route path="/beliefs" component={Beliefs} />
     <Route path="/page" component={Page} />
     <Route path="/asyncPage" component={AsyncPage} />
     <Route path="/familyGroup" component={FamilyGroup} />
@@ -32,7 +32,8 @@ const BaseRouter = (props) => (
     <Route path="/multimedia" component={Multimedia} />
     <Route path="/giving" component={Giving} />
     <Route path="/sermons" component={Sermons} /> */}
-    <Footer />
+      <Footer />
+    </Navigation>
   </Router>
 );
 

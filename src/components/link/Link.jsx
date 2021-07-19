@@ -2,7 +2,7 @@ import React, { forwardRef } from "react";
 import PropTypes from "prop-types";
 import clsx from "clsx";
 import { Link as RouterLink } from "react-router-dom";
-import isExternal from "is-url-external";
+import { isExternal } from "modules/IsExternal";
 
 import { makeStyles } from "@material-ui/core/styles";
 

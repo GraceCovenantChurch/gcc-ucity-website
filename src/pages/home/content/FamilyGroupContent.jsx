@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
   contentContainer: {
     margin: 0,
     position: "relative",
-    top: "65%",
+    top: "60%",
     left: "5%",
   },
   mobileContentContainer: {

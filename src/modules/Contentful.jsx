@@ -1,10 +1,28 @@
 import date from "date-and-time";
+/**
+ * Global Constants
+ */
 
-const contentful = require("contentful");
+import {
+  DEFAULTS_KEY,
+  SERVICES_KEY,
+  COLLEGE_FNL_KEY,
+  READING_CONTENT_KEY,
+  SUNDAY_SERVICE_KEY,
+  CROSSROAD_FNL_KEY,
+  EVENTS_KEY,
+  MEMORY_VERSE_KEY,
+  TOTAL_SERVICES,
+  HOME_PAGE_EVENTS,
+  RIGHT_NOW,
+} from "constants/contentful";
+
+import { fetchPassage } from "./ESV";
 
 /**
  * Global Contentful Initiation
  */
+const contentful = require("contentful");
 const client = contentful.createClient({
   // This is the space ID. A space is like a project folder in Contentful terms
   space: process.env.REACT_APP_CONTENTFUL_SPACE,
@@ -25,17 +43,6 @@ const getNextDayOfWeek = (date, dayOfWeek) => {
 
   return resultDate;
 };
-
-/**
- * Global Constants
- */
-
-const DEFAULTS_KEY = "defaults";
-const SERVICES_KEY = "services";
-const COLLEGE_FNL_KEY = "collegefnl";
-const SUNDAY_SERVICE_KEY = "sundayservice";
-const CROSSROAD_FNL_KEY = "crossroadfnl";
-const TOTAL_SERVICES = "3";
 
 /**
  * Content Type: Services
@@ -141,8 +148,132 @@ export const massageServices = async (data) => {
 };
 
 /**
+ * Content Type: Events
+ */
+
+export const getEvents = () => {
+  return client
+    .getEntries({
+      content_type: EVENTS_KEY,
+      order: "fields.priority,fields.eventStart",
+    })
+    .then((entries) => {
+      return entries.items;
+    });
+};
+
+export const getHomeEvents = () => {
+  return client
+    .getEntries({
+      content_type: EVENTS_KEY,
+      order: "fields.priority,fields.eventStart",
+      limit: HOME_PAGE_EVENTS,
+    })
+    .then((entries) => {
+      return entries.items;
+    });
+};
+
+export const massageEvents = (data) => {
+  let results = [];
+
+  for (var element of data) {
+    let fields = element.fields;
+
+    results.push({
+      ...fields,
+      eventEnd: fields.eventStart ? formatTime(fields.eventEnd) : undefined,
+      eventStart: fields.eventEnd ? formatTime(fields.eventStart) : undefined,
+    });
+  }
+
+  return results;
+};
+
+/**
+ * Content Type: Reading Plan
+ */
+
+export const getReadingContent = () => {
+  return client
+    .getEntries({
+      content_type: READING_CONTENT_KEY,
+      order: "fields.startDate",
+    })
+    .then((entries) => {
+      return entries.items;
+    });
+};
+
+export const massageReadingContent = (data) => {
+  let currentPlan;
+
+  for (var plan of data) {
+    let fields = plan.fields;
+    let start = new Date(fields.startDate); // -1 because months are from 0 to 11
+    var end = new Date(fields.endDate);
+
+    if (RIGHT_NOW > start && RIGHT_NOW < end) {
+      currentPlan = plan.fields;
+    }
+  }
+
+  return currentPlan;
+};
+
+/**
+ * Content Type: Memory Verse
+ */
+
+export const getMemoryVerse = () => {
+  return client
+    .getEntries({
+      content_type: MEMORY_VERSE_KEY,
+      order: "fields.year,fields.month",
+    })
+    .then((entries) => {
+      return entries.items;
+    });
+};
+
+// Async because we have to do another fetch call within this.
+export const massageMemoryVerse = async (data) => {
+  let currentMemoryVerse;
+  for (var verse of data) {
+    let fields = verse.fields;
+
+    if (
+      fields.month === RIGHT_NOW.getMonth() + 1 &&
+      fields.year === RIGHT_NOW.getFullYear()
+    ) {
+      let passageResult = await fetchPassage(fields.reference);
+      let passageFinal = "";
+
+      if (passageResult.length === 1) {
+        passageFinal = passageResult[0].trim();
+      } else {
+        for (var passage of passageResult) {
+          passageFinal += passage.trim() + " ";
+        }
+        passageFinal = passageFinal.trim();
+      }
+
+      // Removing mismatch quotes.
+      passageFinal = passageFinal.match(/\w+|'[^']*'/g).join(" ");
+
+      currentMemoryVerse = {
+        passage: passageFinal,
+        ...fields,
+      };
+    }
+  }
+
+  return currentMemoryVerse;
+};
+
+/**
  * Helpers
  */
 const formatTime = (time) => {
-  return date.format(new Date(time), "hh:mmA");
+  return date.format(new Date(time), "h:mmA");
 };

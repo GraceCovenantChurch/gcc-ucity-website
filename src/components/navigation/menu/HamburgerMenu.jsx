@@ -12,7 +12,7 @@ import CloseIcon from "@material-ui/icons/Close";
 
 import grey from "@material-ui/core/colors/grey";
 
-import FlattenDrawerLinks from "./drawer/FlattenDrawerLinks";
+import DrawerLinks from "./drawer/DrawerLinks";
 
 import imageURLMobile from "static/gcclogo-black.png";
 
@@ -101,7 +101,7 @@ const HamburgerMenu = (props) => {
               <CloseIcon />
             </IconButton>
           </List>
-          <FlattenDrawerLinks
+          <DrawerLinks
             toggleDrawer={(flag) => toggleDrawer(flag)}
             data={menuData}
           />

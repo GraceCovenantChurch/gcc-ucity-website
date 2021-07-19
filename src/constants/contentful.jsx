@@ -1,0 +1,11 @@
+export const DEFAULTS_KEY = "defaults";
+export const SERVICES_KEY = "services";
+export const READING_CONTENT_KEY = "readingPlan";
+export const COLLEGE_FNL_KEY = "collegefnl";
+export const SUNDAY_SERVICE_KEY = "sundayservice";
+export const CROSSROAD_FNL_KEY = "crossroadfnl";
+export const MEMORY_VERSE_KEY = "memoryVerse";
+export const EVENTS_KEY = "events";
+export const TOTAL_SERVICES = 3;
+export const HOME_PAGE_EVENTS = 3;
+export const RIGHT_NOW = new Date();
