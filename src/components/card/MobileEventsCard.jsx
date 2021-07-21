@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     width: "70%",
   },
   media: {
-    width: "30%",
+    width: "33vw",
   },
   title: {
     fontWeight: 600,

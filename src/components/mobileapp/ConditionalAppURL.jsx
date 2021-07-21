@@ -6,7 +6,6 @@ import Link from "components/link/Link";
 import { APPLE, ANDROID } from "constants/mobileapp";
 
 const ConditionalAppURL = (props) => {
-  console.log(props);
   if (isAndroid) {
     return (
       <React.Fragment>

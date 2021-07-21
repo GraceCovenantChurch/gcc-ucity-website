@@ -13,44 +13,35 @@ exports[`Home matches the snapshot 1`] = `
         class="MuiContainer-root makeStyles-mobileContentContainer-2 MuiContainer-maxWidthLg"
       >
         <p
-          class="MuiTypography-root makeStyles-visionStatement-5 makeStyles-mobileVisionStatement-6 MuiTypography-body1"
+          class="MuiTypography-root makeStyles-title-6 makeStyles-mobileTitle-7 MuiTypography-body1"
         >
           Raising up kingdom workers
           <br />
           who are transformed by Christ
           <br />
-          to influence the world.
+          to influence the world
+          <br />
         </p>
         <div
           class="makeStyles-linkContainer-3"
         >
           <a
-            class="makeStyles-learnMore-7 makeStyles-link-4 makeStyles-mobileLearnMore-8"
-            href="/welcome"
+            class="makeStyles-link-4 undefined"
+            href="/beliefs"
           >
-            Learn more &gt;
+            Our beliefs &gt;
           </a>
         </div>
       </div>
     </div>
   </div>
   <div
-    class="MuiContainer-root makeStyles-container-10 MuiContainer-maxWidthLg"
+    class="MuiContainer-root makeStyles-container-11 MuiContainer-maxWidthLg"
   >
     <h5
-      class="MuiTypography-root makeStyles-subtitle-11 MuiTypography-h5"
+      class="MuiTypography-root makeStyles-subtitle-12 MuiTypography-h5"
     >
-      Service Location and Times
-    </h5>
-    <h5
-      class="MuiTypography-root makeStyles-linkContainer-12 MuiTypography-h5"
-    >
-      <a
-        class="makeStyles-learnMore-13"
-        href="/welcome"
-      >
-        Learn more &gt;
-      </a>
+      SERVICE LOCATION AND TIMES
     </h5>
   </div>
   <div
@@ -61,31 +52,27 @@ exports[`Home matches the snapshot 1`] = `
       class="contentMobile"
     >
       <div
-        class="MuiContainer-root makeStyles-contentContainer-14 makeStyles-mobileContentContainer-15 MuiContainer-maxWidthLg"
+        class="MuiContainer-root makeStyles-mobileContentContainer-2 MuiContainer-maxWidthLg"
       >
         <p
-          class="MuiTypography-root makeStyles-signuphere-22 makeStyles-mobileSignuphere-23 MuiTypography-body1"
-        >
-          Community
-        </p>
-        <p
-          class="MuiTypography-root makeStyles-familyGroup-20 makeStyles-mobileFamilyGroup-21 MuiTypography-body1"
+          class="MuiTypography-root makeStyles-title-6 makeStyles-mobileTitle-7 MuiTypography-body1"
         >
           Family Group
+          <br />
         </p>
         <p
-          class="MuiTypography-root makeStyles-pitch-18 makeStyles-mobilePitch-19 MuiTypography-body1"
+          class="MuiTypography-root makeStyles-description-8 makeStyles-mobileDescription-9 MuiTypography-body1"
         >
           You haven't checked out GCC unless
-           
           <br />
           you've checked out our family groups.
+          <br />
         </p>
         <div
-          class="makeStyles-linkContainer-16"
+          class="makeStyles-linkContainer-3"
         >
           <a
-            class="makeStyles-signuphere-22 makeStyles-link-17 makeStyles-mobileSignuphere-23"
+            class="makeStyles-link-4 undefined"
             href="/familygroup"
           >
             Sign up here &gt;
@@ -95,18 +82,18 @@ exports[`Home matches the snapshot 1`] = `
     </div>
   </div>
   <div
-    class="MuiContainer-root makeStyles-container-24 MuiContainer-maxWidthLg"
+    class="MuiContainer-root makeStyles-container-11 MuiContainer-maxWidthLg"
   >
     <h5
-      class="MuiTypography-root makeStyles-subtitle-25 MuiTypography-h5"
+      class="MuiTypography-root makeStyles-subtitle-12 MuiTypography-h5"
     >
-      Upcoming Events
+      UPCOMING EVENTS
     </h5>
     <h5
-      class="MuiTypography-root makeStyles-linkContainer-26 MuiTypography-h5"
+      class="MuiTypography-root makeStyles-linkContainer-13 MuiTypography-h5"
     >
       <a
-        class="makeStyles-learnMore-27"
+        class="makeStyles-learnMore-14"
         href="/events"
       >
         See all events &gt;
@@ -121,32 +108,22 @@ exports[`Home matches the snapshot 1`] = `
       class="contentMobile"
     >
       <div
-        class="MuiContainer-root makeStyles-contentContainer-28 makeStyles-mobileContentContainer-29 MuiContainer-maxWidthLg"
+        class="MuiContainer-root makeStyles-mobileContentContainer-16 MuiContainer-maxWidthLg"
       >
         <p
-          class="MuiTypography-root makeStyles-familyGroup-34 makeStyles-mobileFamilyGroup-35 MuiTypography-body1"
+          class="MuiTypography-root makeStyles-title-21 makeStyles-mobileTitle-22 MuiTypography-body1"
         >
-          AMI Quiet Times
+          Read With Us
+          <br />
         </p>
-        <div
-          class="makeStyles-linkContainer-30"
-        >
-          <a
-            class="makeStyles-signuphere-36 makeStyles-link-31 makeStyles-mobileSignuphere-37"
-            href="https://amiquiettimes.com/"
-            to="https://amiquiettimes.com/"
-          >
-            AMI Quiet Time Blog &gt;
-          </a>
-        </div>
       </div>
     </div>
   </div>
   <div
-    class="MuiContainer-root makeStyles-container-38 MuiContainer-maxWidthLg"
+    class="MuiContainer-root makeStyles-container-25 MuiContainer-maxWidthLg"
   >
     <h5
-      class="MuiTypography-root makeStyles-subtitle-39 MuiTypography-h5"
+      class="MuiTypography-root makeStyles-subtitle-26 MuiTypography-h5"
     >
       Monthly Memory Verse
     </h5>
@@ -167,44 +144,35 @@ exports[`Home matches the snapshot 2`] = `
         class="MuiContainer-root makeStyles-mobileContentContainer-2 MuiContainer-maxWidthLg"
       >
         <p
-          class="MuiTypography-root makeStyles-visionStatement-5 makeStyles-mobileVisionStatement-6 MuiTypography-body1"
+          class="MuiTypography-root makeStyles-title-6 makeStyles-mobileTitle-7 MuiTypography-body1"
         >
           Raising up kingdom workers
           <br />
           who are transformed by Christ
           <br />
-          to influence the world.
+          to influence the world
+          <br />
         </p>
         <div
           class="makeStyles-linkContainer-3"
         >
           <a
-            class="makeStyles-learnMore-7 makeStyles-link-4 makeStyles-mobileLearnMore-8"
-            href="/welcome"
+            class="makeStyles-link-4 undefined"
+            href="/beliefs"
           >
-            Learn more &gt;
+            Our beliefs &gt;
           </a>
         </div>
       </div>
     </div>
   </div>
   <div
-    class="MuiContainer-root makeStyles-container-10 MuiContainer-maxWidthLg"
+    class="MuiContainer-root makeStyles-container-11 MuiContainer-maxWidthLg"
   >
     <h5
-      class="MuiTypography-root makeStyles-subtitle-11 MuiTypography-h5"
+      class="MuiTypography-root makeStyles-subtitle-12 MuiTypography-h5"
     >
-      Service Location and Times
-    </h5>
-    <h5
-      class="MuiTypography-root makeStyles-linkContainer-12 MuiTypography-h5"
-    >
-      <a
-        class="makeStyles-learnMore-13"
-        href="/welcome"
-      >
-        Learn more &gt;
-      </a>
+      SERVICE LOCATION AND TIMES
     </h5>
   </div>
   <div
@@ -215,31 +183,27 @@ exports[`Home matches the snapshot 2`] = `
       class="contentMobile"
     >
       <div
-        class="MuiContainer-root makeStyles-contentContainer-14 makeStyles-mobileContentContainer-15 MuiContainer-maxWidthLg"
+        class="MuiContainer-root makeStyles-mobileContentContainer-2 MuiContainer-maxWidthLg"
       >
         <p
-          class="MuiTypography-root makeStyles-signuphere-22 makeStyles-mobileSignuphere-23 MuiTypography-body1"
-        >
-          Community
-        </p>
-        <p
-          class="MuiTypography-root makeStyles-familyGroup-20 makeStyles-mobileFamilyGroup-21 MuiTypography-body1"
+          class="MuiTypography-root makeStyles-title-6 makeStyles-mobileTitle-7 MuiTypography-body1"
         >
           Family Group
+          <br />
         </p>
         <p
-          class="MuiTypography-root makeStyles-pitch-18 makeStyles-mobilePitch-19 MuiTypography-body1"
+          class="MuiTypography-root makeStyles-description-8 makeStyles-mobileDescription-9 MuiTypography-body1"
         >
           You haven't checked out GCC unless
-           
           <br />
           you've checked out our family groups.
+          <br />
         </p>
         <div
-          class="makeStyles-linkContainer-16"
+          class="makeStyles-linkContainer-3"
         >
           <a
-            class="makeStyles-signuphere-22 makeStyles-link-17 makeStyles-mobileSignuphere-23"
+            class="makeStyles-link-4 undefined"
             href="/familygroup"
           >
             Sign up here &gt;
@@ -249,18 +213,18 @@ exports[`Home matches the snapshot 2`] = `
     </div>
   </div>
   <div
-    class="MuiContainer-root makeStyles-container-24 MuiContainer-maxWidthLg"
+    class="MuiContainer-root makeStyles-container-11 MuiContainer-maxWidthLg"
   >
     <h5
-      class="MuiTypography-root makeStyles-subtitle-25 MuiTypography-h5"
+      class="MuiTypography-root makeStyles-subtitle-12 MuiTypography-h5"
     >
-      Upcoming Events
+      UPCOMING EVENTS
     </h5>
     <h5
-      class="MuiTypography-root makeStyles-linkContainer-26 MuiTypography-h5"
+      class="MuiTypography-root makeStyles-linkContainer-13 MuiTypography-h5"
     >
       <a
-        class="makeStyles-learnMore-27"
+        class="makeStyles-learnMore-14"
         href="/events"
       >
         See all events &gt;
@@ -275,32 +239,22 @@ exports[`Home matches the snapshot 2`] = `
       class="contentMobile"
     >
       <div
-        class="MuiContainer-root makeStyles-contentContainer-28 makeStyles-mobileContentContainer-29 MuiContainer-maxWidthLg"
+        class="MuiContainer-root makeStyles-mobileContentContainer-16 MuiContainer-maxWidthLg"
       >
         <p
-          class="MuiTypography-root makeStyles-familyGroup-34 makeStyles-mobileFamilyGroup-35 MuiTypography-body1"
+          class="MuiTypography-root makeStyles-title-21 makeStyles-mobileTitle-22 MuiTypography-body1"
         >
-          AMI Quiet Times
+          Read With Us
+          <br />
         </p>
-        <div
-          class="makeStyles-linkContainer-30"
-        >
-          <a
-            class="makeStyles-signuphere-36 makeStyles-link-31 makeStyles-mobileSignuphere-37"
-            href="https://amiquiettimes.com/"
-            to="https://amiquiettimes.com/"
-          >
-            AMI Quiet Time Blog &gt;
-          </a>
-        </div>
       </div>
     </div>
   </div>
   <div
-    class="MuiContainer-root makeStyles-container-38 MuiContainer-maxWidthLg"
+    class="MuiContainer-root makeStyles-container-25 MuiContainer-maxWidthLg"
   >
     <h5
-      class="MuiTypography-root makeStyles-subtitle-39 MuiTypography-h5"
+      class="MuiTypography-root makeStyles-subtitle-26 MuiTypography-h5"
     >
       Monthly Memory Verse
     </h5>
