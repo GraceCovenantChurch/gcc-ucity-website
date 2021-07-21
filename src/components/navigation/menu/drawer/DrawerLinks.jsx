@@ -34,15 +34,6 @@ const DrawerLinks = (props) => {
 
   return (
     <React.Fragment>
-      <ListItem
-        button
-        component={Link}
-        to={"/"}
-        onClick={props.toggleDrawer(false)}
-        onKeyDown={props.toggleDrawer(false)}
-      >
-        <ListItemText className={classes.menuText} primary={"Home"} />
-      </ListItem>
       {props.data.map((element, index) => {
         if (typeof element.children === "object") {
           return (

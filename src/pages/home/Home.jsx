@@ -1,42 +1,84 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
 
-import BackgroundImage from "components/background/BackgroundImage";
-import TopHomeContent from "./content/TopHomeContent";
-import FamilyGroupContent from "./content/FamilyGroupContent";
-import ServicesContent from "./content/ServicesContent";
-import EventsContent from "./content/EventsContent";
-import ReadingContent from "./content/ReadingContent";
+import ContentWithImage from "components/content/ContentWithImage";
+import ContentWithImageAPI from "components/content/ContentWithImageAPI";
+import CenteredContentWithGrid from "components/content/CenteredContentWithGrid";
+import ConditionalAppURL from "components/mobileapp/ConditionalAppURL";
 import MemoryVerseContent from "./content/MemoryVerseContent";
+import EventsCard from "components/card/EventsCard";
+import MobileEventsCard from "components/card/MobileEventsCard";
+import ServicesCard from "components/card/ServicesCard";
+
+import {
+  getHomeEvents,
+  massageEvents,
+  getCollegeFridayServices,
+  getSundayServices,
+  getCrossroadFridayServices,
+  massageServices,
+  getReadingContent,
+  massageReadingContent,
+} from "modules/Contentful";
 
 import homeUrl from "static/images/home/worship.jpg";
 import familyGroupUrl from "static/images/home/familygroup.jpg";
 import amiQTUrl from "static/images/home/amiqt.jpg";
-
 import { MOBILE_QUERY } from "constants/mobile";
-
-/**
- * TODO: This would be a fun feature for someone to start off
- *   1. Content Component Model and abstration
- *   2. isMobile Abstraction
- */
+import { HOME_DEFAULT } from "constants/home";
 
 const Home = () => {
   const mobile = useMediaQuery({ query: MOBILE_QUERY });
+  const top = HOME_DEFAULT.top;
+  const service = HOME_DEFAULT.service;
+  const familygroup = HOME_DEFAULT.familygroup;
+  const events = HOME_DEFAULT.events;
+  const reading = HOME_DEFAULT.reading;
 
   return (
     <React.Fragment>
-      <BackgroundImage imageURL={homeUrl}>
-        <TopHomeContent isMobile={mobile} />
-      </BackgroundImage>
-      <ServicesContent isMobile={mobile} />
-      <BackgroundImage imageURL={familyGroupUrl}>
-        <FamilyGroupContent isMobile={mobile} />
-      </BackgroundImage>
-      <EventsContent isMobile={mobile} />
-      <BackgroundImage imageURL={amiQTUrl}>
-        <ReadingContent isMobile={mobile} />
-      </BackgroundImage>
+      <ContentWithImage
+        isMobile={mobile}
+        imageURL={homeUrl}
+        title={top.vision}
+        link={top.link}
+      />
+      <CenteredContentWithGrid
+        isMobile={mobile}
+        title={service.title}
+        fetchCall={[
+          getCollegeFridayServices,
+          getSundayServices,
+          getCrossroadFridayServices,
+        ]}
+        massage={massageServices}
+        component={ServicesCard}
+      />
+      <ContentWithImage
+        isMobile={mobile}
+        imageURL={familyGroupUrl}
+        title={familygroup.title}
+        description={familygroup.description}
+        link={familygroup.link}
+      />
+      <CenteredContentWithGrid
+        isMobile={mobile}
+        title={events.title}
+        fetchCall={[getHomeEvents]}
+        massage={massageEvents}
+        component={mobile ? MobileEventsCard : EventsCard}
+        link={events.link}
+      />
+      <ContentWithImageAPI
+        isMobile={mobile}
+        title={reading.title}
+        imageURL={amiQTUrl}
+        fetchCall={[getReadingContent]}
+        defaultDescription={ConditionalAppURL}
+        massage={massageReadingContent}
+        component={EventsCard}
+        link={events.link}
+      />
       <MemoryVerseContent isMobile={mobile} />
     </React.Fragment>
   );

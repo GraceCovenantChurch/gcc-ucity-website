@@ -139,8 +139,8 @@ export const massageServices = async (data) => {
   }
 
   result.push(
-    expected[COLLEGE_FNL_KEY],
     expected[SUNDAY_SERVICE_KEY],
+    expected[COLLEGE_FNL_KEY],
     expected[CROSSROAD_FNL_KEY]
   );
 

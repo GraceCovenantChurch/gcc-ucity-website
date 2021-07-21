@@ -2,26 +2,6 @@
 
 exports[`DrawerLinks matches the snapshot 1`] = `
 <div>
-  <a
-    aria-disabled="false"
-    class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
-    href="/"
-    role="button"
-    tabindex="0"
-  >
-    <div
-      class="MuiListItemText-root makeStyles-menuText-1"
-    >
-      <span
-        class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-      >
-        Home
-      </span>
-    </div>
-    <span
-      class="MuiTouchRipple-root"
-    />
-  </a>
   <div
     class=""
   >
@@ -77,26 +57,6 @@ exports[`DrawerLinks matches the snapshot 1`] = `
 
 exports[`DrawerLinks matches the snapshot 2`] = `
 <div>
-  <a
-    aria-disabled="false"
-    class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
-    href="/"
-    role="button"
-    tabindex="0"
-  >
-    <div
-      class="MuiListItemText-root makeStyles-menuText-1"
-    >
-      <span
-        class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
-      >
-        Home
-      </span>
-    </div>
-    <span
-      class="MuiTouchRipple-root"
-    />
-  </a>
   <div
     class=""
   >

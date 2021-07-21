@@ -16,9 +16,7 @@ const useStyles = makeStyles((theme) => ({
     padding: "4rem 2vw",
   },
   subtitle: {
-    fontFamily: "Lora,sans-serif",
     fontSize: "18px",
-    fontStyle: "italic",
     color: "gray",
     textAlign: "center",
     padding: 20,
@@ -31,9 +29,7 @@ const useStyles = makeStyles((theme) => ({
   },
   learnMore: {
     padding: 20,
-    fontFamily: "Lora,sans-serif",
     fontSize: "18px",
-    fontStyle: "italic",
     color: "gray",
     textAlign: "center",
     textDecoration: "none",
