@@ -9,10 +9,10 @@ import { makeStyles } from "@material-ui/core/styles";
 const useStyles = makeStyles((theme) => ({
   link: {
     textDecoration: "none",
-    fontFamily: "Lora,sansserif",
     "&:visited": {
       color: "rgb(0, 123, 255)",
     },
+    fontSize: 16,
     // "&:hover": {
     //   textDecoration: "underline",
     // },

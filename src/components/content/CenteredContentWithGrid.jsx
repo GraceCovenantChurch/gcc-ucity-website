@@ -6,18 +6,13 @@ import Container from "@material-ui/core/Container";
 
 import GridFactory from "components/grid/GridFactory";
 import Link from "components/link/Link";
-import EventsCard from "components/card/EventsCard";
-
-import { getHomeEvents, massageEvents } from "modules/Contentful";
 
 const useStyles = makeStyles((theme) => ({
   container: {
     padding: "4rem 2vw",
   },
   subtitle: {
-    fontFamily: "Lora,sans-serif",
     fontSize: "18px",
-    fontStyle: "italic",
     color: "gray",
     textAlign: "center",
     padding: 20,
@@ -27,47 +22,50 @@ const useStyles = makeStyles((theme) => ({
     padding: 20,
   },
   learnMore: {
-    fontFamily: "Lora,sans-serif",
     fontSize: "18px",
-    fontStyle: "italic",
     color: "gray",
     textDecoration: "none",
   },
 }));
 
-const EventsContent = () => {
+const CenteredContentWithGrid = (props) => {
   const classes = useStyles();
-  const [events, setEventsContent] = useState(null);
+  const [data, setData] = useState(null);
 
   useEffect(() => {
-    const updateEventsContent = async () => {
-      const eventResults = await getHomeEvents();
+    const updateData = async (fetchCall) => {
+      let results = [];
+      for (var fetch of fetchCall) {
+        let callResults = await fetch();
+        results.push(...callResults);
+      }
 
-      let results = [...eventResults];
-
-      results = await massageEvents(results);
-      setEventsContent(results);
+      results = await props.massage(results);
+      setData(results);
     };
-    updateEventsContent();
-  }, []);
+
+    updateData(props.fetchCall);
+  }, [props]);
 
   return (
     <Container className={classes.container} maxWidth="lg">
       <Typography className={classes.subtitle} variant="h5">
-        {"Upcoming Events"}
+        {props.title.toUpperCase()}
       </Typography>
-      {events ? (
+      {data ? (
         <Container>
-          <GridFactory data={events} component={EventsCard} />
+          <GridFactory data={data} component={props.component} />
         </Container>
       ) : undefined}
-      <Typography className={classes.linkContainer} variant="h5">
-        <Link to="/events" className={classes.learnMore}>
-          {"See all events >"}
-        </Link>
-      </Typography>
+      {props.link ? (
+        <Typography className={classes.linkContainer} variant="h5">
+          <Link to={props.link.url} className={classes.learnMore}>
+            {props.link.text}
+          </Link>
+        </Typography>
+      ) : undefined}
     </Container>
   );
 };
 
-export default EventsContent;
+export default CenteredContentWithGrid;

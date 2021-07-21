@@ -10,11 +10,16 @@ import Typography from "@material-ui/core/Typography";
 import Link from "components/link/Link";
 
 const useStyles = makeStyles((theme) => ({
-  card: {},
+  card: { display: "flex" },
   content: {
     textAlign: "center",
+    display: "flex",
+    flexDirection: "column",
+    width: "70%",
   },
-  media: {},
+  media: {
+    width: "30%",
+  },
   title: {
     fontWeight: 600,
     // paddingBottom: 7.5,
@@ -30,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const EventsCard = (props) => {
+const MobileEventsCard = (props) => {
   const classes = useStyles();
 
   return (
@@ -87,7 +92,7 @@ const EventsCard = (props) => {
   );
 };
 
-EventsCard.propTypes = {
+MobileEventsCard.propTypes = {
   description: PropTypes.string.isRequired,
   eventEnd: PropTypes.string,
   eventStart: PropTypes.string,
@@ -97,4 +102,4 @@ EventsCard.propTypes = {
   files: PropTypes.arrayOf(PropTypes.object),
 };
 
-export default EventsCard;
+export default MobileEventsCard;

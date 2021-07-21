@@ -22,13 +22,15 @@ const useStyles = makeStyles((theme) => ({
   },
   location: {
     marginBottom: 10,
-    fontStyle: "italic",
   },
   eventStart: {
     // paddingBottom: 7.5,
   },
   description: {
     paddingBottom: 7.5,
+  },
+  link: {
+    fontSize: 18,
   },
 }));
 
@@ -56,7 +58,7 @@ const ServicesCard = (props) => {
           {props.description}
         </Typography>
         {props.mediaLink ? (
-          <Link to={props.mediaLink}>{"Click Here >"}</Link>
+          <Link to={props.mediaLink}>{"Click Here"}</Link>
         ) : null}
       </CardContent>
     </Card>
