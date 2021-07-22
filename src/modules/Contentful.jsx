@@ -1,4 +1,3 @@
-import date from "date-and-time";
 /**
  * Global Constants
  */
@@ -18,6 +17,7 @@ import {
 } from "constants/contentful";
 
 import { fetchPassage } from "./ESV";
+import { formatTime } from "./Time";
 
 /**
  * Global Contentful Initiation
@@ -131,7 +131,11 @@ export const massageServices = async (data) => {
         let current = iterate.fields;
         for (var service of current.data[SERVICES_KEY]) {
           if (service.type === key) {
-            expected[service.type] = service;
+            expected[service.type] = {
+              ...service,
+              eventEnd: formatTime(service.eventEnd),
+              eventStart: formatTime(service.eventStart),
+            };
           }
         }
       }
@@ -269,11 +273,4 @@ export const massageMemoryVerse = async (data) => {
   }
 
   return currentMemoryVerse;
-};
-
-/**
- * Helpers
- */
-const formatTime = (time) => {
-  return date.format(new Date(time), "h:mmA");
 };
