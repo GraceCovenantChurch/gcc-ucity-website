@@ -7,32 +7,25 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 
-import Link from "components/link/Link";
-
 const useStyles = makeStyles((theme) => ({
-  card: {
-    height: 600,
-  },
+  card: { height: 700 },
   content: {
     textAlign: "center",
   },
   media: {},
   title: {
     fontWeight: 600,
-    // paddingBottom: 7.5,
+    paddingBottom: theme.spacing(2),
   },
   location: {
     marginBottom: 10,
-  },
-  eventStart: {
-    // paddingBottom: 7.5,
   },
   description: {
     paddingBottom: 7.5,
   },
 }));
 
-const EventsCard = (props) => {
+const BeliefsCard = (props) => {
   const classes = useStyles();
 
   return (
@@ -46,20 +39,6 @@ const EventsCard = (props) => {
         <Typography className={classes.title} variant="h5" component="h5">
           {props.title}
         </Typography>
-        <Typography className={classes.eventStart} variant="h6" component="h6">
-          {props.eventStart}
-        </Typography>
-
-        {props.location ? (
-          <Typography
-            className={classes.location}
-            variant="body1"
-            component="h6"
-          >
-            {props.location}
-          </Typography>
-        ) : null}
-
         <Typography
           className={classes.description}
           variant="body1"
@@ -68,35 +47,15 @@ const EventsCard = (props) => {
         >
           {props.description}
         </Typography>
-
-        {props.mediaLink ? (
-          <Link to={props.mediaLink}>{"Click Here"}</Link>
-        ) : null}
-
-        {props.files
-          ? props.files.map((element, index) => {
-              let fields = element.fields;
-
-              return (
-                <Link key={index} to={fields.file.url}>
-                  {"View the file"}
-                </Link>
-              );
-            })
-          : null}
       </CardContent>
     </Card>
   );
 };
 
-EventsCard.propTypes = {
+BeliefsCard.propTypes = {
   description: PropTypes.string.isRequired,
-  eventEnd: PropTypes.string,
-  eventStart: PropTypes.string,
-  location: PropTypes.string.isRequired,
   className: PropTypes.string,
   title: PropTypes.string.isRequired,
-  files: PropTypes.arrayOf(PropTypes.object),
 };
 
-export default EventsCard;
+export default BeliefsCard;

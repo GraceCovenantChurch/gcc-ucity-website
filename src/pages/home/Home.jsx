@@ -44,6 +44,7 @@ const Home = () => {
         link={top.link}
       />
       <CenteredContentWithGrid
+        upperTitle
         isMobile={mobile}
         title={service.title}
         fetchCall={[
@@ -62,6 +63,7 @@ const Home = () => {
         link={familygroup.link}
       />
       <CenteredContentWithGrid
+        upperTitle
         isMobile={mobile}
         title={events.title}
         fetchCall={[getHomeEvents]}

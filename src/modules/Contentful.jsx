@@ -11,6 +11,7 @@ import {
   CROSSROAD_FNL_KEY,
   EVENTS_KEY,
   MEMORY_VERSE_KEY,
+  BELIEFS_KEY,
   TOTAL_SERVICES,
   HOME_PAGE_EVENTS,
   RIGHT_NOW,
@@ -273,4 +274,28 @@ export const massageMemoryVerse = async (data) => {
   }
 
   return currentMemoryVerse;
+};
+
+/**
+ * Content Type: Beliefs
+ */
+
+export const getBeliefs = () => {
+  return client
+    .getEntries({
+      content_type: BELIEFS_KEY,
+      order: "fields.order",
+    })
+    .then((entries) => {
+      return entries.items;
+    });
+};
+
+export const massageBeliefs = (data) => {
+  let results = [];
+  for (var entry of data) {
+    results.push(entry.fields);
+  }
+
+  return results;
 };
