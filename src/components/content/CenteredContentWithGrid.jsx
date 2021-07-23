@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import clsx from "clsx";
 
 import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
@@ -49,8 +50,11 @@ const CenteredContentWithGrid = (props) => {
 
   return (
     <Container className={classes.container} maxWidth="lg">
-      <Typography className={classes.subtitle} variant="h5">
-        {props.title.toUpperCase()}
+      <Typography
+        className={clsx(classes.subtitle, props.titleClass)}
+        variant="h5"
+      >
+        {props.upperTitle ? props.title.toUpperCase() : props.title}
       </Typography>
       {data ? (
         <Container>

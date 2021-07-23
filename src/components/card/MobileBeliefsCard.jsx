@@ -8,44 +8,63 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 
 import Link from "components/link/Link";
+import Center from "components/center/Center";
 
 const useStyles = makeStyles((theme) => ({
-  card: {
-    height: 600,
+  card: { display: "column" },
+  banner: {
+    display: "flex",
+    padding: "1em",
   },
   content: {
-    textAlign: "center",
+    paddingTop: ".5rem",
+    display: "flex",
+    flexDirection: "column",
   },
-  media: {},
+  media: {
+    width: "auto",
+    maxWidth: 75,
+    height: "auto",
+    maxHeight: 75,
+    display: "block",
+  },
   title: {
     fontWeight: 600,
-    // paddingBottom: 7.5,
+    textAlign: "left",
+  },
+  titleContainer: {
+    flexGrow: "1",
+    padding: ".5rem",
   },
   location: {
     marginBottom: 10,
   },
-  eventStart: {
-    // paddingBottom: 7.5,
-  },
+  eventStart: {},
   description: {
     paddingBottom: 7.5,
   },
 }));
 
-const EventsCard = (props) => {
+const MobileEventsCard = (props) => {
   const classes = useStyles();
+
+  //<Divider className={classes.divider} />
 
   return (
     <Card className={classes.card}>
-      <CardMedia
-        className={classes.media}
-        component={"img"}
-        image={props.image.fields.file.url}
-      />
+      <CardContent className={classes.banner}>
+        <CardMedia
+          className={classes.media}
+          component={"img"}
+          image={props.image.fields.file.url}
+        />
+        <Center className={classes.titleContainer}>
+          <Typography className={classes.title} variant="h5" component="h5">
+            {props.title}
+          </Typography>
+        </Center>
+      </CardContent>
       <CardContent className={classes.content}>
-        <Typography className={classes.title} variant="h5" component="h5">
-          {props.title}
-        </Typography>
         <Typography className={classes.eventStart} variant="h6" component="h6">
           {props.eventStart}
         </Typography>
@@ -89,14 +108,10 @@ const EventsCard = (props) => {
   );
 };
 
-EventsCard.propTypes = {
+MobileEventsCard.propTypes = {
   description: PropTypes.string.isRequired,
-  eventEnd: PropTypes.string,
-  eventStart: PropTypes.string,
-  location: PropTypes.string.isRequired,
   className: PropTypes.string,
   title: PropTypes.string.isRequired,
-  files: PropTypes.arrayOf(PropTypes.object),
 };
 
-export default EventsCard;
+export default MobileEventsCard;

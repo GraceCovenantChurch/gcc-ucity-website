@@ -6,6 +6,5 @@ export const formatTime = (time) => {
 };
 
 export const formatTimeOld = (time) => {
-  console.log(date.format(new Date(time), "h:mmA", true));
   return date.format(new Date(time), "h:mmA");
 };
