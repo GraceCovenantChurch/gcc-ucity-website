@@ -11,7 +11,7 @@ import Beliefs from "./beliefs/Beliefs";
 // import AsyncPage from "./asyncPage/AsyncPage";
 // import FamilyGroup from "./familyGroup/FamilyGroup";
 // import Ministries from "./ministries/Ministries";
-// import Staff from "./staff/Staff";
+import Staff from "./staff/Staff";
 
 // import Events from "./events/Events";
 // import Multimedia from "./multimedia/Multimedia";
@@ -24,12 +24,12 @@ const BaseRouter = (props) => (
       <Route exact path="/" component={Home} />
       <Route path="/welcome" component={Welcome} />
       <Route path="/beliefs" component={Beliefs} />
+      <Route path="/staff" component={Staff} />
       {/*
     <Route path="/page" component={Page} />
     <Route path="/asyncPage" component={AsyncPage} />
     <Route path="/familyGroup" component={FamilyGroup} />
     <Route path="/ministries" component={Ministries} />
-    <Route path="/staff" component={Staff} />
     <Route path="/events" component={Events} />
     <Route path="/multimedia" component={Multimedia} />
     <Route path="/giving" component={Giving} />

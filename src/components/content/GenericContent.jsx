@@ -37,7 +37,7 @@ const GenericContent = (props) => {
           </Typography>
         </Center>
       </BackgroundImage>
-      <Container className={classes.container} maxWidth="lg">
+      <Container className={classes.container} maxWidth={false}>
         {props.children}
       </Container>
     </React.Fragment>
