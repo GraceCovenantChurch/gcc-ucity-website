@@ -12,6 +12,10 @@ import {
   EVENTS_KEY,
   MEMORY_VERSE_KEY,
   BELIEFS_KEY,
+  STAFF_KEY,
+  GCC_KEY,
+  UNIVERSITY_CITY_KEY,
+  MAIN_LINE_KEY,
   TOTAL_SERVICES,
   HOME_PAGE_EVENTS,
   RIGHT_NOW,
@@ -292,6 +296,55 @@ export const getBeliefs = () => {
 };
 
 export const massageBeliefs = (data) => {
+  let results = [];
+  for (var entry of data) {
+    results.push(entry.fields);
+  }
+
+  return results;
+};
+
+/**
+ * Content Type: Staff
+ */
+
+export const getGCCStaff = () => {
+  return client
+    .getEntries({
+      content_type: STAFF_KEY,
+      order: "fields.order",
+      "fields.site": GCC_KEY,
+    })
+    .then((entries) => {
+      return entries.items;
+    });
+};
+
+export const getUniversityCityStaff = () => {
+  return client
+    .getEntries({
+      content_type: STAFF_KEY,
+      order: "fields.order",
+      "fields.site": UNIVERSITY_CITY_KEY,
+    })
+    .then((entries) => {
+      return entries.items;
+    });
+};
+
+export const getMainLineStaff = () => {
+  return client
+    .getEntries({
+      content_type: STAFF_KEY,
+      order: "fields.order",
+      "fields.site": MAIN_LINE_KEY,
+    })
+    .then((entries) => {
+      return entries.items;
+    });
+};
+
+export const massageStaff = (data) => {
   let results = [];
   for (var entry of data) {
     results.push(entry.fields);
