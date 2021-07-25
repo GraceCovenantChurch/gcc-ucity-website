@@ -1,68 +1,137 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Build Status][build-shield]][build-url]
+[![Issues][issues-shield]][issues-url]
+[![Pull Requests][pull-request-shield]][pull-request-url]
+[![Apache-2.0 License][license-shield]][license-url]
 
-## Available Scripts
+<br />
+<p align="center">
+  <a href="https://github.com/GraceCovenantChurch/gcc-ucity-website">
+    <img src="/src/static/gcclogo-black.png" alt="Logo">
+  </a>
 
-In the project directory, you can run:
+  <h3 align="center">Grace Covenant Church - University City Website</h3>
 
-### `npm start`
+  <p align="center">
+    Grace Covenant Church - University Website to serve information to the web, detailing the daily, weekly, and monthly events that are hosted at Grace Covenant Church.
+    <br />
+    <a href="https://github.com/GraceCovenantChurch/gcc-ucity-website"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://ucity.gracecovenant.net">View Live</a>
+    ·
+    <a href="https://develop.gracecovenant.net">View Demo</a>
+    ·
+    <a href="https://github.com/GraceCovenantChurch/gcc-ucity-website/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/GraceCovenantChurch/gcc-ucity-website/issues">Request Feature</a>
+  </p>
+</p>
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## About the Project
 
-### `npm test`
+This is the Grace Covenant Church University Website code base.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Built With
 
-### `npm run build`
+- [Create React App](https://reactjs.org/docs/create-a-new-react-app.html)
+- [Contentful](https://www.contentful.com/)
+- [Material-UI](https://material-ui.com/)
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- GETTING STARTED -->
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To get a local copy up and running follow these simple steps.
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+This is an example of how to list things you need to use the software and how to install them.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- You will need a dotenv file of the specific environment variables
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  ```sh
+  REACT_APP_WEBSITE_NAME="Grace Covenant Church - University City"
+  REACT_APP_CONTENTFUL_ACCESS_TOKEN="abcdef"
+  REACT_APP_CONTENTFUL_SPACE="abcdef"
+  REACT_APP_ESV_AUTH_TOKEN="1234abcdef"
+  REACT_APP_GOOGLE_MAPS_KEY="abcdef"
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  ```
 
-## Learn More
+### Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the repo
+   ```sh
+   git clone https://github.com/GraceCovenantChurch/gcc-ucity-website.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- ROADMAP -->
 
-### Code Splitting
+## Roadmap
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+See the [open issues](https://github.com/GraceCovenantChurch/gcc-ucity-website/issues) for a list of proposed features (and known issues).
 
-### Analyzing the Bundle Size
+<!-- CONTRIBUTING -->
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Contributing
 
-### Making a Progressive Web App
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### Advanced Configuration
+<!-- LICENSE -->
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## License
 
-### Deployment
+Distributed under the MIT License. See `LICENSE` for more information.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+<!-- CONTACT -->
 
-### `npm run build` fails to minify
+## Contact
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Joey Zia - [joeyzia@gracecovenant.net](mailto:joeyzia@gracecovenant.net)
+
+Project Link: [https://github.com/GraceCovenantChurch/gcc-ucity-website](https://github.com/GraceCovenantChurch/gcc-ucity-website)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[build-shield]: https://img.shields.io/travis/com/GraceCovenantChurch/gcc-ucity-website
+[build-url]: https://github.com/GraceCovenantChurch/gcc-ucity-website
+[issues-shield]: https://img.shields.io/github/issues/GraceCovenantChurch/gcc-ucity-website
+[issues-url]: https://github.com/GraceCovenantChurch/repo/issues
+[pull-request-shield]: https://img.shields.io/github/issues-pr/GraceCovenantChurch/gcc-ucity-website
+[pull-request-url]: https://github.com/GraceCovenantChurch/gcc-ucity-website/pulls
+[license-shield]: https://img.shields.io/github/license/GraceCovenantChurch/gcc-ucity-website
+[license-url]: https://github.com/GraceCovenantChurch/gcc-ucity-website/blob/master/LICENSE

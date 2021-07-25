@@ -10,6 +10,7 @@ import ShopIcon from "@material-ui/icons/Shop";
 import { makeStyles } from "@material-ui/core/styles";
 import Link from "@material-ui/core/Link";
 import Typography from "@material-ui/core/Typography";
+import Container from "@material-ui/core/Container";
 
 import Center from "components/center/Center";
 import Card from "@material-ui/core/Card";
@@ -29,7 +30,12 @@ const useStyles = makeStyles((theme) => ({
     border: "none",
     boxShadow: "none",
   },
-  mobileGrid: { marginTop: theme.spacing(1) },
+  container: {
+    // padding: "4rem 2vw",
+  },
+  mobileGrid: {
+    marginTop: theme.spacing(1),
+  },
   grid: {
     margin: theme.spacing(2),
   },
@@ -68,77 +74,83 @@ const Footer = () => {
 
   return (
     <footer className={styles.footer}>
-      <Grid className={mobile ? classes.mobileGrid : classes.grid}>
-        <GridItem>
-          <Card className={classes.card}>
-            <Typography className={classes.title} variant="h5" component="h5">
-              Service Times
-            </Typography>
-            {currentSundayService ? (
-              <React.Fragment>
-                <Typography
-                  className={classes.description}
-                  variant="h6"
-                  component="h6"
+      <Container
+        className={classes.container}
+        disableGutters={true}
+        maxWidth="lg"
+      >
+        <Grid className={mobile ? classes.mobileGrid : classes.grid}>
+          <GridItem>
+            <Card className={classes.card}>
+              <Typography className={classes.title} variant="h5" component="h5">
+                Service Times
+              </Typography>
+              {currentSundayService ? (
+                <React.Fragment>
+                  <Typography
+                    className={classes.description}
+                    variant="h6"
+                    component="h6"
+                  >
+                    {currentSundayService.title +
+                      " at " +
+                      formatTime(currentSundayService.eventStart)}
+                  </Typography>
+                  <Typography
+                    className={classes.location}
+                    variant="body1"
+                    component="h6"
+                  >
+                    {currentSundayService.location}
+                  </Typography>
+                </React.Fragment>
+              ) : undefined}
+            </Card>
+          </GridItem>
+          <GridItem>
+            <Card className={classes.card}>
+              <Typography className={classes.title} variant="h5" component="h5">
+                Social
+              </Typography>
+              <Center>
+                <Link
+                  className={styles.socialLinks}
+                  href="https://www.instagram.com/gccphiladelphia/"
                 >
-                  {currentSundayService.title +
-                    " at " +
-                    formatTime(currentSundayService.eventStart)}
-                </Typography>
-                <Typography
-                  className={classes.location}
-                  variant="body1"
-                  component="h6"
+                  <InstagramIcon />
+                </Link>
+                <Link
+                  className={styles.socialLinks}
+                  href="https://www.facebook.com/gccphiladelphia/"
                 >
-                  {currentSundayService.location}
-                </Typography>
-              </React.Fragment>
-            ) : undefined}
-          </Card>
-        </GridItem>
-        <GridItem>
-          <Card className={classes.card}>
-            <Typography className={classes.title} variant="h5" component="h5">
-              Social
-            </Typography>
-            <Center>
-              <Link
-                className={styles.socialLinks}
-                href="https://www.instagram.com/gccphiladelphia/"
-              >
-                <InstagramIcon />
-              </Link>
-              <Link
-                className={styles.socialLinks}
-                href="https://www.facebook.com/gccphiladelphia/"
-              >
-                <FacebookIcon />
-              </Link>
-              <Link
-                className={styles.socialLinks}
-                href="https://www.youtube.com/user/GraceCovenantChurch"
-              >
-                <YouTubeIcon />
-              </Link>
-            </Center>
-          </Card>
-        </GridItem>
-        <GridItem>
-          <Card className={classes.card}>
-            <Typography className={classes.title} variant="h5" component="h5">
-              Mobile App
-            </Typography>
-            <Center>
-              <Link className={styles.socialLinks} href={APPLE}>
-                <AppleIcon />
-              </Link>
-              <Link className={styles.socialLinks} href={ANDROID}>
-                <ShopIcon />
-              </Link>
-            </Center>
-          </Card>
-        </GridItem>
-      </Grid>
+                  <FacebookIcon />
+                </Link>
+                <Link
+                  className={styles.socialLinks}
+                  href="https://www.youtube.com/user/GraceCovenantChurch"
+                >
+                  <YouTubeIcon />
+                </Link>
+              </Center>
+            </Card>
+          </GridItem>
+          <GridItem>
+            <Card className={classes.card}>
+              <Typography className={classes.title} variant="h5" component="h5">
+                Mobile App
+              </Typography>
+              <Center>
+                <Link className={styles.socialLinks} href={APPLE}>
+                  <AppleIcon />
+                </Link>
+                <Link className={styles.socialLinks} href={ANDROID}>
+                  <ShopIcon />
+                </Link>
+              </Center>
+            </Card>
+          </GridItem>
+        </Grid>
+      </Container>
       <div className={styles.content}>
         <p className={styles.copyright}>
           Copyright &copy; 1996-{currentYear}. Official website of{" "}
