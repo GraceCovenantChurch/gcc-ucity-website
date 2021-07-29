@@ -4,7 +4,7 @@ import { useMediaQuery } from "react-responsive";
 import GenericContent from "components/content/GenericContent";
 import CenteredContentWithGrid from "components/content/CenteredContentWithGrid";
 import StaffCard from "components/card/StaffCard";
-import MobileBeliefsCard from "components/card/MobileBeliefsCard";
+import MobileStaffCard from "components/card/MobileStaffCard";
 
 import {
   getGCCStaff,
@@ -29,7 +29,7 @@ const Staff = () => {
           title={"Grace Covenant Church"}
           fetchCall={[getGCCStaff]}
           massage={massageStaff}
-          component={mobile ? MobileBeliefsCard : StaffCard}
+          component={mobile ? MobileStaffCard : StaffCard}
         ></CenteredContentWithGrid>
         <CenteredContentWithGrid
           upperTitle
@@ -37,7 +37,7 @@ const Staff = () => {
           title={"University City"}
           fetchCall={[getUniversityCityStaff]}
           massage={massageStaff}
-          component={mobile ? MobileBeliefsCard : StaffCard}
+          component={mobile ? MobileStaffCard : StaffCard}
         ></CenteredContentWithGrid>
         <CenteredContentWithGrid
           upperTitle
@@ -45,7 +45,7 @@ const Staff = () => {
           title={"Main Line"}
           fetchCall={[getMainLineStaff]}
           massage={massageStaff}
-          component={mobile ? MobileBeliefsCard : StaffCard}
+          component={mobile ? MobileStaffCard : StaffCard}
         ></CenteredContentWithGrid>
       </GenericContent>
     </React.Fragment>
