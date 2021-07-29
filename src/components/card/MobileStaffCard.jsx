@@ -6,38 +6,52 @@ import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
+import Box from "@material-ui/core/Box";
 import Typography from "@material-ui/core/Typography";
-import CardActions from "@material-ui/core/CardActions";
 import Collapse from "@material-ui/core/Collapse";
+import CardActions from "@material-ui/core/CardActions";
 import IconButton from "@material-ui/core/IconButton";
 
 import ExpandMore from "@material-ui/icons/ExpandMore";
 import ExpandLess from "@material-ui/icons/ExpandLess";
 
+import Link from "components/link/Link";
 import Center from "components/center/Center";
 
 const useStyles = makeStyles((theme) => ({
-  card: {},
-  content: {
-    textAlign: "left",
+  card: { display: "column" },
+  banner: {
+    display: "flex",
   },
-  media: {},
+  content: {
+    paddingTop: ".5rem",
+    display: "flex",
+    flexDirection: "column",
+  },
+  media: {
+    width: "auto",
+    maxWidth: 75,
+    height: "auto",
+    maxHeight: 75,
+    display: "block",
+  },
   title: {
     fontWeight: 600,
-  },
-  expand: {
-    marginLeft: "auto",
-    transition: theme.transitions.create("transform", {
-      duration: theme.transitions.duration.shortest,
-    }),
-  },
-  description: {
     textAlign: "left",
-    paddingBottom: theme.spacing(1),
+  },
+  titleContainer: {
+    paddingLeft: ".5em",
+  },
+  location: {
+    marginBottom: 10,
+  },
+  eventStart: {},
+  description: {
+    paddingBottom: 7.5,
   },
 }));
 
-const StaffCard = (props) => {
+const MobileStaffCard = (props) => {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -47,42 +61,40 @@ const StaffCard = (props) => {
 
   return (
     <Card className={classes.card}>
-      <CardMedia
-        className={classes.media}
-        component={"img"}
-        image={props.image.fields.file.url}
-      />
-      <CardContent className={classes.content}>
-        <Typography className={classes.title} variant="h4" component="h4">
-          {props.name}
-        </Typography>
-        <Typography className={classes.title} variant="h6" component="h6">
-          {props.jobTitle}
-        </Typography>
-        <Typography
-          className={classes.title}
-          color="textSecondary"
-          variant="subtitle1"
-          component="p"
-        >
-          {props.email}
-        </Typography>
+      <CardContent className={classes.banner}>
+        <CardMedia
+          className={classes.media}
+          component={"img"}
+          image={props.image.fields.file.url}
+        />
+        <Center>
+          <div className={classes.titleContainer}>
+            <Typography className={classes.title} variant="h6" component="h6">
+              {props.name}
+            </Typography>
+          </div>
+        </Center>
       </CardContent>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <CardContent>
+        <CardContent className={classes.content}>
           <Typography
-            className={classes.title}
-            color="textSecondary"
-            variant="subtitle1"
-            component="p"
+            className={classes.eventStart}
+            variant="body1"
+            component="h6"
           >
-            Biography
+            {props.jobTitle}
           </Typography>
           <Typography
-            className={classes.description}
-            variant="body1"
-            color="textSecondary"
-            component="p"
+            className={classes.location}
+            variant="caption"
+            component="h6"
+          >
+            {props.email}
+          </Typography>
+          <Typography
+            className={classes.eventStart}
+            variant="caption"
+            component="h6"
           >
             {props.biography}
           </Typography>
@@ -106,9 +118,10 @@ const StaffCard = (props) => {
   );
 };
 
-StaffCard.propTypes = {
-  biography: PropTypes.string.isRequired,
+MobileStaffCard.propTypes = {
+  description: PropTypes.string.isRequired,
   className: PropTypes.string,
+  title: PropTypes.string.isRequired,
 };
 
-export default StaffCard;
+export default MobileStaffCard;
