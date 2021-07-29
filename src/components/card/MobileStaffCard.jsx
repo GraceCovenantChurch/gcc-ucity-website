@@ -6,7 +6,6 @@ import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
-import Box from "@material-ui/core/Box";
 import Typography from "@material-ui/core/Typography";
 import Collapse from "@material-ui/core/Collapse";
 import CardActions from "@material-ui/core/CardActions";
@@ -15,7 +14,6 @@ import IconButton from "@material-ui/core/IconButton";
 import ExpandMore from "@material-ui/icons/ExpandMore";
 import ExpandLess from "@material-ui/icons/ExpandLess";
 
-import Link from "components/link/Link";
 import Center from "components/center/Center";
 
 const useStyles = makeStyles((theme) => ({
