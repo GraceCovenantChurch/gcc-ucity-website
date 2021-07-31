@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Navigation from "components/navigation/Navigation";
 import Footer from "components/footer/Footer";
@@ -24,16 +24,18 @@ const BaseRouter = (props) => (
   <Router>
     <ScrollToTop />
     <Navigation>
-      <Route exact path="/" component={Home} />
-      <Route path="/welcome" component={Welcome} />
-      <Route path="/beliefs" component={Beliefs} />
-      <Route path="/staff" component={Staff} />
-      <Route path="/familygroup" component={FamilyGroup} />
-      <Route path="/ministries" component={Ministries} />
-      <Route path="/giving" component={Giving} />
-      <Route path="/multimedia" component={Multimedia} />
-      <Route path="/events" component={Events} />
-      <Route component={NotFound} />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/welcome" component={Welcome} />
+        <Route path="/beliefs" component={Beliefs} />
+        <Route path="/staff" component={Staff} />
+        <Route path="/familygroup" component={FamilyGroup} />
+        <Route path="/ministries" component={Ministries} />
+        <Route path="/giving" component={Giving} />
+        <Route path="/multimedia" component={Multimedia} />
+        <Route path="/events" component={Events} />
+        <Route component={NotFound} />
+      </Switch>
       {/*
     <Route path="/page" component={Page} />
     <Route path="/asyncPage" component={AsyncPage} />
