@@ -6,6 +6,7 @@ import IconButton from "@material-ui/core/IconButton";
 import Drawer from "@material-ui/core/Drawer";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
+import ListItemText from "@material-ui/core/ListItemText";
 
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
@@ -13,6 +14,7 @@ import CloseIcon from "@material-ui/icons/Close";
 import grey from "@material-ui/core/colors/grey";
 
 import DrawerLinks from "./drawer/DrawerLinks";
+import Link from "components/link/Link";
 
 import imageURLMobile from "static/gcclogo-black.png";
 
@@ -27,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
     color: grey[900],
   },
   menuText: {
-    textAlign: "center",
+    textAlign: "left",
   },
   title: {
     flexGrow: 1,
@@ -101,6 +103,15 @@ const HamburgerMenu = (props) => {
               <CloseIcon />
             </IconButton>
           </List>
+          <ListItem
+            button
+            component={Link}
+            to={"/"}
+            onClick={toggleDrawer(false)}
+            onKeyDown={toggleDrawer(false)}
+          >
+            <ListItemText className={classes.menuText} primary={"Home"} />
+          </ListItem>
           <DrawerLinks
             toggleDrawer={(flag) => toggleDrawer(flag)}
             data={menuData}

@@ -37,7 +37,7 @@ const DrawerLinks = (props) => {
       {props.data.map((element, index) => {
         if (typeof element.children === "object") {
           return (
-            <div className={""} key={index}>
+            <React.Fragment key={index}>
               <ListItem
                 button
                 onClick={handleClick}
@@ -57,12 +57,11 @@ const DrawerLinks = (props) => {
                   toggleDrawer={(flags) => props.toggleDrawer(false)}
                 />
               </Collapse>
-            </div>
+            </React.Fragment>
           );
         } else {
           return (
             <div
-              className={clsx(classes.list, [classes.fullList])}
               role="presentation"
               onClick={props.toggleDrawer(false)}
               onKeyDown={props.toggleDrawer(false)}
