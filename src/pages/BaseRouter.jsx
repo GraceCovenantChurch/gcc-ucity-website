@@ -6,6 +6,7 @@ import Footer from "components/footer/Footer";
 import ScrollToTop from "components/scroll/ScrollToTop";
 
 import Home from "./home/Home";
+import NotFound from "./notfound/NotFound";
 import Welcome from "./welcome/Welcome";
 import Beliefs from "./beliefs/Beliefs";
 // import Page from "./page/Page";
@@ -32,6 +33,7 @@ const BaseRouter = (props) => (
       <Route path="/giving" component={Giving} />
       <Route path="/multimedia" component={Multimedia} />
       <Route path="/events" component={Events} />
+      <Route component={NotFound} />
       {/*
     <Route path="/page" component={Page} />
     <Route path="/asyncPage" component={AsyncPage} />

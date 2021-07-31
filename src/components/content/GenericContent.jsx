@@ -50,16 +50,18 @@ const GenericContent = (props) => {
           </Typography>
         </Center>
       </BackgroundImage>
-      <Container
-        className={clsx({
-          [classes.container]: true,
-          [classes.paddingMobile]: mobile,
-          [classes.paddingDesktop]: !mobile,
-        })}
-        maxWidth={false}
-      >
-        {props.children}
-      </Container>
+      {props.children ? (
+        <Container
+          className={clsx({
+            [classes.container]: true,
+            [classes.paddingMobile]: mobile,
+            [classes.paddingDesktop]: !mobile,
+          })}
+          maxWidth={false}
+        >
+          {props.children}
+        </Container>
+      ) : undefined}
     </React.Fragment>
   );
 };

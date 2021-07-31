@@ -180,26 +180,44 @@ exports[`App matches the snapshot 1`] = `
         Monthly Memory Verse
       </h5>
     </div>
+    <div
+      class="background"
+      style="background-image: url(test-file-stub);"
+    >
+      <div
+        class="contentMobile"
+      >
+        <div
+          class="center makeStyles-titleContainer-46"
+        >
+          <h2
+            class="MuiTypography-root makeStyles-title-47 MuiTypography-h2"
+          >
+            Woops! This URL doesn't exist!
+          </h2>
+        </div>
+      </div>
+    </div>
     <footer
       class="footer"
     >
       <div
-        class="MuiContainer-root makeStyles-container-47 MuiContainer-disableGutters MuiContainer-maxWidthLg"
+        class="MuiContainer-root makeStyles-container-53 MuiContainer-disableGutters MuiContainer-maxWidthLg"
       >
         <div
           class="center"
         >
           <div
-            class="MuiGrid-root makeStyles-mobileGrid-48 MuiGrid-container MuiGrid-spacing-xs-5 MuiGrid-justify-content-xs-center"
+            class="MuiGrid-root makeStyles-mobileGrid-54 MuiGrid-container MuiGrid-spacing-xs-5 MuiGrid-justify-content-xs-center"
           >
             <div
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10"
             >
               <div
-                class="MuiPaper-root MuiCard-root makeStyles-card-46 MuiPaper-elevation1 MuiPaper-rounded"
+                class="MuiPaper-root MuiCard-root makeStyles-card-52 MuiPaper-elevation1 MuiPaper-rounded"
               >
                 <h5
-                  class="MuiTypography-root makeStyles-title-50 MuiTypography-h5"
+                  class="MuiTypography-root makeStyles-title-56 MuiTypography-h5"
                 >
                   Service Times
                 </h5>
@@ -209,10 +227,10 @@ exports[`App matches the snapshot 1`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10"
             >
               <div
-                class="MuiPaper-root MuiCard-root makeStyles-card-46 MuiPaper-elevation1 MuiPaper-rounded"
+                class="MuiPaper-root MuiCard-root makeStyles-card-52 MuiPaper-elevation1 MuiPaper-rounded"
               >
                 <h5
-                  class="MuiTypography-root makeStyles-title-50 MuiTypography-h5"
+                  class="MuiTypography-root makeStyles-title-56 MuiTypography-h5"
                 >
                   Social
                 </h5>
@@ -271,10 +289,10 @@ exports[`App matches the snapshot 1`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10"
             >
               <div
-                class="MuiPaper-root MuiCard-root makeStyles-card-46 MuiPaper-elevation1 MuiPaper-rounded"
+                class="MuiPaper-root MuiCard-root makeStyles-card-52 MuiPaper-elevation1 MuiPaper-rounded"
               >
                 <h5
-                  class="MuiTypography-root makeStyles-title-50 MuiTypography-h5"
+                  class="MuiTypography-root makeStyles-title-56 MuiTypography-h5"
                 >
                   Mobile App
                 </h5>
@@ -522,26 +540,44 @@ exports[`App matches the snapshot 2`] = `
         Monthly Memory Verse
       </h5>
     </div>
+    <div
+      class="background"
+      style="background-image: url(test-file-stub);"
+    >
+      <div
+        class="contentMobile"
+      >
+        <div
+          class="center makeStyles-titleContainer-46"
+        >
+          <h2
+            class="MuiTypography-root makeStyles-title-47 MuiTypography-h2"
+          >
+            Woops! This URL doesn't exist!
+          </h2>
+        </div>
+      </div>
+    </div>
     <footer
       class="footer"
     >
       <div
-        class="MuiContainer-root makeStyles-container-47 MuiContainer-disableGutters MuiContainer-maxWidthLg"
+        class="MuiContainer-root makeStyles-container-53 MuiContainer-disableGutters MuiContainer-maxWidthLg"
       >
         <div
           class="center"
         >
           <div
-            class="MuiGrid-root makeStyles-mobileGrid-48 MuiGrid-container MuiGrid-spacing-xs-5 MuiGrid-justify-content-xs-center"
+            class="MuiGrid-root makeStyles-mobileGrid-54 MuiGrid-container MuiGrid-spacing-xs-5 MuiGrid-justify-content-xs-center"
           >
             <div
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10"
             >
               <div
-                class="MuiPaper-root MuiCard-root makeStyles-card-46 MuiPaper-elevation1 MuiPaper-rounded"
+                class="MuiPaper-root MuiCard-root makeStyles-card-52 MuiPaper-elevation1 MuiPaper-rounded"
               >
                 <h5
-                  class="MuiTypography-root makeStyles-title-50 MuiTypography-h5"
+                  class="MuiTypography-root makeStyles-title-56 MuiTypography-h5"
                 >
                   Service Times
                 </h5>
@@ -551,10 +587,10 @@ exports[`App matches the snapshot 2`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10"
             >
               <div
-                class="MuiPaper-root MuiCard-root makeStyles-card-46 MuiPaper-elevation1 MuiPaper-rounded"
+                class="MuiPaper-root MuiCard-root makeStyles-card-52 MuiPaper-elevation1 MuiPaper-rounded"
               >
                 <h5
-                  class="MuiTypography-root makeStyles-title-50 MuiTypography-h5"
+                  class="MuiTypography-root makeStyles-title-56 MuiTypography-h5"
                 >
                   Social
                 </h5>
@@ -613,10 +649,10 @@ exports[`App matches the snapshot 2`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10"
             >
               <div
-                class="MuiPaper-root MuiCard-root makeStyles-card-46 MuiPaper-elevation1 MuiPaper-rounded"
+                class="MuiPaper-root MuiCard-root makeStyles-card-52 MuiPaper-elevation1 MuiPaper-rounded"
               >
                 <h5
-                  class="MuiTypography-root makeStyles-title-50 MuiTypography-h5"
+                  class="MuiTypography-root makeStyles-title-56 MuiTypography-h5"
                 >
                   Mobile App
                 </h5>
