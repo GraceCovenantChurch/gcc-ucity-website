@@ -9,6 +9,7 @@ export const BELIEFS_KEY = "beliefs";
 export const EVENTS_KEY = "events";
 export const STAFF_KEY = "staff";
 export const MINISTRIES_KEY = "ministries";
+export const MULTIMEDIA_PAGE_KEY = "multimediaPage";
 export const GCC_KEY = "Grace Covenant Church";
 export const FAMILY_GROUP_PAGE_KEY = "familyGroupPage";
 export const UNIVERSITY_CITY_KEY = "University City";

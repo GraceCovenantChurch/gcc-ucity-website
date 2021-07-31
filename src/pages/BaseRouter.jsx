@@ -14,8 +14,8 @@ import Ministries from "./ministries/Ministries";
 import Staff from "./staff/Staff";
 import Giving from "./giving/Giving";
 
-// import Events from "./events/Events";
-// import Multimedia from "./multimedia/Multimedia";
+import Events from "./events/Events";
+import Multimedia from "./multimedia/Multimedia";
 // import Sermons from "./sermons/Sermons";
 
 const BaseRouter = (props) => (
@@ -28,11 +28,11 @@ const BaseRouter = (props) => (
       <Route path="/familygroup" component={FamilyGroup} />
       <Route path="/ministries" component={Ministries} />
       <Route path="/giving" component={Giving} />
+      <Route path="/multimedia" component={Multimedia} />
+      <Route path="/events" component={Events} />
       {/*
     <Route path="/page" component={Page} />
     <Route path="/asyncPage" component={AsyncPage} />
-    <Route path="/events" component={Events} />
-    <Route path="/multimedia" component={Multimedia} />
     <Route path="/sermons" component={Sermons} /> */}
       <Footer />
     </Navigation>

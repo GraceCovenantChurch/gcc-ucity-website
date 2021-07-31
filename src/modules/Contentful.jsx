@@ -14,6 +14,7 @@ import {
   BELIEFS_KEY,
   STAFF_KEY,
   FAMILY_GROUP_PAGE_KEY,
+  MULTIMEDIA_PAGE_KEY,
   MINISTRIES_KEY,
   GCC_KEY,
   UNIVERSITY_CITY_KEY,
@@ -393,6 +394,29 @@ export const getMinistries = () => {
 };
 
 export const massageMinistries = (data) => {
+  let results = [];
+  for (var entry of data) {
+    results.push(entry.fields);
+  }
+
+  return results;
+};
+
+/**
+ * Content Type: Multimedia
+ */
+
+export const getMultimediaPage = () => {
+  return client
+    .getEntries({
+      content_type: MULTIMEDIA_PAGE_KEY,
+    })
+    .then((entries) => {
+      return entries.items;
+    });
+};
+
+export const massageMultimediaPage = (data) => {
   let results = [];
   for (var entry of data) {
     results.push(entry.fields);
