@@ -9,8 +9,8 @@ import Welcome from "./welcome/Welcome";
 import Beliefs from "./beliefs/Beliefs";
 // import Page from "./page/Page";
 // import AsyncPage from "./asyncPage/AsyncPage";
-// import FamilyGroup from "./familyGroup/FamilyGroup";
-// import Ministries from "./ministries/Ministries";
+import FamilyGroup from "./familygroup/FamilyGroup";
+import Ministries from "./ministries/Ministries";
 import Staff from "./staff/Staff";
 
 // import Events from "./events/Events";
@@ -25,11 +25,11 @@ const BaseRouter = (props) => (
       <Route path="/welcome" component={Welcome} />
       <Route path="/beliefs" component={Beliefs} />
       <Route path="/staff" component={Staff} />
+      <Route path="/familygroup" component={FamilyGroup} />
+      <Route path="/ministries" component={Ministries} />
       {/*
     <Route path="/page" component={Page} />
     <Route path="/asyncPage" component={AsyncPage} />
-    <Route path="/familyGroup" component={FamilyGroup} />
-    <Route path="/ministries" component={Ministries} />
     <Route path="/events" component={Events} />
     <Route path="/multimedia" component={Multimedia} />
     <Route path="/giving" component={Giving} />
