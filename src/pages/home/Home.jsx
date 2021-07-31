@@ -1,6 +1,9 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
 
+import { makeStyles } from "@material-ui/core/styles";
+import Container from "@material-ui/core/Container";
+
 import ContentWithImage from "components/content/ContentWithImage";
 import ContentWithImageAPI from "components/content/ContentWithImageAPI";
 import CenteredContentWithGrid from "components/content/CenteredContentWithGrid";
@@ -27,8 +30,15 @@ import amiQTUrl from "static/images/home/amiqt.jpg";
 import { MOBILE_QUERY } from "constants/mobile";
 import { HOME_DEFAULT } from "constants/home";
 
+const useStyles = makeStyles((theme) => ({
+  eventsPadding: {
+    padding: theme.spacing(2),
+  },
+}));
+
 const Home = () => {
   const mobile = useMediaQuery({ query: MOBILE_QUERY });
+  const classes = useStyles();
   const top = HOME_DEFAULT.top;
   const service = HOME_DEFAULT.service;
   const familygroup = HOME_DEFAULT.familygroup;
@@ -62,15 +72,17 @@ const Home = () => {
         description={familygroup.description}
         link={familygroup.link}
       />
-      <CenteredContentWithGrid
-        upperTitle
-        isMobile={mobile}
-        title={events.title}
-        fetchCall={[getHomeEvents]}
-        massage={massageEvents}
-        component={mobile ? MobileEventsCard : EventsCard}
-        link={events.link}
-      />
+      <Container className={mobile ? classes.eventsMobilePadding : undefined}>
+        <CenteredContentWithGrid
+          upperTitle
+          isMobile={mobile}
+          title={events.title}
+          fetchCall={[getHomeEvents]}
+          massage={massageEvents}
+          component={mobile ? MobileEventsCard : EventsCard}
+          link={events.link}
+        />
+      </Container>
       <ContentWithImageAPI
         isMobile={mobile}
         title={reading.title}

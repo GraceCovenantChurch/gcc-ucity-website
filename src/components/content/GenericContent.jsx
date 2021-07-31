@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
     paddingBottom: theme.spacing(5),
   },
   paddingMobile: {
-    padding: theme.spacing(5),
+    padding: theme.spacing(2),
   },
   container: {
     textAlign: "left",

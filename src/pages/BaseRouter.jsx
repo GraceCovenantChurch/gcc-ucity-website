@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Navigation from "components/navigation/Navigation";
 import Footer from "components/footer/Footer";
+import ScrollToTop from "components/scroll/ScrollToTop";
 
 import Home from "./home/Home";
 import Welcome from "./welcome/Welcome";
@@ -20,6 +21,7 @@ import Multimedia from "./multimedia/Multimedia";
 
 const BaseRouter = (props) => (
   <Router>
+    <ScrollToTop />
     <Navigation>
       <Route exact path="/" component={Home} />
       <Route path="/welcome" component={Welcome} />

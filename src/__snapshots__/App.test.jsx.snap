@@ -58,10 +58,10 @@ exports[`App matches the snapshot 1`] = `
         class="contentMobile"
       >
         <div
-          class="MuiContainer-root makeStyles-mobileContentContainer-17 MuiContainer-maxWidthLg"
+          class="MuiContainer-root makeStyles-mobileContentContainer-18 MuiContainer-maxWidthLg"
         >
           <p
-            class="MuiTypography-root makeStyles-title-21 makeStyles-mobileTitle-22 MuiTypography-body1"
+            class="MuiTypography-root makeStyles-title-22 makeStyles-mobileTitle-23 MuiTypography-body1"
           >
             Raising up kingdom workers
             <br />
@@ -71,10 +71,10 @@ exports[`App matches the snapshot 1`] = `
             <br />
           </p>
           <div
-            class="makeStyles-linkContainer-18"
+            class="makeStyles-linkContainer-19"
           >
             <a
-              class="makeStyles-link-19 undefined"
+              class="makeStyles-link-20 undefined"
               href="/beliefs"
             >
               Our beliefs &gt;
@@ -84,10 +84,10 @@ exports[`App matches the snapshot 1`] = `
       </div>
     </div>
     <div
-      class="MuiContainer-root makeStyles-container-26 MuiContainer-maxWidthLg"
+      class="MuiContainer-root makeStyles-container-27 MuiContainer-maxWidthLg"
     >
       <h5
-        class="MuiTypography-root makeStyles-subtitle-27 MuiTypography-h5"
+        class="MuiTypography-root makeStyles-subtitle-28 MuiTypography-h5"
       >
         SERVICE LOCATION AND TIMES
       </h5>
@@ -100,16 +100,16 @@ exports[`App matches the snapshot 1`] = `
         class="contentMobile"
       >
         <div
-          class="MuiContainer-root makeStyles-mobileContentContainer-17 MuiContainer-maxWidthLg"
+          class="MuiContainer-root makeStyles-mobileContentContainer-18 MuiContainer-maxWidthLg"
         >
           <p
-            class="MuiTypography-root makeStyles-title-21 makeStyles-mobileTitle-22 MuiTypography-body1"
+            class="MuiTypography-root makeStyles-title-22 makeStyles-mobileTitle-23 MuiTypography-body1"
           >
             Family Group
             <br />
           </p>
           <p
-            class="MuiTypography-root makeStyles-description-23 makeStyles-mobileDescription-24 MuiTypography-body1"
+            class="MuiTypography-root makeStyles-description-24 makeStyles-mobileDescription-25 MuiTypography-body1"
           >
             You haven't checked out GCC unless
             <br />
@@ -117,10 +117,10 @@ exports[`App matches the snapshot 1`] = `
             <br />
           </p>
           <div
-            class="makeStyles-linkContainer-18"
+            class="makeStyles-linkContainer-19"
           >
             <a
-              class="makeStyles-link-19 undefined"
+              class="makeStyles-link-20 undefined"
               href="/familygroup"
             >
               Sign up here &gt;
@@ -130,23 +130,27 @@ exports[`App matches the snapshot 1`] = `
       </div>
     </div>
     <div
-      class="MuiContainer-root makeStyles-container-26 MuiContainer-maxWidthLg"
+      class="MuiContainer-root MuiContainer-maxWidthLg"
     >
-      <h5
-        class="MuiTypography-root makeStyles-subtitle-27 MuiTypography-h5"
+      <div
+        class="MuiContainer-root makeStyles-container-27 MuiContainer-maxWidthLg"
       >
-        UPCOMING EVENTS
-      </h5>
-      <h5
-        class="MuiTypography-root makeStyles-linkContainer-28 MuiTypography-h5"
-      >
-        <a
-          class="makeStyles-learnMore-29"
-          href="/events"
+        <h5
+          class="MuiTypography-root makeStyles-subtitle-28 MuiTypography-h5"
         >
-          See all events &gt;
-        </a>
-      </h5>
+          UPCOMING EVENTS
+        </h5>
+        <h5
+          class="MuiTypography-root makeStyles-linkContainer-29 MuiTypography-h5"
+        >
+          <a
+            class="makeStyles-learnMore-30"
+            href="/events"
+          >
+            See all events &gt;
+          </a>
+        </h5>
+      </div>
     </div>
     <div
       class="background"
@@ -156,10 +160,10 @@ exports[`App matches the snapshot 1`] = `
         class="contentMobile"
       >
         <div
-          class="MuiContainer-root makeStyles-mobileContentContainer-31 MuiContainer-maxWidthLg"
+          class="MuiContainer-root makeStyles-mobileContentContainer-32 MuiContainer-maxWidthLg"
         >
           <p
-            class="MuiTypography-root makeStyles-title-36 makeStyles-mobileTitle-37 MuiTypography-body1"
+            class="MuiTypography-root makeStyles-title-37 makeStyles-mobileTitle-38 MuiTypography-body1"
           >
             Read With Us
             <br />
@@ -168,10 +172,10 @@ exports[`App matches the snapshot 1`] = `
       </div>
     </div>
     <div
-      class="MuiContainer-root makeStyles-container-40 MuiContainer-maxWidthLg"
+      class="MuiContainer-root makeStyles-container-41 MuiContainer-maxWidthLg"
     >
       <h5
-        class="MuiTypography-root makeStyles-subtitle-41 MuiTypography-h5"
+        class="MuiTypography-root makeStyles-subtitle-42 MuiTypography-h5"
       >
         Monthly Memory Verse
       </h5>
@@ -180,22 +184,22 @@ exports[`App matches the snapshot 1`] = `
       class="footer"
     >
       <div
-        class="MuiContainer-root makeStyles-container-46 MuiContainer-disableGutters MuiContainer-maxWidthLg"
+        class="MuiContainer-root makeStyles-container-47 MuiContainer-disableGutters MuiContainer-maxWidthLg"
       >
         <div
           class="center"
         >
           <div
-            class="MuiGrid-root makeStyles-mobileGrid-47 MuiGrid-container MuiGrid-spacing-xs-5 MuiGrid-justify-content-xs-center"
+            class="MuiGrid-root makeStyles-mobileGrid-48 MuiGrid-container MuiGrid-spacing-xs-5 MuiGrid-justify-content-xs-center"
           >
             <div
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10"
             >
               <div
-                class="MuiPaper-root MuiCard-root makeStyles-card-45 MuiPaper-elevation1 MuiPaper-rounded"
+                class="MuiPaper-root MuiCard-root makeStyles-card-46 MuiPaper-elevation1 MuiPaper-rounded"
               >
                 <h5
-                  class="MuiTypography-root makeStyles-title-49 MuiTypography-h5"
+                  class="MuiTypography-root makeStyles-title-50 MuiTypography-h5"
                 >
                   Service Times
                 </h5>
@@ -205,10 +209,10 @@ exports[`App matches the snapshot 1`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10"
             >
               <div
-                class="MuiPaper-root MuiCard-root makeStyles-card-45 MuiPaper-elevation1 MuiPaper-rounded"
+                class="MuiPaper-root MuiCard-root makeStyles-card-46 MuiPaper-elevation1 MuiPaper-rounded"
               >
                 <h5
-                  class="MuiTypography-root makeStyles-title-49 MuiTypography-h5"
+                  class="MuiTypography-root makeStyles-title-50 MuiTypography-h5"
                 >
                   Social
                 </h5>
@@ -267,10 +271,10 @@ exports[`App matches the snapshot 1`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10"
             >
               <div
-                class="MuiPaper-root MuiCard-root makeStyles-card-45 MuiPaper-elevation1 MuiPaper-rounded"
+                class="MuiPaper-root MuiCard-root makeStyles-card-46 MuiPaper-elevation1 MuiPaper-rounded"
               >
                 <h5
-                  class="MuiTypography-root makeStyles-title-49 MuiTypography-h5"
+                  class="MuiTypography-root makeStyles-title-50 MuiTypography-h5"
                 >
                   Mobile App
                 </h5>
@@ -396,10 +400,10 @@ exports[`App matches the snapshot 2`] = `
         class="contentMobile"
       >
         <div
-          class="MuiContainer-root makeStyles-mobileContentContainer-17 MuiContainer-maxWidthLg"
+          class="MuiContainer-root makeStyles-mobileContentContainer-18 MuiContainer-maxWidthLg"
         >
           <p
-            class="MuiTypography-root makeStyles-title-21 makeStyles-mobileTitle-22 MuiTypography-body1"
+            class="MuiTypography-root makeStyles-title-22 makeStyles-mobileTitle-23 MuiTypography-body1"
           >
             Raising up kingdom workers
             <br />
@@ -409,10 +413,10 @@ exports[`App matches the snapshot 2`] = `
             <br />
           </p>
           <div
-            class="makeStyles-linkContainer-18"
+            class="makeStyles-linkContainer-19"
           >
             <a
-              class="makeStyles-link-19 undefined"
+              class="makeStyles-link-20 undefined"
               href="/beliefs"
             >
               Our beliefs &gt;
@@ -422,10 +426,10 @@ exports[`App matches the snapshot 2`] = `
       </div>
     </div>
     <div
-      class="MuiContainer-root makeStyles-container-26 MuiContainer-maxWidthLg"
+      class="MuiContainer-root makeStyles-container-27 MuiContainer-maxWidthLg"
     >
       <h5
-        class="MuiTypography-root makeStyles-subtitle-27 MuiTypography-h5"
+        class="MuiTypography-root makeStyles-subtitle-28 MuiTypography-h5"
       >
         SERVICE LOCATION AND TIMES
       </h5>
@@ -438,16 +442,16 @@ exports[`App matches the snapshot 2`] = `
         class="contentMobile"
       >
         <div
-          class="MuiContainer-root makeStyles-mobileContentContainer-17 MuiContainer-maxWidthLg"
+          class="MuiContainer-root makeStyles-mobileContentContainer-18 MuiContainer-maxWidthLg"
         >
           <p
-            class="MuiTypography-root makeStyles-title-21 makeStyles-mobileTitle-22 MuiTypography-body1"
+            class="MuiTypography-root makeStyles-title-22 makeStyles-mobileTitle-23 MuiTypography-body1"
           >
             Family Group
             <br />
           </p>
           <p
-            class="MuiTypography-root makeStyles-description-23 makeStyles-mobileDescription-24 MuiTypography-body1"
+            class="MuiTypography-root makeStyles-description-24 makeStyles-mobileDescription-25 MuiTypography-body1"
           >
             You haven't checked out GCC unless
             <br />
@@ -455,10 +459,10 @@ exports[`App matches the snapshot 2`] = `
             <br />
           </p>
           <div
-            class="makeStyles-linkContainer-18"
+            class="makeStyles-linkContainer-19"
           >
             <a
-              class="makeStyles-link-19 undefined"
+              class="makeStyles-link-20 undefined"
               href="/familygroup"
             >
               Sign up here &gt;
@@ -468,23 +472,27 @@ exports[`App matches the snapshot 2`] = `
       </div>
     </div>
     <div
-      class="MuiContainer-root makeStyles-container-26 MuiContainer-maxWidthLg"
+      class="MuiContainer-root MuiContainer-maxWidthLg"
     >
-      <h5
-        class="MuiTypography-root makeStyles-subtitle-27 MuiTypography-h5"
+      <div
+        class="MuiContainer-root makeStyles-container-27 MuiContainer-maxWidthLg"
       >
-        UPCOMING EVENTS
-      </h5>
-      <h5
-        class="MuiTypography-root makeStyles-linkContainer-28 MuiTypography-h5"
-      >
-        <a
-          class="makeStyles-learnMore-29"
-          href="/events"
+        <h5
+          class="MuiTypography-root makeStyles-subtitle-28 MuiTypography-h5"
         >
-          See all events &gt;
-        </a>
-      </h5>
+          UPCOMING EVENTS
+        </h5>
+        <h5
+          class="MuiTypography-root makeStyles-linkContainer-29 MuiTypography-h5"
+        >
+          <a
+            class="makeStyles-learnMore-30"
+            href="/events"
+          >
+            See all events &gt;
+          </a>
+        </h5>
+      </div>
     </div>
     <div
       class="background"
@@ -494,10 +502,10 @@ exports[`App matches the snapshot 2`] = `
         class="contentMobile"
       >
         <div
-          class="MuiContainer-root makeStyles-mobileContentContainer-31 MuiContainer-maxWidthLg"
+          class="MuiContainer-root makeStyles-mobileContentContainer-32 MuiContainer-maxWidthLg"
         >
           <p
-            class="MuiTypography-root makeStyles-title-36 makeStyles-mobileTitle-37 MuiTypography-body1"
+            class="MuiTypography-root makeStyles-title-37 makeStyles-mobileTitle-38 MuiTypography-body1"
           >
             Read With Us
             <br />
@@ -506,10 +514,10 @@ exports[`App matches the snapshot 2`] = `
       </div>
     </div>
     <div
-      class="MuiContainer-root makeStyles-container-40 MuiContainer-maxWidthLg"
+      class="MuiContainer-root makeStyles-container-41 MuiContainer-maxWidthLg"
     >
       <h5
-        class="MuiTypography-root makeStyles-subtitle-41 MuiTypography-h5"
+        class="MuiTypography-root makeStyles-subtitle-42 MuiTypography-h5"
       >
         Monthly Memory Verse
       </h5>
@@ -518,22 +526,22 @@ exports[`App matches the snapshot 2`] = `
       class="footer"
     >
       <div
-        class="MuiContainer-root makeStyles-container-46 MuiContainer-disableGutters MuiContainer-maxWidthLg"
+        class="MuiContainer-root makeStyles-container-47 MuiContainer-disableGutters MuiContainer-maxWidthLg"
       >
         <div
           class="center"
         >
           <div
-            class="MuiGrid-root makeStyles-mobileGrid-47 MuiGrid-container MuiGrid-spacing-xs-5 MuiGrid-justify-content-xs-center"
+            class="MuiGrid-root makeStyles-mobileGrid-48 MuiGrid-container MuiGrid-spacing-xs-5 MuiGrid-justify-content-xs-center"
           >
             <div
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10"
             >
               <div
-                class="MuiPaper-root MuiCard-root makeStyles-card-45 MuiPaper-elevation1 MuiPaper-rounded"
+                class="MuiPaper-root MuiCard-root makeStyles-card-46 MuiPaper-elevation1 MuiPaper-rounded"
               >
                 <h5
-                  class="MuiTypography-root makeStyles-title-49 MuiTypography-h5"
+                  class="MuiTypography-root makeStyles-title-50 MuiTypography-h5"
                 >
                   Service Times
                 </h5>
@@ -543,10 +551,10 @@ exports[`App matches the snapshot 2`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10"
             >
               <div
-                class="MuiPaper-root MuiCard-root makeStyles-card-45 MuiPaper-elevation1 MuiPaper-rounded"
+                class="MuiPaper-root MuiCard-root makeStyles-card-46 MuiPaper-elevation1 MuiPaper-rounded"
               >
                 <h5
-                  class="MuiTypography-root makeStyles-title-49 MuiTypography-h5"
+                  class="MuiTypography-root makeStyles-title-50 MuiTypography-h5"
                 >
                   Social
                 </h5>
@@ -605,10 +613,10 @@ exports[`App matches the snapshot 2`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10"
             >
               <div
-                class="MuiPaper-root MuiCard-root makeStyles-card-45 MuiPaper-elevation1 MuiPaper-rounded"
+                class="MuiPaper-root MuiCard-root makeStyles-card-46 MuiPaper-elevation1 MuiPaper-rounded"
               >
                 <h5
-                  class="MuiTypography-root makeStyles-title-49 MuiTypography-h5"
+                  class="MuiTypography-root makeStyles-title-50 MuiTypography-h5"
                 >
                   Mobile App
                 </h5>
