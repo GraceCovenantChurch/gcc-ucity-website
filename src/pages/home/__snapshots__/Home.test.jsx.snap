@@ -10,10 +10,10 @@ exports[`Home matches the snapshot 1`] = `
       class="contentMobile"
     >
       <div
-        class="MuiContainer-root makeStyles-mobileContentContainer-2 MuiContainer-maxWidthLg"
+        class="MuiContainer-root makeStyles-mobileContentContainer-3 MuiContainer-maxWidthLg"
       >
         <p
-          class="MuiTypography-root makeStyles-title-6 makeStyles-mobileTitle-7 MuiTypography-body1"
+          class="MuiTypography-root makeStyles-title-7 makeStyles-mobileTitle-8 MuiTypography-body1"
         >
           Raising up kingdom workers
           <br />
@@ -23,10 +23,10 @@ exports[`Home matches the snapshot 1`] = `
           <br />
         </p>
         <div
-          class="makeStyles-linkContainer-3"
+          class="makeStyles-linkContainer-4"
         >
           <a
-            class="makeStyles-link-4 undefined"
+            class="makeStyles-link-5 undefined"
             href="/beliefs"
           >
             Our beliefs &gt;
@@ -36,10 +36,10 @@ exports[`Home matches the snapshot 1`] = `
     </div>
   </div>
   <div
-    class="MuiContainer-root makeStyles-container-11 MuiContainer-maxWidthLg"
+    class="MuiContainer-root makeStyles-container-12 MuiContainer-maxWidthLg"
   >
     <h5
-      class="MuiTypography-root makeStyles-subtitle-12 MuiTypography-h5"
+      class="MuiTypography-root makeStyles-subtitle-13 MuiTypography-h5"
     >
       SERVICE LOCATION AND TIMES
     </h5>
@@ -52,16 +52,16 @@ exports[`Home matches the snapshot 1`] = `
       class="contentMobile"
     >
       <div
-        class="MuiContainer-root makeStyles-mobileContentContainer-2 MuiContainer-maxWidthLg"
+        class="MuiContainer-root makeStyles-mobileContentContainer-3 MuiContainer-maxWidthLg"
       >
         <p
-          class="MuiTypography-root makeStyles-title-6 makeStyles-mobileTitle-7 MuiTypography-body1"
+          class="MuiTypography-root makeStyles-title-7 makeStyles-mobileTitle-8 MuiTypography-body1"
         >
           Family Group
           <br />
         </p>
         <p
-          class="MuiTypography-root makeStyles-description-8 makeStyles-mobileDescription-9 MuiTypography-body1"
+          class="MuiTypography-root makeStyles-description-9 makeStyles-mobileDescription-10 MuiTypography-body1"
         >
           You haven't checked out GCC unless
           <br />
@@ -69,10 +69,10 @@ exports[`Home matches the snapshot 1`] = `
           <br />
         </p>
         <div
-          class="makeStyles-linkContainer-3"
+          class="makeStyles-linkContainer-4"
         >
           <a
-            class="makeStyles-link-4 undefined"
+            class="makeStyles-link-5 undefined"
             href="/familygroup"
           >
             Sign up here &gt;
@@ -82,23 +82,27 @@ exports[`Home matches the snapshot 1`] = `
     </div>
   </div>
   <div
-    class="MuiContainer-root makeStyles-container-11 MuiContainer-maxWidthLg"
+    class="MuiContainer-root MuiContainer-maxWidthLg"
   >
-    <h5
-      class="MuiTypography-root makeStyles-subtitle-12 MuiTypography-h5"
+    <div
+      class="MuiContainer-root makeStyles-container-12 MuiContainer-maxWidthLg"
     >
-      UPCOMING EVENTS
-    </h5>
-    <h5
-      class="MuiTypography-root makeStyles-linkContainer-13 MuiTypography-h5"
-    >
-      <a
-        class="makeStyles-learnMore-14"
-        href="/events"
+      <h5
+        class="MuiTypography-root makeStyles-subtitle-13 MuiTypography-h5"
       >
-        See all events &gt;
-      </a>
-    </h5>
+        UPCOMING EVENTS
+      </h5>
+      <h5
+        class="MuiTypography-root makeStyles-linkContainer-14 MuiTypography-h5"
+      >
+        <a
+          class="makeStyles-learnMore-15"
+          href="/events"
+        >
+          See all events &gt;
+        </a>
+      </h5>
+    </div>
   </div>
   <div
     class="background"
@@ -108,10 +112,10 @@ exports[`Home matches the snapshot 1`] = `
       class="contentMobile"
     >
       <div
-        class="MuiContainer-root makeStyles-mobileContentContainer-16 MuiContainer-maxWidthLg"
+        class="MuiContainer-root makeStyles-mobileContentContainer-17 MuiContainer-maxWidthLg"
       >
         <p
-          class="MuiTypography-root makeStyles-title-21 makeStyles-mobileTitle-22 MuiTypography-body1"
+          class="MuiTypography-root makeStyles-title-22 makeStyles-mobileTitle-23 MuiTypography-body1"
         >
           Read With Us
           <br />
@@ -120,10 +124,10 @@ exports[`Home matches the snapshot 1`] = `
     </div>
   </div>
   <div
-    class="MuiContainer-root makeStyles-container-25 MuiContainer-maxWidthLg"
+    class="MuiContainer-root makeStyles-container-26 MuiContainer-maxWidthLg"
   >
     <h5
-      class="MuiTypography-root makeStyles-subtitle-26 MuiTypography-h5"
+      class="MuiTypography-root makeStyles-subtitle-27 MuiTypography-h5"
     >
       Monthly Memory Verse
     </h5>
@@ -141,10 +145,10 @@ exports[`Home matches the snapshot 2`] = `
       class="contentMobile"
     >
       <div
-        class="MuiContainer-root makeStyles-mobileContentContainer-2 MuiContainer-maxWidthLg"
+        class="MuiContainer-root makeStyles-mobileContentContainer-3 MuiContainer-maxWidthLg"
       >
         <p
-          class="MuiTypography-root makeStyles-title-6 makeStyles-mobileTitle-7 MuiTypography-body1"
+          class="MuiTypography-root makeStyles-title-7 makeStyles-mobileTitle-8 MuiTypography-body1"
         >
           Raising up kingdom workers
           <br />
@@ -154,10 +158,10 @@ exports[`Home matches the snapshot 2`] = `
           <br />
         </p>
         <div
-          class="makeStyles-linkContainer-3"
+          class="makeStyles-linkContainer-4"
         >
           <a
-            class="makeStyles-link-4 undefined"
+            class="makeStyles-link-5 undefined"
             href="/beliefs"
           >
             Our beliefs &gt;
@@ -167,10 +171,10 @@ exports[`Home matches the snapshot 2`] = `
     </div>
   </div>
   <div
-    class="MuiContainer-root makeStyles-container-11 MuiContainer-maxWidthLg"
+    class="MuiContainer-root makeStyles-container-12 MuiContainer-maxWidthLg"
   >
     <h5
-      class="MuiTypography-root makeStyles-subtitle-12 MuiTypography-h5"
+      class="MuiTypography-root makeStyles-subtitle-13 MuiTypography-h5"
     >
       SERVICE LOCATION AND TIMES
     </h5>
@@ -183,16 +187,16 @@ exports[`Home matches the snapshot 2`] = `
       class="contentMobile"
     >
       <div
-        class="MuiContainer-root makeStyles-mobileContentContainer-2 MuiContainer-maxWidthLg"
+        class="MuiContainer-root makeStyles-mobileContentContainer-3 MuiContainer-maxWidthLg"
       >
         <p
-          class="MuiTypography-root makeStyles-title-6 makeStyles-mobileTitle-7 MuiTypography-body1"
+          class="MuiTypography-root makeStyles-title-7 makeStyles-mobileTitle-8 MuiTypography-body1"
         >
           Family Group
           <br />
         </p>
         <p
-          class="MuiTypography-root makeStyles-description-8 makeStyles-mobileDescription-9 MuiTypography-body1"
+          class="MuiTypography-root makeStyles-description-9 makeStyles-mobileDescription-10 MuiTypography-body1"
         >
           You haven't checked out GCC unless
           <br />
@@ -200,10 +204,10 @@ exports[`Home matches the snapshot 2`] = `
           <br />
         </p>
         <div
-          class="makeStyles-linkContainer-3"
+          class="makeStyles-linkContainer-4"
         >
           <a
-            class="makeStyles-link-4 undefined"
+            class="makeStyles-link-5 undefined"
             href="/familygroup"
           >
             Sign up here &gt;
@@ -213,23 +217,27 @@ exports[`Home matches the snapshot 2`] = `
     </div>
   </div>
   <div
-    class="MuiContainer-root makeStyles-container-11 MuiContainer-maxWidthLg"
+    class="MuiContainer-root MuiContainer-maxWidthLg"
   >
-    <h5
-      class="MuiTypography-root makeStyles-subtitle-12 MuiTypography-h5"
+    <div
+      class="MuiContainer-root makeStyles-container-12 MuiContainer-maxWidthLg"
     >
-      UPCOMING EVENTS
-    </h5>
-    <h5
-      class="MuiTypography-root makeStyles-linkContainer-13 MuiTypography-h5"
-    >
-      <a
-        class="makeStyles-learnMore-14"
-        href="/events"
+      <h5
+        class="MuiTypography-root makeStyles-subtitle-13 MuiTypography-h5"
       >
-        See all events &gt;
-      </a>
-    </h5>
+        UPCOMING EVENTS
+      </h5>
+      <h5
+        class="MuiTypography-root makeStyles-linkContainer-14 MuiTypography-h5"
+      >
+        <a
+          class="makeStyles-learnMore-15"
+          href="/events"
+        >
+          See all events &gt;
+        </a>
+      </h5>
+    </div>
   </div>
   <div
     class="background"
@@ -239,10 +247,10 @@ exports[`Home matches the snapshot 2`] = `
       class="contentMobile"
     >
       <div
-        class="MuiContainer-root makeStyles-mobileContentContainer-16 MuiContainer-maxWidthLg"
+        class="MuiContainer-root makeStyles-mobileContentContainer-17 MuiContainer-maxWidthLg"
       >
         <p
-          class="MuiTypography-root makeStyles-title-21 makeStyles-mobileTitle-22 MuiTypography-body1"
+          class="MuiTypography-root makeStyles-title-22 makeStyles-mobileTitle-23 MuiTypography-body1"
         >
           Read With Us
           <br />
@@ -251,10 +259,10 @@ exports[`Home matches the snapshot 2`] = `
     </div>
   </div>
   <div
-    class="MuiContainer-root makeStyles-container-25 MuiContainer-maxWidthLg"
+    class="MuiContainer-root makeStyles-container-26 MuiContainer-maxWidthLg"
   >
     <h5
-      class="MuiTypography-root makeStyles-subtitle-26 MuiTypography-h5"
+      class="MuiTypography-root makeStyles-subtitle-27 MuiTypography-h5"
     >
       Monthly Memory Verse
     </h5>

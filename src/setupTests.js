@@ -17,6 +17,9 @@ const localStorageMock = {
 
 global.localStorage = localStorageMock;
 
+const noop = () => {};
+Object.defineProperty(window, "scrollTo", { value: noop, writable: true });
+
 // ReactDOM.createPortal = jest.fn((element, node) => {
 //   return element;
 // });

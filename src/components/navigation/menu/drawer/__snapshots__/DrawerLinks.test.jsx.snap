@@ -3,32 +3,27 @@
 exports[`DrawerLinks matches the snapshot 1`] = `
 <div>
   <div
-    class=""
+    aria-disabled="false"
+    class="MuiButtonBase-root MuiListItem-root makeStyles-menuSubtitle-3 makeStyles-menuText-1 MuiListItem-gutters MuiListItem-button"
+    role="button"
+    tabindex="0"
   >
-    <div
-      aria-disabled="false"
-      class="MuiButtonBase-root MuiListItem-root makeStyles-menuSubtitle-3 makeStyles-menuText-1 MuiListItem-gutters MuiListItem-button"
-      role="button"
-      tabindex="0"
+    About
+    <svg
+      aria-hidden="true"
+      class="MuiSvgIcon-root"
+      focusable="false"
+      viewBox="0 0 24 24"
     >
-      About
-      <svg
-        aria-hidden="true"
-        class="MuiSvgIcon-root"
-        focusable="false"
-        viewBox="0 0 24 24"
-      >
-        <path
-          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
-        />
-      </svg>
-      <span
-        class="MuiTouchRipple-root"
+      <path
+        d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
       />
-    </div>
+    </svg>
+    <span
+      class="MuiTouchRipple-root"
+    />
   </div>
   <div
-    class=""
     role="presentation"
   >
     <a
@@ -58,32 +53,27 @@ exports[`DrawerLinks matches the snapshot 1`] = `
 exports[`DrawerLinks matches the snapshot 2`] = `
 <div>
   <div
-    class=""
+    aria-disabled="false"
+    class="MuiButtonBase-root MuiListItem-root makeStyles-menuSubtitle-3 makeStyles-menuText-1 MuiListItem-gutters MuiListItem-button"
+    role="button"
+    tabindex="0"
   >
-    <div
-      aria-disabled="false"
-      class="MuiButtonBase-root MuiListItem-root makeStyles-menuSubtitle-3 makeStyles-menuText-1 MuiListItem-gutters MuiListItem-button"
-      role="button"
-      tabindex="0"
+    About
+    <svg
+      aria-hidden="true"
+      class="MuiSvgIcon-root"
+      focusable="false"
+      viewBox="0 0 24 24"
     >
-      About
-      <svg
-        aria-hidden="true"
-        class="MuiSvgIcon-root"
-        focusable="false"
-        viewBox="0 0 24 24"
-      >
-        <path
-          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
-        />
-      </svg>
-      <span
-        class="MuiTouchRipple-root"
+      <path
+        d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
       />
-    </div>
+    </svg>
+    <span
+      class="MuiTouchRipple-root"
+    />
   </div>
   <div
-    class=""
     role="presentation"
   >
     <a
