@@ -1,4 +1,6 @@
 import React from "react";
+import clsx from "clsx";
+import { useMediaQuery } from "react-responsive";
 
 import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
@@ -7,6 +9,8 @@ import Container from "@material-ui/core/Container";
 import BackgroundImage from "components/background/BackgroundImage";
 import Center from "components/center/Center";
 
+import { MOBILE_QUERY } from "constants/mobile";
+
 const useStyles = makeStyles((theme) => ({
   titleContainer: {
     height: "100vh",
@@ -14,8 +18,16 @@ const useStyles = makeStyles((theme) => ({
   title: {
     fontWeight: "bold",
   },
-  container: {
+  paddingDesktop: {
+    paddingLeft: theme.spacing(30),
+    paddingRight: theme.spacing(30),
+    paddingTop: theme.spacing(5),
+    paddingBottom: theme.spacing(5),
+  },
+  paddingMobile: {
     padding: theme.spacing(5),
+  },
+  container: {
     textAlign: "left",
     position: "relative",
     color: "black",
@@ -27,6 +39,7 @@ const useStyles = makeStyles((theme) => ({
 
 const GenericContent = (props) => {
   const classes = useStyles();
+  const mobile = useMediaQuery({ query: MOBILE_QUERY });
 
   return (
     <React.Fragment>
@@ -37,7 +50,14 @@ const GenericContent = (props) => {
           </Typography>
         </Center>
       </BackgroundImage>
-      <Container className={classes.container} maxWidth={false}>
+      <Container
+        className={clsx({
+          [classes.container]: true,
+          [classes.paddingMobile]: mobile,
+          [classes.paddingDesktop]: !mobile,
+        })}
+        maxWidth={false}
+      >
         {props.children}
       </Container>
     </React.Fragment>

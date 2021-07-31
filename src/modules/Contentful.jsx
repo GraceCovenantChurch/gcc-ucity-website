@@ -13,6 +13,9 @@ import {
   MEMORY_VERSE_KEY,
   BELIEFS_KEY,
   STAFF_KEY,
+  FAMILY_GROUP_PAGE_KEY,
+  MULTIMEDIA_PAGE_KEY,
+  MINISTRIES_KEY,
   GCC_KEY,
   UNIVERSITY_CITY_KEY,
   MAIN_LINE_KEY,
@@ -345,6 +348,75 @@ export const getMainLineStaff = () => {
 };
 
 export const massageStaff = (data) => {
+  let results = [];
+  for (var entry of data) {
+    results.push(entry.fields);
+  }
+
+  return results;
+};
+
+/**
+ * Content Type: Family Group Page
+ */
+
+export const getFamilyGroupPage = () => {
+  return client
+    .getEntries({
+      content_type: FAMILY_GROUP_PAGE_KEY,
+    })
+    .then((entries) => {
+      return entries.items;
+    });
+};
+
+export const massageFamilyGroupPage = (data) => {
+  let results = [];
+  for (var entry of data) {
+    results.push(entry.fields);
+  }
+
+  return results;
+};
+
+/**
+ * Content Type: Ministries
+ */
+
+export const getMinistries = () => {
+  return client
+    .getEntries({
+      content_type: MINISTRIES_KEY,
+    })
+    .then((entries) => {
+      return entries.items;
+    });
+};
+
+export const massageMinistries = (data) => {
+  let results = [];
+  for (var entry of data) {
+    results.push(entry.fields);
+  }
+
+  return results;
+};
+
+/**
+ * Content Type: Multimedia
+ */
+
+export const getMultimediaPage = () => {
+  return client
+    .getEntries({
+      content_type: MULTIMEDIA_PAGE_KEY,
+    })
+    .then((entries) => {
+      return entries.items;
+    });
+};
+
+export const massageMultimediaPage = (data) => {
   let results = [];
   for (var entry of data) {
     results.push(entry.fields);

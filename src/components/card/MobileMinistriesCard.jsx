@@ -68,14 +68,7 @@ const MobileStaffCard = (props) => {
         <Center>
           <div className={classes.titleContainer}>
             <Typography className={classes.title} variant="h6" component="h6">
-              {props.name}
-            </Typography>
-            <Typography
-              className={classes.eventStart}
-              variant="body1"
-              component="h6"
-            >
-              {props.jobTitle}
+              {props.title}
             </Typography>
           </div>
         </Center>
@@ -88,14 +81,14 @@ const MobileStaffCard = (props) => {
             variant="subtitle1"
             component="p"
           >
-            Email
+            Contact
           </Typography>
           <Typography
             className={classes.location}
             variant="caption"
             component="h6"
           >
-            {props.email}
+            {props.contact}
           </Typography>
           <Typography
             className={classes.title}
@@ -103,14 +96,14 @@ const MobileStaffCard = (props) => {
             variant="subtitle1"
             component="p"
           >
-            Biography
+            Description
           </Typography>
           <Typography
             className={classes.eventStart}
             variant="caption"
             component="h6"
           >
-            {props.biography}
+            {props.description}
           </Typography>
         </CardContent>
       </Collapse>
@@ -133,10 +126,10 @@ const MobileStaffCard = (props) => {
 };
 
 MobileStaffCard.propTypes = {
-  biography: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
   className: PropTypes.string,
-  name: PropTypes.string.isRequired,
-  jobTitle: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  contact: PropTypes.string.isRequired,
 };
 
 export default MobileStaffCard;
