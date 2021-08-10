@@ -73,10 +73,12 @@ export const getCollegeFridayServices = () => {
   return client
     .getEntries({
       content_type: "services",
-      "fields.eventEnd[lte]": new Date(NEXTFRIDAY),
+      "fields.eventEnd[lte]": new Date(NEXTFRIDAY).toISOString(),
+      "fields.eventEnd[gte]": new Date(RIGHT_NOW).toISOString(),
       "fields.type": "collegefnl",
     })
     .then((entries) => {
+      console.log(entries.items);
       return entries.items;
     });
 };
@@ -85,7 +87,7 @@ export const getCrossroadFridayServices = () => {
   return client
     .getEntries({
       content_type: "services",
-      "fields.eventEnd[lte]": new Date(NEXTFRIDAY),
+      "fields.eventEnd[lte]": new Date(NEXTFRIDAY).toISOString(),
       "fields.type": "crossroadfnl",
     })
     .then((entries) => {
@@ -97,7 +99,7 @@ export const getSundayServices = () => {
   return client
     .getEntries({
       content_type: "services",
-      "fields.eventEnd[lte]": new Date(NEXTSUNDAY),
+      "fields.eventEnd[lte]": new Date(NEXTSUNDAY).toISOString(),
       "fields.type": "sundayservice",
     })
     .then((entries) => {
