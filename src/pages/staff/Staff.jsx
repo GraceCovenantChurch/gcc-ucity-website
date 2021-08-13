@@ -22,7 +22,7 @@ const Staff = () => {
 
   return (
     <React.Fragment>
-      <GenericContent title="Staff" imageURL={staffURL}>
+      <GenericContent cards title="Staff" imageURL={staffURL}>
         <CenteredContentWithGrid
           upperTitle
           isMobile={mobile}
