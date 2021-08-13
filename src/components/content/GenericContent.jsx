@@ -55,7 +55,7 @@ const GenericContent = (props) => {
           className={clsx({
             [classes.container]: true,
             [classes.paddingMobile]: mobile,
-            [classes.paddingDesktop]: !mobile,
+            [classes.paddingDesktop]: props.cards ? mobile : !mobile,
           })}
           maxWidth={false}
         >

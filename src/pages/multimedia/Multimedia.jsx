@@ -16,7 +16,7 @@ const Multimedia = () => {
 
   return (
     <React.Fragment>
-      <GenericContent title="Multimedia" imageURL={staffURL}>
+      <GenericContent cards title="Multimedia" imageURL={staffURL}>
         <CenteredContentWithGrid
           upperTitle
           isMobile={mobile}

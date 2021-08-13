@@ -17,7 +17,7 @@ const Ministries = () => {
 
   return (
     <React.Fragment>
-      <GenericContent title="Ministries" imageURL={staffURL}>
+      <GenericContent cards title="Ministries" imageURL={staffURL}>
         <CenteredContentWithGrid
           upperTitle
           isMobile={mobile}

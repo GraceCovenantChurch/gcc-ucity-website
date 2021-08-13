@@ -17,7 +17,7 @@ const Events = () => {
 
   return (
     <React.Fragment>
-      <GenericContent title="Events" imageURL={eventsURL}>
+      <GenericContent cards title="Events" imageURL={eventsURL}>
         <CenteredContentWithGrid
           upperTitle
           isMobile={mobile}
