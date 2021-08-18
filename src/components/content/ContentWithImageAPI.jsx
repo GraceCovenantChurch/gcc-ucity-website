@@ -156,26 +156,28 @@ const ContentWithImageAPI = (props) => {
                 </div>
               );
             })}
-            {data.readingMedia.map((link, index) => {
-              let fields = link.fields;
-              return (
-                <div
-                  className={isMobile ? classes.linkContainer : undefined}
-                  key={index}
-                >
-                  <Link
-                    to={fields.file.url}
-                    className={clsx({
-                      [classes.medialink]: true,
-                      [classes.link]: true,
-                      [classes.mobileMediaLink]: isMobile,
-                    })}
-                  >
-                    {data.title + " >"}
-                  </Link>
-                </div>
-              );
-            })}
+            {data.readingMedia
+              ? data.readingMedia.map((link, index) => {
+                  let fields = link.fields;
+                  return (
+                    <div
+                      className={isMobile ? classes.linkContainer : undefined}
+                      key={index}
+                    >
+                      <Link
+                        to={fields.file.url}
+                        className={clsx({
+                          [classes.medialink]: true,
+                          [classes.link]: true,
+                          [classes.mobileMediaLink]: isMobile,
+                        })}
+                      >
+                        {data.title + " >"}
+                      </Link>
+                    </div>
+                  );
+                })
+              : undefined}
           </React.Fragment>
         ) : undefined}
       </Container>
