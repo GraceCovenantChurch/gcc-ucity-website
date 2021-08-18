@@ -74,18 +74,6 @@ const Welcome = () => {
           are where the core of our evangelism and discipleship takes place. We
           invite you to join one and be able to call GCC your home!
         </Body>
-        <Body>
-          Our Sunday service is typically located at Meyerson Hall, Room B1 (210
-          South 34th Street).
-        </Body>
-        <AspectRatio className={classes.map} ratio={4 / 3}>
-          <iframe
-            frameBorder="0"
-            title="Meyerson Hall"
-            src={googleMapUrl}
-            style={{ width: "100%", height: "100%" }}
-          />
-        </AspectRatio>
         <Body className={classes.afterMap}>
           If you would like more information about GCC, please continue to
           explore this website or feel free contact us at{" "}
