@@ -69,9 +69,8 @@ const Footer = () => {
   }, []);
 
   // I wish contentful allowed limiting number of entries that you query
-  let currentSundayService = sundayService
-    ? sundayService[0].fields
-    : undefined;
+  let currentSundayService =
+    sundayService > 0 ? sundayService[0].fields : undefined;
 
   return (
     <footer className={styles.footer}>
