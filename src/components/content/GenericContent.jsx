@@ -25,7 +25,10 @@ const useStyles = makeStyles((theme) => ({
     paddingBottom: theme.spacing(5),
   },
   paddingMobile: {
-    padding: theme.spacing(2),
+    padding: theme.spacing(5),
+  },
+  paddingMobileCard: {
+    paddingTop: theme.spacing(5),
   },
   container: {
     textAlign: "left",
@@ -54,8 +57,9 @@ const GenericContent = (props) => {
         <Container
           className={clsx({
             [classes.container]: true,
-            [classes.paddingMobile]: mobile,
-            [classes.paddingDesktop]: props.cards ? mobile : !mobile,
+            [classes.paddingMobile]: props.cards ? !mobile : mobile,
+            [classes.paddingMobileCard]: props.both,
+            [classes.paddingDesktop]: !mobile,
           })}
           maxWidth={false}
         >
