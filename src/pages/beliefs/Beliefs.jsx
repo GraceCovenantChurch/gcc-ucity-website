@@ -30,7 +30,7 @@ const Beliefs = () => {
 
   return (
     <React.Fragment>
-      <GenericContent cards title="Beliefs" imageURL={beliefsURL}>
+      <GenericContent both cards title="Beliefs" imageURL={beliefsURL}>
         <Subheading className={classes.center}>Our Vision</Subheading>
         <Body className={classes.center}>{VISION_STATEMENT}</Body>
         <Subheading className={classes.center}>Five Core Values</Subheading>
