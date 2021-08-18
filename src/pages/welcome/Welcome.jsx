@@ -3,7 +3,6 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 import Link from "components/link/Link";
-import AspectRatio from "components/image/AspectRatio";
 import GenericContent from "components/content/GenericContent";
 import Body from "components/content/text/Body";
 import Subheading from "components/content/text/Subheading";
@@ -28,9 +27,6 @@ const useStyles = makeStyles((theme) => ({
 
 const Welcome = () => {
   const classes = useStyles();
-  const googleMapUrl =
-    "https://www.google.com/maps/embed/v1/place?q=Meyerson+Hall,+Philadelphia,+PA,+United+States&key=" +
-    process.env.REACT_APP_GOOGLE_MAPS_KEY;
 
   return (
     <React.Fragment>
