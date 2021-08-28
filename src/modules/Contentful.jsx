@@ -119,7 +119,6 @@ export const massageServices = async (data) => {
   expected[CROSSROAD_FNL_KEY] = undefined;
   let defaultServices = undefined;
 
-  console.log(data.length);
   if (data.length <= TOTAL_SERVICES) {
     defaultServices = await getDefaultServices();
   }
@@ -137,7 +136,6 @@ export const massageServices = async (data) => {
   // And really this is just the ugliest thing I've ever seen. Mercy on my soul.
   for (var key of Object.keys(expected)) {
     if (expected[key] === undefined) {
-      console.log(defaultServices);
       for (var iterate of defaultServices) {
         let current = iterate.fields;
         for (var service of current.data[SERVICES_KEY]) {
