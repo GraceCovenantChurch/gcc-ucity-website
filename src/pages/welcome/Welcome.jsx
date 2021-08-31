@@ -12,8 +12,8 @@ import welcomeURL from "static/images/welcome/welcome_background.jpg";
 const useStyles = makeStyles((theme) => ({
   media: {
     margin: "30px auto",
-    width: "75%",
-    height: "550px",
+    width: "560px",
+    height: "315px",
     background: "gray",
   },
   map: {
