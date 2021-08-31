@@ -3,11 +3,11 @@ import React, { useState, useEffect } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
-import Divider from "@material-ui/core/Divider";
-import IconButton from "@material-ui/core/IconButton";
-import SystemUpdateIcon from "@material-ui/icons/SystemUpdate";
+// import Divider from "@material-ui/core/Divider";
+// import IconButton from "@material-ui/core/IconButton";
+// import SystemUpdateIcon from "@material-ui/icons/SystemUpdate";
 
-import Link from "components/link/Link";
+// import Link from "components/link/Link";
 
 import { getMemoryVerse, massageMemoryVerse } from "modules/Contentful";
 
@@ -67,32 +67,36 @@ const MemoryVerseContent = (props) => {
           <Typography className={classes.learnMore} variant="h5">
             {memoryVerse.reference}
           </Typography>
-          {memoryVerse.wallpapers ? (
-            <div className={classes.mediaContainer}>
-              <Divider />
-              <Typography className={classes.learnMore} variant="h5">
-                {"Click here for downloadable memory verse media!"}
-              </Typography>
-              {memoryVerse.wallpapers.map((media, index) => {
-                let fields = media.fields;
-
-                return (
-                  <IconButton
-                    color="default"
-                    component={Link}
-                    key={index}
-                    to={fields.file.url}
-                  >
-                    <SystemUpdateIcon fontSize="large" />
-                  </IconButton>
-                );
-              })}
-            </div>
-          ) : undefined}
         </React.Fragment>
       ) : undefined}
     </Container>
   );
 };
+
+/**
+* Memory Verse Downloads
+* {memoryVerse.wallpapers ? (
+  <div className={classes.mediaContainer}>
+    <Divider />
+    <Typography className={classes.learnMore} variant="h5">
+      {"Click here for downloadable memory verse media!"}
+    </Typography>
+    {memoryVerse.wallpapers.map((media, index) => {
+      let fields = media.fields;
+
+      return (
+        <IconButton
+          color="default"
+          component={Link}
+          key={index}
+          to={fields.file.url}
+        >
+          <SystemUpdateIcon fontSize="large" />
+        </IconButton>
+      );
+    })}
+  </div>
+) : undefined}
+*/
 
 export default MemoryVerseContent;
