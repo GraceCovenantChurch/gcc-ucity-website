@@ -28,6 +28,8 @@ const Link = forwardRef((props, ref) => {
       className={clsx(classes.link, props.className)}
       ref={ref}
       href={to}
+      target="_blank"
+      rel="noreferrer"
       {...props}
     >
       {props.children}

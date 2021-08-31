@@ -53,6 +53,7 @@ const CenteredContentWithGrid = (props) => {
       <Typography
         className={clsx(classes.subtitle, props.titleClass)}
         variant="h5"
+        id={props.id}
       >
         {props.upperTitle ? props.title.toUpperCase() : props.title}
       </Typography>

@@ -15,16 +15,11 @@ const Giving = () => {
           us in the work of raising up kingdom workers. Here are three ways in
           which you can contribute:
         </Body>
-        <Subheading>In Person</Subheading>
-        <Body>During Sunday Service</Body>
-        <Subheading>By Mail</Subheading>
-        <Body>3700 Baring Street Philadelphia, PA 19104</Body>
         <Subheading>Online</Subheading>
         <Body>
-          Donating via check or cash will save GCC transaction fees.
-          Alternatively, if you would like to give online, please use the module
-          below. If it is your first time giving online, you will need to set up
-          an account.
+          We would love for you to partner with us in the work of raising up
+          kingdom workers. You may give below using our secure payment
+          processor, Subsplash.
         </Body>
         <iframe
           title="donate"
@@ -35,9 +30,15 @@ const Giving = () => {
           frameBorder="0"
           scrolling="no"
         />
-        <Subheading>
-          Please consider contributing to some of our specific needs.
-        </Subheading>
+        <Body>
+          You may also give in person with cash or check at our Sunday Services.
+          If you would like to give via direct bill pay from your bank, please
+          use our address 3700 Baring Street Philadelphia, PA 19104
+        </Body>
+        <Subheading>In Person</Subheading>
+        <Body>During Sunday Service</Body>
+        <Subheading>By Mail</Subheading>
+        <Body>3700 Baring Street Philadelphia, PA 19104</Body>
         <Body>
           If you feel the heart to, you can choose the specific cause/person
           you’d like to donate to. Whether you’re donating in person, by mail,

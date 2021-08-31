@@ -71,7 +71,7 @@ const Navigation = (props) => {
       ],
     },
     { title: "Family Groups", type: "link", children: "/familygroup" },
-    { title: "Ministries", type: "link", children: "/ministries" },
+    // { title: "Ministries", type: "link", children: "/ministries" },
     { title: "Giving", type: "link", children: "/giving" },
     { title: "Multimedia", type: "link", children: "/multimedia" },
     { title: "Events", type: "link", children: "/events" },
