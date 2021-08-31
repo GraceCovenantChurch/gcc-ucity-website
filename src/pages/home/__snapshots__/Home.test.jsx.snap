@@ -75,7 +75,7 @@ exports[`Home matches the snapshot 1`] = `
             class="makeStyles-link-5 undefined"
             href="/familygroup"
           >
-            Sign up here &gt;
+            Find out more &gt;
           </a>
         </div>
       </div>
@@ -210,7 +210,7 @@ exports[`Home matches the snapshot 2`] = `
             class="makeStyles-link-5 undefined"
             href="/familygroup"
           >
-            Sign up here &gt;
+            Find out more &gt;
           </a>
         </div>
       </div>

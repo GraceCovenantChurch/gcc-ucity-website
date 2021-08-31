@@ -17,8 +17,7 @@ import Card from "@material-ui/core/Card";
 import Grid from "components/grid/Grid";
 import GridItem from "components/grid/GridItem";
 
-import { getSundayServices } from "modules/Contentful";
-import { formatTime } from "modules/Time";
+import { getSundayServices, massageServices } from "modules/Contentful";
 
 import { MOBILE_QUERY } from "constants/mobile";
 import { APPLE, ANDROID } from "constants/mobileapp";
@@ -61,16 +60,23 @@ const Footer = () => {
 
   useEffect(() => {
     const updateSundayService = async () => {
-      let results = await getSundayServices();
+      let results = [];
+      results.push(...(await getSundayServices()));
+      results = await massageServices(results);
+
+      for (var service of results) {
+        if (service.type === "sundayservice") {
+          results = service;
+        }
+      }
+
       setSundayService(results);
     };
 
     updateSundayService();
   }, []);
 
-  // I wish contentful allowed limiting number of entries that you query
-  let currentSundayService =
-    sundayService > 0 ? sundayService[0].fields : undefined;
+  let currentSundayService = sundayService;
 
   return (
     <footer className={styles.footer}>
@@ -102,7 +108,7 @@ const Footer = () => {
                     >
                       {currentSundayService.title +
                         " at " +
-                        formatTime(currentSundayService.eventStart)}
+                        currentSundayService.eventStart}
                     </Typography>
                     <Typography
                       className={classes.location}

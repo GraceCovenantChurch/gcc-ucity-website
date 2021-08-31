@@ -13,7 +13,7 @@ export const HOME_DEFAULT = {
       "You haven't checked out GCC unless\nyou've checked out our family groups.",
     link: {
       url: "/familygroup",
-      text: "Sign up here >",
+      text: "Find out more >",
     },
   },
   service: {
