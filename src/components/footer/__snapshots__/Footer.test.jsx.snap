@@ -110,7 +110,7 @@ exports[`renders correctly 1`] = `
             >
               <a
                 className="MuiTypography-root MuiLink-root MuiLink-underlineHover socialLinks MuiTypography-colorPrimary"
-                href="https://itunes.apple.com/us/app/id651172729?mt=8&uo=4"
+                href="https://apps.apple.com/us/app/gcc-philadelphia/id1446852662"
                 onBlur={[Function]}
                 onFocus={[Function]}
               >
@@ -127,7 +127,7 @@ exports[`renders correctly 1`] = `
               </a>
               <a
                 className="MuiTypography-root MuiLink-root MuiLink-underlineHover socialLinks MuiTypography-colorPrimary"
-                href="https://play.google.com/store/apps/details?id=com.subsplash.thechurchapp.ami&referrer=utm_source%3Dsubsplash%26utm_content%3DeyJoYW5kbGVyIjoiYXBwIiwiYXBwa2V5IjoiNlZaSFZOIn0="
+                href="https://play.google.com/store/apps/details?id=com.subsplashconsulting.s_QZRM2D"
                 onBlur={[Function]}
                 onFocus={[Function]}
               >
