@@ -22,7 +22,7 @@ exports[`renders correctly 1`] = `
             <h5
               className="MuiTypography-root makeStyles-title-5 MuiTypography-h5"
             >
-              Service Times
+              Service Time
             </h5>
           </div>
         </div>
@@ -48,7 +48,7 @@ exports[`renders correctly 1`] = `
               >
                 <svg
                   aria-hidden={true}
-                  className="MuiSvgIcon-root"
+                  className="MuiSvgIcon-root icons"
                   focusable="false"
                   viewBox="0 0 24 24"
                 >
@@ -65,7 +65,7 @@ exports[`renders correctly 1`] = `
               >
                 <svg
                   aria-hidden={true}
-                  className="MuiSvgIcon-root"
+                  className="MuiSvgIcon-root icons"
                   focusable="false"
                   viewBox="0 0 24 24"
                 >
@@ -82,7 +82,7 @@ exports[`renders correctly 1`] = `
               >
                 <svg
                   aria-hidden={true}
-                  className="MuiSvgIcon-root"
+                  className="MuiSvgIcon-root icons"
                   focusable="false"
                   viewBox="0 0 24 24"
                 >
@@ -116,7 +116,7 @@ exports[`renders correctly 1`] = `
               >
                 <svg
                   aria-hidden={true}
-                  className="MuiSvgIcon-root"
+                  className="MuiSvgIcon-root icons"
                   focusable="false"
                   viewBox="0 0 24 24"
                 >
@@ -133,7 +133,7 @@ exports[`renders correctly 1`] = `
               >
                 <svg
                   aria-hidden={true}
-                  className="MuiSvgIcon-root"
+                  className="MuiSvgIcon-root icons"
                   focusable="false"
                   viewBox="0 0 24 24"
                 >

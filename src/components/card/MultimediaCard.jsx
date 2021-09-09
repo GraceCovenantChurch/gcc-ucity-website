@@ -34,11 +34,13 @@ const MultimediaCard = (props) => {
   return (
     <Card className={classes.card}>
       <Center>
-        <CardMedia
-          className={classes.media}
-          component={"img"}
-          image={props.image.fields.file.url}
-        />
+        <Link to={props.link}>
+          <CardMedia
+            className={classes.media}
+            component={"img"}
+            image={props.image.fields.file.url}
+          />
+        </Link>
       </Center>
       <CardContent className={classes.content}>
         <Typography className={classes.title} variant="h5" component="h5">

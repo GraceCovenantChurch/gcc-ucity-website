@@ -97,7 +97,7 @@ const Footer = () => {
                   variant="h5"
                   component="h5"
                 >
-                  Service Times
+                  Service Time
                 </Typography>
                 {currentSundayService ? (
                   <React.Fragment>
@@ -135,19 +135,19 @@ const Footer = () => {
                     className={styles.socialLinks}
                     href="https://www.instagram.com/gccphiladelphia/"
                   >
-                    <InstagramIcon />
+                    <InstagramIcon className={styles.icons} />
                   </Link>
                   <Link
                     className={styles.socialLinks}
                     href="https://www.facebook.com/gccphiladelphia/"
                   >
-                    <FacebookIcon />
+                    <FacebookIcon className={styles.icons} />
                   </Link>
                   <Link
                     className={styles.socialLinks}
                     href="https://www.youtube.com/user/GraceCovenantChurch"
                   >
-                    <YouTubeIcon />
+                    <YouTubeIcon className={styles.icons} />
                   </Link>
                 </Center>
               </Card>
@@ -163,10 +163,10 @@ const Footer = () => {
                 </Typography>
                 <Center>
                   <Link className={styles.socialLinks} href={APPLE}>
-                    <AppleIcon />
+                    <AppleIcon className={styles.icons} />
                   </Link>
                   <Link className={styles.socialLinks} href={ANDROID}>
-                    <ShopIcon />
+                    <ShopIcon className={styles.icons} />
                   </Link>
                 </Center>
               </Card>
