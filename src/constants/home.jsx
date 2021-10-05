@@ -3,8 +3,10 @@ export const HOME_DEFAULT = {
     vision:
       "Raising up kingdom workers\nwho are transformed by Christ\nto influence the world",
     link: {
-      url: "/beliefs",
-      text: "Our beliefs >",
+      url: "services",
+      text: "Click for Service Times >",
+      scroll: "true",
+      element: "servicesContainer",
     },
   },
   familygroup: {
@@ -18,6 +20,8 @@ export const HOME_DEFAULT = {
   },
   service: {
     title: "Service Location and Times",
+    elementName: "services",
+    elementID: "servicesContainer",
   },
   events: {
     title: "Upcoming Events",

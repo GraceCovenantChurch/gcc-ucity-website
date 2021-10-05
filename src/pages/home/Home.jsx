@@ -1,5 +1,6 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
+import Scroll from "react-scroll";
 
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
@@ -30,6 +31,8 @@ import amiQTUrl from "static/images/home/amiqt.jpg";
 import { MOBILE_QUERY } from "constants/mobile";
 import { HOME_DEFAULT } from "constants/home";
 
+const Element = Scroll.Element;
+
 const useStyles = makeStyles((theme) => ({
   eventsPadding: {
     padding: theme.spacing(2),
@@ -53,18 +56,26 @@ const Home = () => {
         title={top.vision}
         link={top.link}
       />
-      <CenteredContentWithGrid
-        upperTitle
-        isMobile={mobile}
-        title={service.title}
-        fetchCall={[
-          getCollegeFridayServices,
-          getSundayServices,
-          getCrossroadFridayServices,
-        ]}
-        massage={massageServices}
-        component={ServicesCard}
-      />
+      <Element
+        name={service.elementName}
+        className={service.elementName}
+        id={service.elementID}
+      >
+        <CenteredContentWithGrid
+          upperTitle
+          isMobile={mobile}
+          title={service.title}
+          elementName={service.elementName}
+          elementID={service.elementID}
+          fetchCall={[
+            getCollegeFridayServices,
+            getSundayServices,
+            getCrossroadFridayServices,
+          ]}
+          massage={massageServices}
+          component={ServicesCard}
+        />
+      </Element>
       <ContentWithImage
         isMobile={mobile}
         imageURL={familyGroupUrl}
