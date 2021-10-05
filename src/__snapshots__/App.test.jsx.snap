@@ -75,22 +75,31 @@ exports[`App matches the snapshot 1`] = `
           >
             <a
               class="makeStyles-link-20 undefined"
-              href="/beliefs"
+              element="servicesContainer"
+              scroll="true"
+              text="Click for Service Times >"
+              url="services"
             >
-              Our beliefs &gt;
+              Click for Service Times &gt;
             </a>
           </div>
         </div>
       </div>
     </div>
     <div
-      class="MuiContainer-root makeStyles-container-27 MuiContainer-maxWidthLg"
+      class="services"
+      id="servicesContainer"
+      name="services"
     >
-      <h5
-        class="MuiTypography-root makeStyles-subtitle-28 MuiTypography-h5"
+      <div
+        class="MuiContainer-root makeStyles-container-27 MuiContainer-maxWidthLg"
       >
-        SERVICE LOCATION AND TIMES
-      </h5>
+        <h5
+          class="MuiTypography-root makeStyles-subtitle-28 MuiTypography-h5"
+        >
+          SERVICE LOCATION AND TIMES
+        </h5>
+      </div>
     </div>
     <div
       class="background"
@@ -121,7 +130,9 @@ exports[`App matches the snapshot 1`] = `
           >
             <a
               class="makeStyles-link-20 undefined"
-              href="/familygroup"
+              scroll="false"
+              text="Find out more >"
+              url="/familygroup"
             >
               Find out more &gt;
             </a>
@@ -417,22 +428,31 @@ exports[`App matches the snapshot 2`] = `
           >
             <a
               class="makeStyles-link-20 undefined"
-              href="/beliefs"
+              element="servicesContainer"
+              scroll="true"
+              text="Click for Service Times >"
+              url="services"
             >
-              Our beliefs &gt;
+              Click for Service Times &gt;
             </a>
           </div>
         </div>
       </div>
     </div>
     <div
-      class="MuiContainer-root makeStyles-container-27 MuiContainer-maxWidthLg"
+      class="services"
+      id="servicesContainer"
+      name="services"
     >
-      <h5
-        class="MuiTypography-root makeStyles-subtitle-28 MuiTypography-h5"
+      <div
+        class="MuiContainer-root makeStyles-container-27 MuiContainer-maxWidthLg"
       >
-        SERVICE LOCATION AND TIMES
-      </h5>
+        <h5
+          class="MuiTypography-root makeStyles-subtitle-28 MuiTypography-h5"
+        >
+          SERVICE LOCATION AND TIMES
+        </h5>
+      </div>
     </div>
     <div
       class="background"
@@ -463,7 +483,9 @@ exports[`App matches the snapshot 2`] = `
           >
             <a
               class="makeStyles-link-20 undefined"
-              href="/familygroup"
+              scroll="false"
+              text="Find out more >"
+              url="/familygroup"
             >
               Find out more &gt;
             </a>

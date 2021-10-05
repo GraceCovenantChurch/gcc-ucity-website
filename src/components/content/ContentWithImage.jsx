@@ -64,6 +64,8 @@ const ContentWithImage = (props) => {
   const classes = useStyles();
   const isMobile = props.isMobile;
 
+  console.log(props);
+
   let title = props.title.split(/\r?\n/);
   let description = props.description
     ? props.description.split(/\r?\n/)
@@ -119,6 +121,9 @@ const ContentWithImage = (props) => {
                 [classes.link]: true,
                 [classes.mobileLearnMore]: isMobile,
               })}
+              scroll={props.link.scroll ? "true" : "false"}
+              onSetActive={props.link.scroll ? props.scrollHandler : undefined}
+              {...props.link}
             >
               {props.link.text}
             </Link>

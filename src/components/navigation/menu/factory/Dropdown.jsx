@@ -12,7 +12,7 @@ import MenuLink from "./MenuLink";
  * https://stackoverflow.com/questions/48013913/open-menu-on-mouseover-and-close-menu-on-mouseleave-in-react
  */
 
-const timeoutLength = 1000;
+const timeoutLength = 2000;
 const isTouchScreen = matchMedia("(hover: none)").matches;
 
 const useStyles = makeStyles((theme) => ({
