@@ -4,7 +4,7 @@ export const HOME_DEFAULT = {
       "Raising up kingdom workers\nwho are transformed by Christ\nto influence the world",
     link: {
       url: "services",
-      text: "Click for Service Times >",
+      text: "Join us in worship >",
       scroll: "true",
       element: "servicesContainer",
     },

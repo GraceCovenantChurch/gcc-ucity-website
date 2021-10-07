@@ -64,8 +64,6 @@ const ContentWithImage = (props) => {
   const classes = useStyles();
   const isMobile = props.isMobile;
 
-  console.log(props);
-
   let title = props.title.split(/\r?\n/);
   let description = props.description
     ? props.description.split(/\r?\n/)
