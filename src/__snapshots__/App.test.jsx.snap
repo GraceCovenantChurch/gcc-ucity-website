@@ -77,10 +77,10 @@ exports[`App matches the snapshot 1`] = `
               class="makeStyles-link-20 undefined"
               element="servicesContainer"
               scroll="true"
-              text="Click for Service Times >"
+              text="Join us in worship >"
               url="services"
             >
-              Click for Service Times &gt;
+              Join us in worship &gt;
             </a>
           </div>
         </div>
@@ -430,10 +430,10 @@ exports[`App matches the snapshot 2`] = `
               class="makeStyles-link-20 undefined"
               element="servicesContainer"
               scroll="true"
-              text="Click for Service Times >"
+              text="Join us in worship >"
               url="services"
             >
-              Click for Service Times &gt;
+              Join us in worship &gt;
             </a>
           </div>
         </div>

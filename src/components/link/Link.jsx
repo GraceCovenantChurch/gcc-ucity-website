@@ -25,7 +25,6 @@ const Link = forwardRef((props, ref) => {
   const classes = useStyles();
 
   if (props.scroll) {
-    console.log(props);
     return (
       <ScrollLink
         activeClass="active"
