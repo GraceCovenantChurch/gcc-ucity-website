@@ -9,7 +9,7 @@
     <img src="/src/static/gcclogo-black.png" alt="Logo">
   </a>
 
-  <h3 align="center">Grace Covenant Church - University City Website</h3>
+  <h3 align="center">Grace Covenant Church - University City Website testing</h3>
 
   <p align="center">
     Grace Covenant Church - University Website to serve information to the web, detailing the daily, weekly, and monthly events that are hosted at Grace Covenant Church.
