@@ -2,17 +2,17 @@ import React from "react";
 import PropTypes from "prop-types";
 import clsx from "clsx";
 
-import { makeStyles } from "@material-ui/core/styles";
-import Card from "@material-ui/core/Card";
-import CardContent from "@material-ui/core/CardContent";
-import CardMedia from "@material-ui/core/CardMedia";
-import Typography from "@material-ui/core/Typography";
-import Collapse from "@material-ui/core/Collapse";
-import CardActions from "@material-ui/core/CardActions";
-import IconButton from "@material-ui/core/IconButton";
+import makeStyles from '@mui/styles/makeStyles';
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Typography from "@mui/material/Typography";
+import Collapse from "@mui/material/Collapse";
+import CardActions from "@mui/material/CardActions";
+import IconButton from "@mui/material/IconButton";
 
-import ExpandMore from "@material-ui/icons/ExpandMore";
-import ExpandLess from "@material-ui/icons/ExpandLess";
+import ExpandMore from "@mui/icons-material/ExpandMore";
+import ExpandLess from "@mui/icons-material/ExpandLess";
 
 import Center from "components/center/Center";
 
@@ -123,7 +123,7 @@ const MobileStaffCard = (props) => {
             onClick={handleExpandClick}
             aria-expanded={expanded}
             aria-label="show more"
-          >
+            size="large">
             {expanded ? <ExpandLess /> : <ExpandMore />}
           </IconButton>
         </CardActions>
