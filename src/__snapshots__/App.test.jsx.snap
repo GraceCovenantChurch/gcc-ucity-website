@@ -47,167 +47,26 @@ exports[`App matches the snapshot 1`] = `
         </button>
       </div>
     </header>
-    <div
-      class="background"
-      style="background-image: url(test-file-stub);"
-    >
-      <div
-        class="contentMobile"
-      >
-        <div
-          class="MuiContainer-root MuiContainer-maxWidthLg makeStyles-mobileContentContainer-18 css-1oqqzyl-MuiContainer-root"
-        >
-          <p
-            class="MuiTypography-root MuiTypography-body1 makeStyles-title-22 makeStyles-mobileTitle-23 css-bs4cbp-MuiTypography-root"
-          >
-            Raising up kingdom workers
-            <br />
-            who are transformed by Christ
-            <br />
-            to influence the world
-            <br />
-          </p>
-          <div
-            class="makeStyles-linkContainer-19"
-          >
-            <a
-              class="makeStyles-link-20 undefined"
-              element="servicesContainer"
-              scroll="true"
-              text="Join us in worship >"
-              url="services"
-            >
-              Join us in worship &gt;
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      class="services"
-      id="servicesContainer"
-      name="services"
-    >
-      <div
-        class="MuiContainer-root MuiContainer-maxWidthLg makeStyles-container-27 css-1oqqzyl-MuiContainer-root"
-      >
-        <h5
-          class="MuiTypography-root MuiTypography-h5 makeStyles-subtitle-28 css-1w6pd8t-MuiTypography-root"
-        >
-          SERVICE LOCATION AND TIMES
-        </h5>
-      </div>
-    </div>
-    <div
-      class="background"
-      style="background-image: url(test-file-stub);"
-    >
-      <div
-        class="contentMobile"
-      >
-        <div
-          class="MuiContainer-root MuiContainer-maxWidthLg makeStyles-mobileContentContainer-18 css-1oqqzyl-MuiContainer-root"
-        >
-          <p
-            class="MuiTypography-root MuiTypography-body1 makeStyles-title-22 makeStyles-mobileTitle-23 css-bs4cbp-MuiTypography-root"
-          >
-            Family Group
-            <br />
-          </p>
-          <p
-            class="MuiTypography-root MuiTypography-body1 makeStyles-description-24 makeStyles-mobileDescription-25 css-bs4cbp-MuiTypography-root"
-          >
-            You haven't checked out GCC unless
-            <br />
-            you've checked out our family groups.
-            <br />
-          </p>
-          <div
-            class="makeStyles-linkContainer-19"
-          >
-            <a
-              class="makeStyles-link-20 undefined"
-              scroll="false"
-              text="Find out more >"
-              url="/familygroup"
-            >
-              Find out more &gt;
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
-    >
-      <div
-        class="MuiContainer-root MuiContainer-maxWidthLg makeStyles-container-27 css-1oqqzyl-MuiContainer-root"
-      >
-        <h5
-          class="MuiTypography-root MuiTypography-h5 makeStyles-subtitle-28 css-1w6pd8t-MuiTypography-root"
-        >
-          UPCOMING EVENTS
-        </h5>
-        <h5
-          class="MuiTypography-root MuiTypography-h5 makeStyles-linkContainer-29 css-1w6pd8t-MuiTypography-root"
-        >
-          <a
-            class="makeStyles-learnMore-30"
-            href="/events"
-          >
-            See all events &gt;
-          </a>
-        </h5>
-      </div>
-    </div>
-    <div
-      class="background"
-      style="background-image: url(test-file-stub);"
-    >
-      <div
-        class="contentMobile"
-      >
-        <div
-          class="MuiContainer-root MuiContainer-maxWidthLg makeStyles-mobileContentContainer-32 css-1oqqzyl-MuiContainer-root"
-        >
-          <p
-            class="MuiTypography-root MuiTypography-body1 makeStyles-title-37 makeStyles-mobileTitle-38 css-bs4cbp-MuiTypography-root"
-          >
-            Read With Us
-            <br />
-          </p>
-        </div>
-      </div>
-    </div>
-    <div
-      class="MuiContainer-root MuiContainer-maxWidthLg makeStyles-container-41 css-1oqqzyl-MuiContainer-root"
-    >
-      <h5
-        class="MuiTypography-root MuiTypography-h5 makeStyles-subtitle-42 css-1w6pd8t-MuiTypography-root"
-      >
-        Monthly Memory Verse
-      </h5>
-    </div>
     <footer
       class="footer"
     >
       <div
-        class="MuiContainer-root MuiContainer-maxWidthLg MuiContainer-disableGutters makeStyles-container-47 css-1p4tas-MuiContainer-root"
+        class="MuiContainer-root MuiContainer-maxWidthLg MuiContainer-disableGutters makeStyles-container-17 css-1p4tas-MuiContainer-root"
       >
         <div
           class="center"
         >
           <div
-            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-5 makeStyles-mobileGrid-48 css-1qgewj0-MuiGrid-root"
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-5 makeStyles-mobileGrid-18 css-1qgewj0-MuiGrid-root"
           >
             <div
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 css-1sp0r1s-MuiGrid-root"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root makeStyles-card-46 css-bhp9pd-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root makeStyles-card-16 css-bhp9pd-MuiPaper-root-MuiCard-root"
               >
                 <h5
-                  class="MuiTypography-root MuiTypography-h5 makeStyles-title-50 css-1w6pd8t-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-h5 makeStyles-title-20 css-1w6pd8t-MuiTypography-root"
                 >
                   Service Time
                 </h5>
@@ -217,10 +76,10 @@ exports[`App matches the snapshot 1`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 css-1sp0r1s-MuiGrid-root"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root makeStyles-card-46 css-bhp9pd-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root makeStyles-card-16 css-bhp9pd-MuiPaper-root-MuiCard-root"
               >
                 <h5
-                  class="MuiTypography-root MuiTypography-h5 makeStyles-title-50 css-1w6pd8t-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-h5 makeStyles-title-20 css-1w6pd8t-MuiTypography-root"
                 >
                   Social
                 </h5>
@@ -282,10 +141,10 @@ exports[`App matches the snapshot 1`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 css-1sp0r1s-MuiGrid-root"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root makeStyles-card-46 css-bhp9pd-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root makeStyles-card-16 css-bhp9pd-MuiPaper-root-MuiCard-root"
               >
                 <h5
-                  class="MuiTypography-root MuiTypography-h5 makeStyles-title-50 css-1w6pd8t-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-h5 makeStyles-title-20 css-1w6pd8t-MuiTypography-root"
                 >
                   Mobile App
                 </h5>
@@ -402,167 +261,26 @@ exports[`App matches the snapshot 2`] = `
         </button>
       </div>
     </header>
-    <div
-      class="background"
-      style="background-image: url(test-file-stub);"
-    >
-      <div
-        class="contentMobile"
-      >
-        <div
-          class="MuiContainer-root MuiContainer-maxWidthLg makeStyles-mobileContentContainer-18 css-1oqqzyl-MuiContainer-root"
-        >
-          <p
-            class="MuiTypography-root MuiTypography-body1 makeStyles-title-22 makeStyles-mobileTitle-23 css-bs4cbp-MuiTypography-root"
-          >
-            Raising up kingdom workers
-            <br />
-            who are transformed by Christ
-            <br />
-            to influence the world
-            <br />
-          </p>
-          <div
-            class="makeStyles-linkContainer-19"
-          >
-            <a
-              class="makeStyles-link-20 undefined"
-              element="servicesContainer"
-              scroll="true"
-              text="Join us in worship >"
-              url="services"
-            >
-              Join us in worship &gt;
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      class="services"
-      id="servicesContainer"
-      name="services"
-    >
-      <div
-        class="MuiContainer-root MuiContainer-maxWidthLg makeStyles-container-27 css-1oqqzyl-MuiContainer-root"
-      >
-        <h5
-          class="MuiTypography-root MuiTypography-h5 makeStyles-subtitle-28 css-1w6pd8t-MuiTypography-root"
-        >
-          SERVICE LOCATION AND TIMES
-        </h5>
-      </div>
-    </div>
-    <div
-      class="background"
-      style="background-image: url(test-file-stub);"
-    >
-      <div
-        class="contentMobile"
-      >
-        <div
-          class="MuiContainer-root MuiContainer-maxWidthLg makeStyles-mobileContentContainer-18 css-1oqqzyl-MuiContainer-root"
-        >
-          <p
-            class="MuiTypography-root MuiTypography-body1 makeStyles-title-22 makeStyles-mobileTitle-23 css-bs4cbp-MuiTypography-root"
-          >
-            Family Group
-            <br />
-          </p>
-          <p
-            class="MuiTypography-root MuiTypography-body1 makeStyles-description-24 makeStyles-mobileDescription-25 css-bs4cbp-MuiTypography-root"
-          >
-            You haven't checked out GCC unless
-            <br />
-            you've checked out our family groups.
-            <br />
-          </p>
-          <div
-            class="makeStyles-linkContainer-19"
-          >
-            <a
-              class="makeStyles-link-20 undefined"
-              scroll="false"
-              text="Find out more >"
-              url="/familygroup"
-            >
-              Find out more &gt;
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
-    >
-      <div
-        class="MuiContainer-root MuiContainer-maxWidthLg makeStyles-container-27 css-1oqqzyl-MuiContainer-root"
-      >
-        <h5
-          class="MuiTypography-root MuiTypography-h5 makeStyles-subtitle-28 css-1w6pd8t-MuiTypography-root"
-        >
-          UPCOMING EVENTS
-        </h5>
-        <h5
-          class="MuiTypography-root MuiTypography-h5 makeStyles-linkContainer-29 css-1w6pd8t-MuiTypography-root"
-        >
-          <a
-            class="makeStyles-learnMore-30"
-            href="/events"
-          >
-            See all events &gt;
-          </a>
-        </h5>
-      </div>
-    </div>
-    <div
-      class="background"
-      style="background-image: url(test-file-stub);"
-    >
-      <div
-        class="contentMobile"
-      >
-        <div
-          class="MuiContainer-root MuiContainer-maxWidthLg makeStyles-mobileContentContainer-32 css-1oqqzyl-MuiContainer-root"
-        >
-          <p
-            class="MuiTypography-root MuiTypography-body1 makeStyles-title-37 makeStyles-mobileTitle-38 css-bs4cbp-MuiTypography-root"
-          >
-            Read With Us
-            <br />
-          </p>
-        </div>
-      </div>
-    </div>
-    <div
-      class="MuiContainer-root MuiContainer-maxWidthLg makeStyles-container-41 css-1oqqzyl-MuiContainer-root"
-    >
-      <h5
-        class="MuiTypography-root MuiTypography-h5 makeStyles-subtitle-42 css-1w6pd8t-MuiTypography-root"
-      >
-        Monthly Memory Verse
-      </h5>
-    </div>
     <footer
       class="footer"
     >
       <div
-        class="MuiContainer-root MuiContainer-maxWidthLg MuiContainer-disableGutters makeStyles-container-47 css-1p4tas-MuiContainer-root"
+        class="MuiContainer-root MuiContainer-maxWidthLg MuiContainer-disableGutters makeStyles-container-17 css-1p4tas-MuiContainer-root"
       >
         <div
           class="center"
         >
           <div
-            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-5 makeStyles-mobileGrid-48 css-1qgewj0-MuiGrid-root"
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-5 makeStyles-mobileGrid-18 css-1qgewj0-MuiGrid-root"
           >
             <div
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 css-1sp0r1s-MuiGrid-root"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root makeStyles-card-46 css-bhp9pd-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root makeStyles-card-16 css-bhp9pd-MuiPaper-root-MuiCard-root"
               >
                 <h5
-                  class="MuiTypography-root MuiTypography-h5 makeStyles-title-50 css-1w6pd8t-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-h5 makeStyles-title-20 css-1w6pd8t-MuiTypography-root"
                 >
                   Service Time
                 </h5>
@@ -572,10 +290,10 @@ exports[`App matches the snapshot 2`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 css-1sp0r1s-MuiGrid-root"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root makeStyles-card-46 css-bhp9pd-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root makeStyles-card-16 css-bhp9pd-MuiPaper-root-MuiCard-root"
               >
                 <h5
-                  class="MuiTypography-root MuiTypography-h5 makeStyles-title-50 css-1w6pd8t-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-h5 makeStyles-title-20 css-1w6pd8t-MuiTypography-root"
                 >
                   Social
                 </h5>
@@ -637,10 +355,10 @@ exports[`App matches the snapshot 2`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 css-1sp0r1s-MuiGrid-root"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root makeStyles-card-46 css-bhp9pd-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root makeStyles-card-16 css-bhp9pd-MuiPaper-root-MuiCard-root"
               >
                 <h5
-                  class="MuiTypography-root MuiTypography-h5 makeStyles-title-50 css-1w6pd8t-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-h5 makeStyles-title-20 css-1w6pd8t-MuiTypography-root"
                 >
                   Mobile App
                 </h5>
