@@ -18,6 +18,7 @@ import Giving from "./giving/Giving";
 
 import Events from "./events/Events";
 import Multimedia from "./multimedia/Multimedia";
+import Sermons from "./Sermons/Sermons";
 // import Sermons from "./sermons/Sermons";
 
 const BaseRouter = (props) => (
@@ -34,6 +35,7 @@ const BaseRouter = (props) => (
         <Route path="/giving" component={Giving} />
         <Route path="/multimedia" component={Multimedia} />
         <Route path="/events" component={Events} />
+        <Route path="/sermons" component={Sermons} />
         <Route component={NotFound} />
       </Switch>
       {/*
