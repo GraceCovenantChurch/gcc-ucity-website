@@ -4,43 +4,41 @@ exports[`FlattenDrawerLinks matches the snapshot 1`] = `
 <div>
   <div>
     <hr
-      class="MuiDivider-root"
+      class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
     />
     <li
-      class="MuiListSubheader-root makeStyles-menuSubtitle-2 makeStyles-menuText-1 MuiListSubheader-gutters"
+      class="MuiListSubheader-root MuiListSubheader-gutters makeStyles-menuSubtitle-2 makeStyles-menuText-1 css-x9njn-MuiListSubheader-root"
     >
       About
     </li>
     <hr
-      class="MuiDivider-root"
+      class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
     />
     <div
       class=""
       role="presentation"
     >
       <a
-        aria-disabled="false"
-        class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+        class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-bshv44-MuiButtonBase-root-MuiListItem-root"
         href="/welcome"
-        role="button"
         tabindex="0"
       >
         <div
-          class="MuiListItemText-root makeStyles-menuText-1"
+          class="MuiListItemText-root makeStyles-menuText-1 css-tlelie-MuiListItemText-root"
         >
           <span
-            class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+            class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
           >
             Welcome
           </span>
         </div>
         <span
-          class="MuiTouchRipple-root"
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
         />
       </a>
     </div>
     <hr
-      class="MuiDivider-root"
+      class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
     />
   </div>
   <div
@@ -48,23 +46,21 @@ exports[`FlattenDrawerLinks matches the snapshot 1`] = `
     role="presentation"
   >
     <a
-      aria-disabled="false"
-      class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+      class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-bshv44-MuiButtonBase-root-MuiListItem-root"
       href="/familygroup"
-      role="button"
       tabindex="0"
     >
       <div
-        class="MuiListItemText-root makeStyles-menuText-1"
+        class="MuiListItemText-root makeStyles-menuText-1 css-tlelie-MuiListItemText-root"
       >
         <span
-          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+          class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
         >
           Family Groups
         </span>
       </div>
       <span
-        class="MuiTouchRipple-root"
+        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
       />
     </a>
   </div>
@@ -75,43 +71,41 @@ exports[`FlattenDrawerLinks matches the snapshot 2`] = `
 <div>
   <div>
     <hr
-      class="MuiDivider-root"
+      class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
     />
     <li
-      class="MuiListSubheader-root makeStyles-menuSubtitle-2 makeStyles-menuText-1 MuiListSubheader-gutters"
+      class="MuiListSubheader-root MuiListSubheader-gutters makeStyles-menuSubtitle-2 makeStyles-menuText-1 css-x9njn-MuiListSubheader-root"
     >
       About
     </li>
     <hr
-      class="MuiDivider-root"
+      class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
     />
     <div
       class=""
       role="presentation"
     >
       <a
-        aria-disabled="false"
-        class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+        class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-bshv44-MuiButtonBase-root-MuiListItem-root"
         href="/welcome"
-        role="button"
         tabindex="0"
       >
         <div
-          class="MuiListItemText-root makeStyles-menuText-1"
+          class="MuiListItemText-root makeStyles-menuText-1 css-tlelie-MuiListItemText-root"
         >
           <span
-            class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+            class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
           >
             Welcome
           </span>
         </div>
         <span
-          class="MuiTouchRipple-root"
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
         />
       </a>
     </div>
     <hr
-      class="MuiDivider-root"
+      class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
     />
   </div>
   <div
@@ -119,23 +113,21 @@ exports[`FlattenDrawerLinks matches the snapshot 2`] = `
     role="presentation"
   >
     <a
-      aria-disabled="false"
-      class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+      class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-bshv44-MuiButtonBase-root-MuiListItem-root"
       href="/familygroup"
-      role="button"
       tabindex="0"
     >
       <div
-        class="MuiListItemText-root makeStyles-menuText-1"
+        class="MuiListItemText-root makeStyles-menuText-1 css-tlelie-MuiListItemText-root"
       >
         <span
-          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+          class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
         >
           Family Groups
         </span>
       </div>
       <span
-        class="MuiTouchRipple-root"
+        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
       />
     </a>
   </div>

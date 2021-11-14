@@ -1,8 +1,8 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
 
-import { makeStyles } from "@material-ui/core/styles";
-import List from "@material-ui/core/List";
+import makeStyles from '@mui/styles/makeStyles';
+import List from "@mui/material/List";
 
 import GenericContent from "components/content/GenericContent";
 import Body from "components/content/text/Body";

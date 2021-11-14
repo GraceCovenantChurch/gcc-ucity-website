@@ -4,16 +4,18 @@ import "@fontsource/lora";
 import "@fontsource/roboto";
 
 import {
-  MuiThemeProvider,
+  ThemeProvider,
+  StyledEngineProvider,
   createTheme,
   responsiveFontSizes,
-} from "@material-ui/core/styles";
+  adaptV4Theme,
+} from "@mui/material/styles";
 
 import BaseRouter from "./pages/BaseRouter";
 
 import styles from "./App.module.scss";
 
-let theme = createTheme({
+let theme = createTheme(adaptV4Theme({
   typography: {
     // Use the system font instead of the default Roboto font.
     fontFamily: [
@@ -31,17 +33,19 @@ let theme = createTheme({
       '"Segoe UI Symbol"',
     ].join(","),
   },
-});
+}));
 
 theme = responsiveFontSizes(theme);
 
 const App = () => {
   return (
-    <MuiThemeProvider theme={theme}>
-      <div className={styles.AppContent}>
-        <BaseRouter />
-      </div>
-    </MuiThemeProvider>
+    <StyledEngineProvider injectFirst>
+      <ThemeProvider theme={theme}>
+        <div className={styles.AppContent}>
+          <BaseRouter />
+        </div>
+      </ThemeProvider>
+    </StyledEngineProvider>
   );
 };
 
