@@ -6,10 +6,10 @@ exports[`App matches the snapshot 1`] = `
     class="AppContent"
   >
     <header
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionSticky makeStyles-appBarMobile-7 css-7e0s21-MuiPaper-root-MuiAppBar-root"
+      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionSticky MuiAppBar-colorPrimary makeStyles-appBarMobile-7 MuiPaper-elevation4"
     >
       <div
-        class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular makeStyles-mobileToolBar-4 css-1t29gy6-MuiToolbar-root"
+        class="MuiToolbar-root MuiToolbar-regular makeStyles-mobileToolBar-4 MuiToolbar-gutters"
       >
         <div
           class="makeStyles-titleGrow-5"
@@ -26,60 +26,204 @@ exports[`App matches the snapshot 1`] = `
         </div>
         <button
           aria-label="menu"
-          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-edgeStart MuiIconButton-sizeLarge makeStyles-menuButton-9 css-184mzhy-MuiButtonBase-root-MuiIconButton-root"
+          class="MuiButtonBase-root MuiIconButton-root makeStyles-menuButton-9 MuiIconButton-colorInherit MuiIconButton-edgeStart"
           tabindex="0"
           type="button"
         >
-          <svg
-            aria-hidden="true"
-            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-            data-testid="MenuIcon"
-            focusable="false"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-            />
-          </svg>
           <span
-            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            class="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiTouchRipple-root"
           />
         </button>
       </div>
     </header>
+    <div
+      class="background"
+      style="background-image: url(test-file-stub);"
+    >
+      <div
+        class="contentMobile"
+      >
+        <div
+          class="MuiContainer-root makeStyles-mobileContentContainer-18 MuiContainer-maxWidthLg"
+        >
+          <p
+            class="MuiTypography-root makeStyles-title-22 makeStyles-mobileTitle-23 MuiTypography-body1"
+          >
+            Raising up kingdom workers
+            <br />
+            who are transformed by Christ
+            <br />
+            to influence the world
+            <br />
+          </p>
+          <div
+            class="makeStyles-linkContainer-19"
+          >
+            <a
+              class="makeStyles-link-20 undefined"
+              element="servicesContainer"
+              scroll="true"
+              text="Join us in worship >"
+              url="services"
+            >
+              Join us in worship &gt;
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="services"
+      id="servicesContainer"
+      name="services"
+    >
+      <div
+        class="MuiContainer-root makeStyles-container-27 MuiContainer-maxWidthLg"
+      >
+        <h5
+          class="MuiTypography-root makeStyles-subtitle-28 MuiTypography-h5"
+        >
+          SERVICE LOCATION AND TIMES
+        </h5>
+      </div>
+    </div>
+    <div
+      class="background"
+      style="background-image: url(test-file-stub);"
+    >
+      <div
+        class="contentMobile"
+      >
+        <div
+          class="MuiContainer-root makeStyles-mobileContentContainer-18 MuiContainer-maxWidthLg"
+        >
+          <p
+            class="MuiTypography-root makeStyles-title-22 makeStyles-mobileTitle-23 MuiTypography-body1"
+          >
+            Family Group
+            <br />
+          </p>
+          <p
+            class="MuiTypography-root makeStyles-description-24 makeStyles-mobileDescription-25 MuiTypography-body1"
+          >
+            You haven't checked out GCC unless
+            <br />
+            you've checked out our family groups.
+            <br />
+          </p>
+          <div
+            class="makeStyles-linkContainer-19"
+          >
+            <a
+              class="makeStyles-link-20 undefined"
+              scroll="false"
+              text="Find out more >"
+              url="/familygroup"
+            >
+              Find out more &gt;
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg"
+    >
+      <div
+        class="MuiContainer-root makeStyles-container-27 MuiContainer-maxWidthLg"
+      >
+        <h5
+          class="MuiTypography-root makeStyles-subtitle-28 MuiTypography-h5"
+        >
+          UPCOMING EVENTS
+        </h5>
+        <h5
+          class="MuiTypography-root makeStyles-linkContainer-29 MuiTypography-h5"
+        >
+          <a
+            class="makeStyles-learnMore-30"
+            href="/events"
+          >
+            See all events &gt;
+          </a>
+        </h5>
+      </div>
+    </div>
+    <div
+      class="background"
+      style="background-image: url(test-file-stub);"
+    >
+      <div
+        class="contentMobile"
+      >
+        <div
+          class="MuiContainer-root makeStyles-mobileContentContainer-32 MuiContainer-maxWidthLg"
+        >
+          <p
+            class="MuiTypography-root makeStyles-title-37 makeStyles-mobileTitle-38 MuiTypography-body1"
+          >
+            Read With Us
+            <br />
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiContainer-root makeStyles-container-41 MuiContainer-maxWidthLg"
+    >
+      <h5
+        class="MuiTypography-root makeStyles-subtitle-42 MuiTypography-h5"
+      >
+        Monthly Memory Verse
+      </h5>
+    </div>
     <footer
       class="footer"
     >
       <div
-        class="MuiContainer-root MuiContainer-maxWidthLg MuiContainer-disableGutters makeStyles-container-17 css-1p4tas-MuiContainer-root"
+        class="MuiContainer-root makeStyles-container-47 MuiContainer-disableGutters MuiContainer-maxWidthLg"
       >
         <div
           class="center"
         >
           <div
-            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-5 makeStyles-mobileGrid-18 css-1qgewj0-MuiGrid-root"
+            class="MuiGrid-root makeStyles-mobileGrid-48 MuiGrid-container MuiGrid-spacing-xs-5 MuiGrid-justify-content-xs-center"
           >
             <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 css-1sp0r1s-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root makeStyles-card-16 css-bhp9pd-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiCard-root makeStyles-card-46 MuiPaper-elevation1 MuiPaper-rounded"
               >
                 <h5
-                  class="MuiTypography-root MuiTypography-h5 makeStyles-title-20 css-1w6pd8t-MuiTypography-root"
+                  class="MuiTypography-root makeStyles-title-50 MuiTypography-h5"
                 >
                   Service Time
                 </h5>
               </div>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 css-1sp0r1s-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root makeStyles-card-16 css-bhp9pd-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiCard-root makeStyles-card-46 MuiPaper-elevation1 MuiPaper-rounded"
               >
                 <h5
-                  class="MuiTypography-root MuiTypography-h5 makeStyles-title-20 css-1w6pd8t-MuiTypography-root"
+                  class="MuiTypography-root makeStyles-title-50 MuiTypography-h5"
                 >
                   Social
                 </h5>
@@ -87,13 +231,12 @@ exports[`App matches the snapshot 1`] = `
                   class="center"
                 >
                   <a
-                    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways socialLinks css-1iwtne7-MuiTypography-root-MuiLink-root"
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover socialLinks MuiTypography-colorPrimary"
                     href="https://www.instagram.com/gccphiladelphia/"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium icons css-i4bv87-MuiSvgIcon-root"
-                      data-testid="InstagramIcon"
+                      class="MuiSvgIcon-root icons"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -103,13 +246,12 @@ exports[`App matches the snapshot 1`] = `
                     </svg>
                   </a>
                   <a
-                    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways socialLinks css-1iwtne7-MuiTypography-root-MuiLink-root"
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover socialLinks MuiTypography-colorPrimary"
                     href="https://www.facebook.com/gccphiladelphia/"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium icons css-i4bv87-MuiSvgIcon-root"
-                      data-testid="FacebookIcon"
+                      class="MuiSvgIcon-root icons"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -119,13 +261,12 @@ exports[`App matches the snapshot 1`] = `
                     </svg>
                   </a>
                   <a
-                    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways socialLinks css-1iwtne7-MuiTypography-root-MuiLink-root"
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover socialLinks MuiTypography-colorPrimary"
                     href="https://www.youtube.com/user/GraceCovenantChurch"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium icons css-i4bv87-MuiSvgIcon-root"
-                      data-testid="YouTubeIcon"
+                      class="MuiSvgIcon-root icons"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -138,13 +279,13 @@ exports[`App matches the snapshot 1`] = `
               </div>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 css-1sp0r1s-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root makeStyles-card-16 css-bhp9pd-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiCard-root makeStyles-card-46 MuiPaper-elevation1 MuiPaper-rounded"
               >
                 <h5
-                  class="MuiTypography-root MuiTypography-h5 makeStyles-title-20 css-1w6pd8t-MuiTypography-root"
+                  class="MuiTypography-root makeStyles-title-50 MuiTypography-h5"
                 >
                   Mobile App
                 </h5>
@@ -152,13 +293,12 @@ exports[`App matches the snapshot 1`] = `
                   class="center"
                 >
                   <a
-                    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways socialLinks css-1iwtne7-MuiTypography-root-MuiLink-root"
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover socialLinks MuiTypography-colorPrimary"
                     href="https://apps.apple.com/us/app/gcc-philadelphia/id1446852662"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium icons css-i4bv87-MuiSvgIcon-root"
-                      data-testid="AppleIcon"
+                      class="MuiSvgIcon-root icons"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -168,13 +308,12 @@ exports[`App matches the snapshot 1`] = `
                     </svg>
                   </a>
                   <a
-                    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways socialLinks css-1iwtne7-MuiTypography-root-MuiLink-root"
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover socialLinks MuiTypography-colorPrimary"
                     href="https://play.google.com/store/apps/details?id=com.subsplashconsulting.s_QZRM2D"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium icons css-i4bv87-MuiSvgIcon-root"
-                      data-testid="ShopIcon"
+                      class="MuiSvgIcon-root icons"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -220,10 +359,10 @@ exports[`App matches the snapshot 2`] = `
     class="AppContent"
   >
     <header
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionSticky makeStyles-appBarMobile-7 css-7e0s21-MuiPaper-root-MuiAppBar-root"
+      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionSticky MuiAppBar-colorPrimary makeStyles-appBarMobile-7 MuiPaper-elevation4"
     >
       <div
-        class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular makeStyles-mobileToolBar-4 css-1t29gy6-MuiToolbar-root"
+        class="MuiToolbar-root MuiToolbar-regular makeStyles-mobileToolBar-4 MuiToolbar-gutters"
       >
         <div
           class="makeStyles-titleGrow-5"
@@ -240,60 +379,204 @@ exports[`App matches the snapshot 2`] = `
         </div>
         <button
           aria-label="menu"
-          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-edgeStart MuiIconButton-sizeLarge makeStyles-menuButton-9 css-184mzhy-MuiButtonBase-root-MuiIconButton-root"
+          class="MuiButtonBase-root MuiIconButton-root makeStyles-menuButton-9 MuiIconButton-colorInherit MuiIconButton-edgeStart"
           tabindex="0"
           type="button"
         >
-          <svg
-            aria-hidden="true"
-            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-            data-testid="MenuIcon"
-            focusable="false"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-            />
-          </svg>
           <span
-            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            class="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiTouchRipple-root"
           />
         </button>
       </div>
     </header>
+    <div
+      class="background"
+      style="background-image: url(test-file-stub);"
+    >
+      <div
+        class="contentMobile"
+      >
+        <div
+          class="MuiContainer-root makeStyles-mobileContentContainer-18 MuiContainer-maxWidthLg"
+        >
+          <p
+            class="MuiTypography-root makeStyles-title-22 makeStyles-mobileTitle-23 MuiTypography-body1"
+          >
+            Raising up kingdom workers
+            <br />
+            who are transformed by Christ
+            <br />
+            to influence the world
+            <br />
+          </p>
+          <div
+            class="makeStyles-linkContainer-19"
+          >
+            <a
+              class="makeStyles-link-20 undefined"
+              element="servicesContainer"
+              scroll="true"
+              text="Join us in worship >"
+              url="services"
+            >
+              Join us in worship &gt;
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="services"
+      id="servicesContainer"
+      name="services"
+    >
+      <div
+        class="MuiContainer-root makeStyles-container-27 MuiContainer-maxWidthLg"
+      >
+        <h5
+          class="MuiTypography-root makeStyles-subtitle-28 MuiTypography-h5"
+        >
+          SERVICE LOCATION AND TIMES
+        </h5>
+      </div>
+    </div>
+    <div
+      class="background"
+      style="background-image: url(test-file-stub);"
+    >
+      <div
+        class="contentMobile"
+      >
+        <div
+          class="MuiContainer-root makeStyles-mobileContentContainer-18 MuiContainer-maxWidthLg"
+        >
+          <p
+            class="MuiTypography-root makeStyles-title-22 makeStyles-mobileTitle-23 MuiTypography-body1"
+          >
+            Family Group
+            <br />
+          </p>
+          <p
+            class="MuiTypography-root makeStyles-description-24 makeStyles-mobileDescription-25 MuiTypography-body1"
+          >
+            You haven't checked out GCC unless
+            <br />
+            you've checked out our family groups.
+            <br />
+          </p>
+          <div
+            class="makeStyles-linkContainer-19"
+          >
+            <a
+              class="makeStyles-link-20 undefined"
+              scroll="false"
+              text="Find out more >"
+              url="/familygroup"
+            >
+              Find out more &gt;
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg"
+    >
+      <div
+        class="MuiContainer-root makeStyles-container-27 MuiContainer-maxWidthLg"
+      >
+        <h5
+          class="MuiTypography-root makeStyles-subtitle-28 MuiTypography-h5"
+        >
+          UPCOMING EVENTS
+        </h5>
+        <h5
+          class="MuiTypography-root makeStyles-linkContainer-29 MuiTypography-h5"
+        >
+          <a
+            class="makeStyles-learnMore-30"
+            href="/events"
+          >
+            See all events &gt;
+          </a>
+        </h5>
+      </div>
+    </div>
+    <div
+      class="background"
+      style="background-image: url(test-file-stub);"
+    >
+      <div
+        class="contentMobile"
+      >
+        <div
+          class="MuiContainer-root makeStyles-mobileContentContainer-32 MuiContainer-maxWidthLg"
+        >
+          <p
+            class="MuiTypography-root makeStyles-title-37 makeStyles-mobileTitle-38 MuiTypography-body1"
+          >
+            Read With Us
+            <br />
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiContainer-root makeStyles-container-41 MuiContainer-maxWidthLg"
+    >
+      <h5
+        class="MuiTypography-root makeStyles-subtitle-42 MuiTypography-h5"
+      >
+        Monthly Memory Verse
+      </h5>
+    </div>
     <footer
       class="footer"
     >
       <div
-        class="MuiContainer-root MuiContainer-maxWidthLg MuiContainer-disableGutters makeStyles-container-17 css-1p4tas-MuiContainer-root"
+        class="MuiContainer-root makeStyles-container-47 MuiContainer-disableGutters MuiContainer-maxWidthLg"
       >
         <div
           class="center"
         >
           <div
-            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-5 makeStyles-mobileGrid-18 css-1qgewj0-MuiGrid-root"
+            class="MuiGrid-root makeStyles-mobileGrid-48 MuiGrid-container MuiGrid-spacing-xs-5 MuiGrid-justify-content-xs-center"
           >
             <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 css-1sp0r1s-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root makeStyles-card-16 css-bhp9pd-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiCard-root makeStyles-card-46 MuiPaper-elevation1 MuiPaper-rounded"
               >
                 <h5
-                  class="MuiTypography-root MuiTypography-h5 makeStyles-title-20 css-1w6pd8t-MuiTypography-root"
+                  class="MuiTypography-root makeStyles-title-50 MuiTypography-h5"
                 >
                   Service Time
                 </h5>
               </div>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 css-1sp0r1s-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root makeStyles-card-16 css-bhp9pd-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiCard-root makeStyles-card-46 MuiPaper-elevation1 MuiPaper-rounded"
               >
                 <h5
-                  class="MuiTypography-root MuiTypography-h5 makeStyles-title-20 css-1w6pd8t-MuiTypography-root"
+                  class="MuiTypography-root makeStyles-title-50 MuiTypography-h5"
                 >
                   Social
                 </h5>
@@ -301,13 +584,12 @@ exports[`App matches the snapshot 2`] = `
                   class="center"
                 >
                   <a
-                    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways socialLinks css-1iwtne7-MuiTypography-root-MuiLink-root"
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover socialLinks MuiTypography-colorPrimary"
                     href="https://www.instagram.com/gccphiladelphia/"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium icons css-i4bv87-MuiSvgIcon-root"
-                      data-testid="InstagramIcon"
+                      class="MuiSvgIcon-root icons"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -317,13 +599,12 @@ exports[`App matches the snapshot 2`] = `
                     </svg>
                   </a>
                   <a
-                    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways socialLinks css-1iwtne7-MuiTypography-root-MuiLink-root"
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover socialLinks MuiTypography-colorPrimary"
                     href="https://www.facebook.com/gccphiladelphia/"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium icons css-i4bv87-MuiSvgIcon-root"
-                      data-testid="FacebookIcon"
+                      class="MuiSvgIcon-root icons"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -333,13 +614,12 @@ exports[`App matches the snapshot 2`] = `
                     </svg>
                   </a>
                   <a
-                    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways socialLinks css-1iwtne7-MuiTypography-root-MuiLink-root"
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover socialLinks MuiTypography-colorPrimary"
                     href="https://www.youtube.com/user/GraceCovenantChurch"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium icons css-i4bv87-MuiSvgIcon-root"
-                      data-testid="YouTubeIcon"
+                      class="MuiSvgIcon-root icons"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -352,13 +632,13 @@ exports[`App matches the snapshot 2`] = `
               </div>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10 css-1sp0r1s-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-10"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root makeStyles-card-16 css-bhp9pd-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiCard-root makeStyles-card-46 MuiPaper-elevation1 MuiPaper-rounded"
               >
                 <h5
-                  class="MuiTypography-root MuiTypography-h5 makeStyles-title-20 css-1w6pd8t-MuiTypography-root"
+                  class="MuiTypography-root makeStyles-title-50 MuiTypography-h5"
                 >
                   Mobile App
                 </h5>
@@ -366,13 +646,12 @@ exports[`App matches the snapshot 2`] = `
                   class="center"
                 >
                   <a
-                    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways socialLinks css-1iwtne7-MuiTypography-root-MuiLink-root"
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover socialLinks MuiTypography-colorPrimary"
                     href="https://apps.apple.com/us/app/gcc-philadelphia/id1446852662"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium icons css-i4bv87-MuiSvgIcon-root"
-                      data-testid="AppleIcon"
+                      class="MuiSvgIcon-root icons"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -382,13 +661,12 @@ exports[`App matches the snapshot 2`] = `
                     </svg>
                   </a>
                   <a
-                    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways socialLinks css-1iwtne7-MuiTypography-root-MuiLink-root"
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover socialLinks MuiTypography-colorPrimary"
                     href="https://play.google.com/store/apps/details?id=com.subsplashconsulting.s_QZRM2D"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium icons css-i4bv87-MuiSvgIcon-root"
-                      data-testid="ShopIcon"
+                      class="MuiSvgIcon-root icons"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >

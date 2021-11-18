@@ -2,8 +2,8 @@ import React from "react";
 import { useMediaQuery } from "react-responsive";
 import Scroll from "react-scroll";
 
-import makeStyles from '@mui/styles/makeStyles';
-import Container from "@mui/material/Container";
+import { makeStyles } from "@material-ui/core/styles";
+import Container from "@material-ui/core/Container";
 
 import ContentWithImage from "components/content/ContentWithImage";
 import ContentWithImageAPI from "components/content/ContentWithImageAPI";

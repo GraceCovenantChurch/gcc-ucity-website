@@ -1,7 +1,7 @@
 import React from "react";
 
-import makeStyles from '@mui/styles/makeStyles';
-import { default as MGrid } from "@mui/material/Grid";
+import { makeStyles } from "@material-ui/core/styles";
+import { default as MGrid } from "@material-ui/core/Grid";
 
 const useStyles = makeStyles((theme) => ({
   grid: {

@@ -1,19 +1,19 @@
 import React, { useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
 
-import FacebookIcon from "@mui/icons-material/Facebook";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import YouTubeIcon from "@mui/icons-material/YouTube";
-import AppleIcon from "@mui/icons-material/Apple";
-import ShopIcon from "@mui/icons-material/Shop";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import InstagramIcon from "@material-ui/icons/Instagram";
+import YouTubeIcon from "@material-ui/icons/YouTube";
+import AppleIcon from "@material-ui/icons/Apple";
+import ShopIcon from "@material-ui/icons/Shop";
 
-import makeStyles from '@mui/styles/makeStyles';
-import Link from "@mui/material/Link";
-import Typography from "@mui/material/Typography";
-import Container from "@mui/material/Container";
+import { makeStyles } from "@material-ui/core/styles";
+import Link from "@material-ui/core/Link";
+import Typography from "@material-ui/core/Typography";
+import Container from "@material-ui/core/Container";
 
 import Center from "components/center/Center";
-import Card from "@mui/material/Card";
+import Card from "@material-ui/core/Card";
 import Grid from "components/grid/Grid";
 import GridItem from "components/grid/GridItem";
 

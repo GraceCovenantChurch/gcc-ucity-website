@@ -6,7 +6,7 @@ import { Link as RouterLink } from "react-router-dom";
 
 import { isExternal } from "modules/IsExternal";
 
-import makeStyles from '@mui/styles/makeStyles';
+import { makeStyles } from "@material-ui/core/styles";
 
 const ScrollLink = Scroll.Link;
 

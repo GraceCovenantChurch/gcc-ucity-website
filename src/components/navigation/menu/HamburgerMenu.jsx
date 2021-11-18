@@ -1,22 +1,22 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import makeStyles from '@mui/styles/makeStyles';
-import IconButton from "@mui/material/IconButton";
-import Drawer from "@mui/material/Drawer";
-import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
-import ListItemText from "@mui/material/ListItemText";
+import { makeStyles } from "@material-ui/core/styles";
+import IconButton from "@material-ui/core/IconButton";
+import Drawer from "@material-ui/core/Drawer";
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
+import ListItemText from "@material-ui/core/ListItemText";
 
-import MenuIcon from "@mui/icons-material/Menu";
-import CloseIcon from "@mui/icons-material/Close";
+import MenuIcon from "@material-ui/icons/Menu";
+import CloseIcon from "@material-ui/icons/Close";
+
+import grey from "@material-ui/core/colors/grey";
 
 import DrawerLinks from "./drawer/DrawerLinks";
-
 import Link from "components/link/Link";
-import imageURLMobile from "static/gcclogo-black.png";
 
-import { grey } from '@mui/material/colors';
+import imageURLMobile from "static/gcclogo-black.png";
 
 const DRAWER_ANCHOR = "top";
 
@@ -76,7 +76,7 @@ const HamburgerMenu = (props) => {
         color="inherit"
         aria-label="menu"
         onClick={toggleDrawer(true)}
-        size="large">
+      >
         <MenuIcon />
       </IconButton>
       <Drawer
@@ -99,7 +99,7 @@ const HamburgerMenu = (props) => {
               color="inherit"
               aria-label="menu"
               onClick={toggleDrawer(false)}
-              size="large">
+            >
               <CloseIcon />
             </IconButton>
           </List>

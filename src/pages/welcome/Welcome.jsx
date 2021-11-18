@@ -1,6 +1,6 @@
 import React from "react";
 
-import makeStyles from '@mui/styles/makeStyles';
+import { makeStyles } from "@material-ui/core/styles";
 
 import Link from "components/link/Link";
 import GenericContent from "components/content/GenericContent";

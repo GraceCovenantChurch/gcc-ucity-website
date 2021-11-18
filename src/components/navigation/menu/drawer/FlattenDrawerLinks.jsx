@@ -2,11 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 import clsx from "clsx";
 
-import makeStyles from '@mui/styles/makeStyles';
-import ListItem from "@mui/material/ListItem";
-import ListSubheader from "@mui/material/ListSubheader";
-import ListItemText from "@mui/material/ListItemText";
-import Divider from "@mui/material/Divider";
+import { makeStyles } from "@material-ui/core/styles";
+import ListItem from "@material-ui/core/ListItem";
+import ListSubheader from "@material-ui/core/ListSubheader";
+import ListItemText from "@material-ui/core/ListItemText";
+import Divider from "@material-ui/core/Divider";
 
 import Link from "components/link/Link";
 

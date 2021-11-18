@@ -1,7 +1,7 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
 
-import Grid from "@mui/material/Grid";
+import Grid from "@material-ui/core/Grid";
 
 import { MOBILE_QUERY } from "constants/mobile";
 

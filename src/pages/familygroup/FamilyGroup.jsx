@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useMediaQuery } from "react-responsive";
 
-import makeStyles from '@mui/styles/makeStyles';
-import Grid from "@mui/material/Grid";
+import { makeStyles } from "@material-ui/core/styles";
+import Grid from "@material-ui/core/Grid";
 
 import GenericContent from "components/content/GenericContent";
 import Body from "components/content/text/Body";
