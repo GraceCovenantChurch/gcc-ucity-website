@@ -106,7 +106,8 @@ export const getSundayServices = () => {
     });
 };
 
-/** TODO: Joey Zia - I think there's a better way to go about this. If you know of
+/**
+ * TODO: Joey Zia - I think there's a better way to go about this. If you know of
  * a better way to determine which service is missing, please don't hesitate
  * to let me know. This is probably the most shameful coding I've done.
  * Most likely the data needs to be redesigned.

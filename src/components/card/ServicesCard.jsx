@@ -44,10 +44,10 @@ const ServicesCard = (props) => {
           {props.title}
         </Typography>
         <Typography className={classes.eventStart} variant="h6" component="h6">
-          {props.eventStart}
+          {props.break ? "We're on break!" : props.eventStart}
         </Typography>
         <Typography className={classes.location} variant="body1" component="h6">
-          {props.location}
+          {props.break ? "Location will be announced" : props.location}
         </Typography>
         <Typography
           className={classes.description}
