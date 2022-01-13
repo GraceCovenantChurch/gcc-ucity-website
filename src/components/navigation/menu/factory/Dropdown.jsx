@@ -1,9 +1,9 @@
 import React from "react";
 
-import { makeStyles } from "@material-ui/core/styles";
-import Button from "@material-ui/core/Button";
-import Typography from "@material-ui/core/Typography";
-import Menu from "@material-ui/core/Menu";
+import makeStyles from "@mui/styles/makeStyles";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
+import Menu from "@mui/material/Menu";
 
 import MenuLink from "./MenuLink";
 
@@ -104,7 +104,7 @@ const Dropdown = (props) => {
       <Menu
         className={classes.menu}
         elevation={0}
-        getContentAnchorEl={null}
+        getcontentanchorel={null}
         anchorOrigin={{
           vertical: "bottom",
           horizontal: "left",

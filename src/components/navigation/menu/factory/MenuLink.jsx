@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 
 import Link from "components/link/Link";
 
-import { makeStyles } from "@material-ui/core/styles";
-import Button from "@material-ui/core/Button";
-import Typography from "@material-ui/core/Typography";
+import makeStyles from '@mui/styles/makeStyles';
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
 
 const useStyles = makeStyles((theme) => ({
   menuButton: {

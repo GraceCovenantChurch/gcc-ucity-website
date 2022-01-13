@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import clsx from "clsx";
 
-import { makeStyles } from "@material-ui/core/styles";
-import Typography from "@material-ui/core/Typography";
-import Container from "@material-ui/core/Container";
+import makeStyles from "@mui/styles/makeStyles";
+import Typography from "@mui/material/Typography";
+import Container from "@mui/material/Container";
 import BackgroundImage from "components/background/BackgroundImage";
 
 import Link from "components/link/Link";
@@ -49,6 +49,7 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: 700,
     fontSize: "calc(1.5vw + 1.25vh + .5vmin)",
     paddingBottom: ".25em",
+    color: "white",
   },
   mobileTitle: {
     fontSize: "calc(2.25vw + 2vh + .10vmin)",

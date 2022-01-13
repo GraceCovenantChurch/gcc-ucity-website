@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import Navigation from "components/navigation/Navigation";
 import Footer from "components/footer/Footer";
@@ -21,28 +21,28 @@ import Multimedia from "./multimedia/Multimedia";
 // import Sermons from "./sermons/Sermons";
 
 const BaseRouter = (props) => (
-  <Router>
+  <React.Fragment>
     <ScrollToTop />
     <Navigation>
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/welcome" component={Welcome} />
-        <Route path="/beliefs" component={Beliefs} />
-        <Route path="/staff" component={Staff} />
-        <Route path="/familygroup" component={FamilyGroup} />
-        <Route path="/ministries" component={Ministries} />
-        <Route path="/giving" component={Giving} />
-        <Route path="/multimedia" component={Multimedia} />
-        <Route path="/events" component={Events} />
-        <Route component={NotFound} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/welcome" element={<Welcome />} />
+        <Route path="/beliefs" element={<Beliefs />} />
+        <Route path="/staff" element={<Staff />} />
+        <Route path="/familygroup" element={<FamilyGroup />} />
+        <Route path="/ministries" element={<Ministries />} />
+        <Route path="/giving" element={<Giving />} />
+        <Route path="/multimedia" element={<Multimedia />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/*" element={<NotFound />} />
+      </Routes>
       {/*
-    <Route path="/page" component={Page} />
-    <Route path="/asyncPage" component={AsyncPage} />
-    <Route path="/sermons" component={Sermons} /> */}
+    <Route path="/page" element={Page} />
+    <Route path="/asyncPage" element={AsyncPage} />
+    <Route path="/sermons" element={Sermons} /> */}
       <Footer />
     </Navigation>
-  </Router>
+  </React.Fragment>
 );
 
 export default BaseRouter;

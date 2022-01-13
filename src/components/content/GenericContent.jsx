@@ -2,9 +2,9 @@ import React from "react";
 import clsx from "clsx";
 import { useMediaQuery } from "react-responsive";
 
-import { makeStyles } from "@material-ui/core/styles";
-import Typography from "@material-ui/core/Typography";
-import Container from "@material-ui/core/Container";
+import makeStyles from "@mui/styles/makeStyles";
+import Typography from "@mui/material/Typography";
+import Container from "@mui/material/Container";
 
 import BackgroundImage from "components/background/BackgroundImage";
 import Center from "components/center/Center";
@@ -17,6 +17,7 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     fontWeight: "bold",
+    color: "white",
   },
   paddingDesktop: {
     paddingLeft: theme.spacing(30),
