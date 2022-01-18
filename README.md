@@ -59,6 +59,7 @@ This is the Grace Covenant Church University Website code base.
 - [Create React App](https://reactjs.org/docs/create-a-new-react-app.html)
 - [Contentful](https://www.contentful.com/)
 - [Material-UI](https://material-ui.com/)
+- MUIv5 Framework Based On: [material-kit-ui](https://github.com/minimal-ui-kit/material-kit-react)
 
 <!-- GETTING STARTED -->
 

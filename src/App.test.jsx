@@ -7,18 +7,10 @@ import App from "./App";
 
 describe("App", () => {
   test("matches the snapshot", () => {
-    const { container: mobile } = render(
-      <ResponsiveContext.Provider value={{ width: 300 }}>
-        <App />
-      </ResponsiveContext.Provider>
-    );
+    const { container: mobile } = render(<App />);
     expect(mobile).toMatchSnapshot();
 
-    const { container: desktop } = render(
-      <ResponsiveContext.Provider value={{ width: 1000 }}>
-        <App />
-      </ResponsiveContext.Provider>
-    );
+    const { container: desktop } = render(<App />);
     expect(desktop).toMatchSnapshot();
   });
 });

@@ -1,14 +1,19 @@
 import React from "react";
 
-import BaseRouter from "./pages/BaseRouter";
+import ThemeConfig from "theme/ThemeConfig";
+import BaseRouter from "pages/BaseRouter";
 
-// import styles from "./App.module.scss";
+import NavigationBar from "components/NavigationBar";
+
+import GAInitialize from "analytics/GAInitialize";
 
 const App = () => {
   return (
-    <React.Fragment>
+    <ThemeConfig>
+      <GAInitialize />
+      <NavigationBar />
       <BaseRouter />
-    </React.Fragment>
+    </ThemeConfig>
   );
 };
 
