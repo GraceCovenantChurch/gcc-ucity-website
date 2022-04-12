@@ -78,6 +78,7 @@ export const getCollegeFridayServices = () => {
       "fields.type": "collegefnl",
     })
     .then((entries) => {
+      console.log(entries.items);
       return entries.items;
     });
 };
@@ -106,6 +107,33 @@ export const getSundayServices = () => {
     });
 };
 
+export const getEasterServices = () => {
+  return client
+    .getEntries({
+      content_type: "easterServices",
+      order: "fields.eventStart",
+    })
+    .then((entries) => {
+      console.log(entries);
+      return entries.items;
+    });
+};
+
+export const massageEasterServices = (data) => {
+  let results = [];
+
+  for (var element of data) {
+    let fields = element.fields;
+
+    results.push({
+      ...fields,
+      eventEnd: fields.eventStart ? formatTime(fields.eventEnd) : undefined,
+      eventStart: fields.eventEnd ? formatTime(fields.eventStart) : undefined,
+    });
+  }
+
+  return results;
+};
 /**
  * TODO: Joey Zia - I think there's a better way to go about this. If you know of
  * a better way to determine which service is missing, please don't hesitate

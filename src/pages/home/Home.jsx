@@ -17,12 +17,14 @@ import ServicesCard from "components/card/ServicesCard";
 import {
   getHomeEvents,
   massageEvents,
-  getCollegeFridayServices,
-  getSundayServices,
-  getCrossroadFridayServices,
-  massageServices,
+  // getCollegeFridayServices,
+  // getSundayServices,
+  // getCrossroadFridayServices,
+  // massageServices,
   getReadingContent,
   massageReadingContent,
+  getEasterServices,
+  massageEasterServices,
 } from "modules/Contentful";
 
 import homeUrl from "static/images/home/worship.jpg";
@@ -61,7 +63,7 @@ const Home = () => {
         className={service.elementName}
         id={service.elementID}
       >
-        <CenteredContentWithGrid
+        {/* <CenteredContentWithGrid
           upperTitle
           isMobile={mobile}
           title={service.title}
@@ -73,6 +75,16 @@ const Home = () => {
             getCrossroadFridayServices,
           ]}
           massage={massageServices}
+          component={ServicesCard}
+        /> */}
+        <CenteredContentWithGrid
+          upperTitle
+          isMobile={mobile}
+          title={"EASTER SERVICE LOCATION AND TIMES"}
+          elementName={service.elementName}
+          elementID={service.elementID}
+          fetchCall={[getEasterServices]}
+          massage={massageEasterServices}
           component={ServicesCard}
         />
       </Element>
