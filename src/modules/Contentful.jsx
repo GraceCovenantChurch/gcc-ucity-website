@@ -78,7 +78,6 @@ export const getCollegeFridayServices = () => {
       "fields.type": "collegefnl",
     })
     .then((entries) => {
-      console.log(entries.items);
       return entries.items;
     });
 };
@@ -114,7 +113,6 @@ export const getEasterServices = () => {
       order: "fields.eventStart",
     })
     .then((entries) => {
-      console.log(entries);
       return entries.items;
     });
 };
