@@ -42,22 +42,22 @@ const client = contentful.createClient({
  * Global Helpers
  */
 
-const getNextDayOfWeek = (date, dayOfWeek) => {
-  // Code to check that date and dayOfWeek are valid left as an exercise
+// const getNextDayOfWeek = (date, dayOfWeek) => {
+//   // Code to check that date and dayOfWeek are valid left as an exercise
 
-  var resultDate = new Date(date.getTime());
+//   var resultDate = new Date(date.getTime());
 
-  resultDate.setDate(date.getDate() + ((7 + dayOfWeek - date.getDay()) % 7));
+//   resultDate.setDate(date.getDate() + ((7 + dayOfWeek - date.getDay()) % 7));
 
-  return resultDate;
-};
+//   return resultDate;
+// };
 
 /**
  * Content Type: Services
  */
 
-const NEXTFRIDAY = getNextDayOfWeek(new Date(), 5).setHours(23, 59, 59);
-const NEXTSUNDAY = getNextDayOfWeek(new Date(), 8).setHours(23, 59, 59);
+// const NEXTFRIDAY = getNextDayOfWeek(new Date(), 5).setHours(23, 59, 59);
+// const NEXTSUNDAY = getNextDayOfWeek(new Date(), 8).setHours(23, 59, 59);
 
 const getDefaultServices = () => {
   return client
@@ -73,8 +73,8 @@ export const getCollegeFridayServices = () => {
   return client
     .getEntries({
       content_type: "services",
-      "fields.eventEnd[lte]": new Date(NEXTFRIDAY).toISOString(),
-      "fields.eventEnd[gte]": new Date(RIGHT_NOW).toISOString(),
+      "fields.eventStart[gte]": new Date(RIGHT_NOW).toISOString(),
+      // "fields.eventEnd[lte]": new Date(NEXTFRIDAY).toISOString(),
       "fields.type": "collegefnl",
     })
     .then((entries) => {
@@ -86,7 +86,8 @@ export const getCrossroadFridayServices = () => {
   return client
     .getEntries({
       content_type: "services",
-      "fields.eventEnd[lte]": new Date(NEXTFRIDAY).toISOString(),
+      "fields.eventStart[gte]": new Date(RIGHT_NOW).toISOString(),
+      // "fields.eventEnd[lte]": new Date(NEXTFRIDAY).toISOString(),
       "fields.type": "crossroadfnl",
     })
     .then((entries) => {
@@ -98,7 +99,8 @@ export const getSundayServices = () => {
   return client
     .getEntries({
       content_type: "services",
-      "fields.eventEnd[lte]": new Date(NEXTSUNDAY).toISOString(),
+      "fields.eventStart[gte]": new Date(RIGHT_NOW).toISOString(),
+      // "fields.eventEnd[lte]": new Date(NEXTSUNDAY).toISOString(),
       "fields.type": "sundayservice",
     })
     .then((entries) => {

@@ -49,7 +49,7 @@ exports[`Home matches the snapshot 1`] = `
       <h5
         class="MuiTypography-root makeStyles-subtitle-13 MuiTypography-h5"
       >
-        EASTER SERVICE LOCATION AND TIMES
+        SERVICE LOCATION AND TIMES
       </h5>
     </div>
   </div>
@@ -195,7 +195,7 @@ exports[`Home matches the snapshot 2`] = `
       <h5
         class="MuiTypography-root makeStyles-subtitle-13 MuiTypography-h5"
       >
-        EASTER SERVICE LOCATION AND TIMES
+        SERVICE LOCATION AND TIMES
       </h5>
     </div>
   </div>

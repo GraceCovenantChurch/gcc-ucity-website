@@ -6,6 +6,8 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 
+import ReactMarkdown from "react-markdown";
+
 import Link from "components/link/Link";
 
 const useStyles = makeStyles((theme) => ({
@@ -53,12 +55,12 @@ const ServicesCard = (props) => {
           className={classes.description}
           variant="body1"
           color="textSecondary"
-          component="p"
+          component="div"
         >
-          {props.description}
+          <ReactMarkdown>{props.description}</ReactMarkdown>
         </Typography>
         {props.mediaLink ? (
-          <Link to={props.mediaLink}>{"Click Here"}</Link>
+          <Link to={props.mediaLink}>{"Stream Link"}</Link>
         ) : null}
       </CardContent>
     </Card>

@@ -8,6 +8,10 @@ React.useLayoutEffect = React.useEffect;
 
 configure({ adapter: new Adapter() });
 
+jest.mock("react-markdown", () => (props) => {
+  return <>{props.children}</>;
+});
+
 const localStorageMock = {
   getItem: jest.fn(),
   setItem: jest.fn(),
