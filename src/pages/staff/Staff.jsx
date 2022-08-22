@@ -9,7 +9,6 @@ import MobileStaffCard from "components/card/MobileStaffCard";
 import {
   getGCCStaff,
   getUniversityCityStaff,
-  getMainLineStaff,
   massageStaff,
 } from "modules/Contentful";
 
