@@ -39,14 +39,6 @@ const Staff = () => {
           massage={massageStaff}
           component={mobile ? MobileStaffCard : StaffCard}
         ></CenteredContentWithGrid>
-        <CenteredContentWithGrid
-          upperTitle
-          isMobile={mobile}
-          title={"Main Line"}
-          fetchCall={[getMainLineStaff]}
-          massage={massageStaff}
-          component={mobile ? MobileStaffCard : StaffCard}
-        ></CenteredContentWithGrid>
       </GenericContent>
     </React.Fragment>
   );
