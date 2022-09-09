@@ -16,7 +16,7 @@ const Giving = () => {
         </Body>
         <iframe
           title="donate"
-          src="https://wallet.subsplash.com/ui/embed/QZRM2D/"
+          src="https://give.tithe.ly/?formId=a0af3800-6811-4363-8e4a-58ddcfa88130"
           width="100%"
           height="630"
           style={{ border: "none", overflow: "hidden" }}
