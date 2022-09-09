@@ -12,7 +12,7 @@ const Giving = () => {
         <Body>
           We would love for you to partner with us in the work of raising up
           kingdom workers. You may give below using our secure payment
-          processor, Subsplash.
+          processor, Tithely.
         </Body>
         <iframe
           title="donate"
