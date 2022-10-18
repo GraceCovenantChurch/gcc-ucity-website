@@ -12,7 +12,7 @@
   <h3 align="center">Grace Covenant Church - Philadelphia Website</h3>
 
   <p align="center">
-    Grace Covenant Church - University Website to serve information to the web, detailing the daily, weekly, and monthly events that are hosted at Grace Covenant Church.
+    Grace Covenant Church - Philadelphia Website to serve information to the web, detailing the daily, weekly, and monthly events that are hosted at Grace Covenant Church.
     <br />
     <a href="https://github.com/GraceCovenantChurch/gcc-ucity-website"><strong>Explore the docs »</strong></a>
     <br />
@@ -52,7 +52,7 @@
 
 ## About the Project
 
-This is the Grace Covenant Church University Website code base.
+This is the Grace Covenant Church Philadelphia Website code base.
 
 ### Built With
 
