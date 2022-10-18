@@ -42,7 +42,7 @@ const Staff = () => {
         <CenteredContentWithGrid
           upperTitle
           isMobile={mobile}
-          title={"Other"}
+          title={"Emeritus"}
           fetchCall={[getOtherStaff]}
           massage={massageStaff}
           component={mobile ? MobileStaffCard : StaffCard}
