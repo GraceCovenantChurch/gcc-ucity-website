@@ -9,7 +9,7 @@
     <img src="/src/static/gcclogo-black.png" alt="Logo">
   </a>
 
-  <h3 align="center">Grace Covenant Church - University City Website</h3>
+  <h3 align="center">Grace Covenant Church - Philadelphia Website</h3>
 
   <p align="center">
     Grace Covenant Church - University Website to serve information to the web, detailing the daily, weekly, and monthly events that are hosted at Grace Covenant Church.
@@ -73,7 +73,7 @@ This is an example of how to list things you need to use the software and how to
 - You will need a dotenv file of the specific environment variables
 
   ```sh
-  REACT_APP_WEBSITE_NAME="Grace Covenant Church - University City"
+  REACT_APP_WEBSITE_NAME="Grace Covenant Church - Philadelphia"
   REACT_APP_CONTENTFUL_ACCESS_TOKEN="abcdef"
   REACT_APP_CONTENTFUL_SPACE="abcdef"
   REACT_APP_ESV_AUTH_TOKEN="1234abcdef"

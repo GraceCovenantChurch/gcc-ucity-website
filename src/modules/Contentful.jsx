@@ -17,8 +17,8 @@ import {
   MULTIMEDIA_PAGE_KEY,
   MINISTRIES_KEY,
   GCC_KEY,
-  UNIVERSITY_CITY_KEY,
-  MAIN_LINE_KEY,
+  PHILADELPHIA_KEY,
+  OTHER_KEY,
   TOTAL_SERVICES,
   HOME_PAGE_EVENTS,
   RIGHT_NOW,
@@ -358,19 +358,19 @@ export const getUniversityCityStaff = () => {
     .getEntries({
       content_type: STAFF_KEY,
       order: "fields.order",
-      "fields.site": UNIVERSITY_CITY_KEY,
+      "fields.site": PHILADELPHIA_KEY,
     })
     .then((entries) => {
       return entries.items;
     });
 };
 
-export const getMainLineStaff = () => {
+export const getOtherStaff = () => {
   return client
     .getEntries({
       content_type: STAFF_KEY,
       order: "fields.order",
-      "fields.site": MAIN_LINE_KEY,
+      "fields.site": OTHER_KEY,
     })
     .then((entries) => {
       return entries.items;

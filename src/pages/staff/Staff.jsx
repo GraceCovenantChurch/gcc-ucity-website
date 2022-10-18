@@ -8,6 +8,7 @@ import MobileStaffCard from "components/card/MobileStaffCard";
 
 import {
   getGCCStaff,
+  getOtherStaff,
   getUniversityCityStaff,
   massageStaff,
 } from "modules/Contentful";
@@ -25,7 +26,7 @@ const Staff = () => {
         <CenteredContentWithGrid
           upperTitle
           isMobile={mobile}
-          title={"Grace Covenant Church"}
+          title={"Lead Pastor"}
           fetchCall={[getGCCStaff]}
           massage={massageStaff}
           component={mobile ? MobileStaffCard : StaffCard}
@@ -33,8 +34,16 @@ const Staff = () => {
         <CenteredContentWithGrid
           upperTitle
           isMobile={mobile}
-          title={"University City"}
+          title={"Staff"}
           fetchCall={[getUniversityCityStaff]}
+          massage={massageStaff}
+          component={mobile ? MobileStaffCard : StaffCard}
+        ></CenteredContentWithGrid>
+        <CenteredContentWithGrid
+          upperTitle
+          isMobile={mobile}
+          title={"Other"}
+          fetchCall={[getOtherStaff]}
           massage={massageStaff}
           component={mobile ? MobileStaffCard : StaffCard}
         ></CenteredContentWithGrid>
