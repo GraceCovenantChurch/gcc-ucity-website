@@ -16,7 +16,7 @@
     "contentful": "^9.1.5",
     "date-and-time": "^2.0.1",
     "enzyme": "^3.11.0",
-    "luxon": "^2.3.0",
+    "luxon": "^2.5.2",
     "prettier": "^2.5.1",
     "react": "^17.0.2",
     "react-device-detect": "^2.1.2",
