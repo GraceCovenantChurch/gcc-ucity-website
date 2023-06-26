@@ -4,8 +4,6 @@ import { useMediaQuery } from "react-responsive";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import YouTubeIcon from "@material-ui/icons/YouTube";
-import AppleIcon from "@material-ui/icons/Apple";
-import ShopIcon from "@material-ui/icons/Shop";
 
 import { makeStyles } from "@material-ui/core/styles";
 import Link from "@material-ui/core/Link";
@@ -20,7 +18,6 @@ import GridItem from "components/grid/GridItem";
 import { getSundayServices, massageServices } from "modules/Contentful";
 
 import { MOBILE_QUERY } from "constants/mobile";
-import { APPLE, ANDROID } from "constants/mobileapp";
 
 import styles from "./Footer.module.scss";
 
@@ -152,7 +149,7 @@ const Footer = () => {
                 </Center>
               </Card>
             </GridItem>
-            <GridItem>
+            {/* <GridItem>
               <Card className={classes.card}>
                 <Typography
                   className={classes.title}
@@ -170,7 +167,7 @@ const Footer = () => {
                   </Link>
                 </Center>
               </Card>
-            </GridItem>
+            </GridItem> */}
           </Grid>
         </Center>
       </Container>
